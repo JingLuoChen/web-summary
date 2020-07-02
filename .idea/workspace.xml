@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/原型和原型链/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/深浅拷贝/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深浅拷贝/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/JS-基础/原型和原型链/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <first_editor relative-caret-position="709">
+                <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
               </first_editor>
               <second_editor />
             </state>
@@ -205,12 +203,12 @@
       <option name="presentableId" value="Default" />
       <updated>1593431643551</updated>
       <workItem from="1593431645006" duration="284000" />
-      <workItem from="1593482289624" duration="45429000" />
+      <workItem from="1593482289624" duration="48628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45713000" />
+    <option name="totallyTimeSpent" value="48912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,7 +235,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.06506024" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.036144577" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -438,8 +436,8 @@
     <entry file="file://$PROJECT_DIR$/JS-基础/原型和原型链/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <first_editor relative-caret-position="709">
+            <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
           </first_editor>
           <second_editor />
         </state>
