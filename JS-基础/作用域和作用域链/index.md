@@ -15,7 +15,7 @@ ES6之前没有块级作用域，只有全局作用域和函数作用域
   function f() {
     var a = 1; // 此处就是函数作用域
   }
-  console.log(a) // // 报错：ReferenceError: a is not defined
+  console.log(a) // 报错：ReferenceError: a is not defined
 ```
 >如何访问函数内的变量？
 ```$xslt
@@ -35,7 +35,7 @@ ES6之前没有块级作用域，只有全局作用域和函数作用域
     };
     return say();
   }
-  console.log(helloWorld('world!'));		// "hello world"
+  console.log(helloWorld('world!')); // "hello world"
 
 3、立即执行函数 -> 也是ES5可用于封装模块的做法（问题就是内存泄漏）
   let moudlea = (function() {
@@ -48,8 +48,8 @@ ES6之前没有块级作用域，只有全局作用域和函数作用域
      add
     }
   })();
-  console.log(moudlea.flag)      // true
-  console.log(moudlea.add(1,2))  // -> 3
+  console.log(moudlea.flag) // true
+  console.log(moudlea.add(1,2)) // -> 3
   // 即能够自动执行闭包里面的内容，消除全局变量的影响
  
 ```
@@ -64,7 +64,7 @@ ES6之前没有块级作用域，只有全局作用域和函数作用域
   for(let i = 0; i < 5; i++) {
     // ...
   }
-  console.log(i)  // 报错：ReferenceError: i is not defined
+  console.log(i) // 报错：ReferenceError: i is not defined
   // 原因: 代码块外不能访问块级作用域内部的变量
 ```
 >特点: <br>
@@ -73,7 +73,53 @@ ES6之前没有块级作用域，只有全局作用域和函数作用域
 3、循环中的绑定块作用域的妙用 -> 即解决经典闭包面试问题
 
 ## 作用域链
+### 什么是自由变量
+```$xslt
+  var a = 100
+  function fn() {
+    var b = 200
+    console.log(a) // 这里的a在这里就是一个自由变量
+    console.log(b)
+  }
+  fn()
+//即在当前的作用域中没有定义的变量，就是自由变量
+```
+>变量的值如何得到？<br>
+自由变量的值会向父级作用域寻找
 
+### 什么是作用域链
+> 如果父级作用域也没有，就会一层一层的向上寻找，直到找到全局作用域还是没有找到，就宣布放弃<br>
+这一层一层的关系就是作用域链
+```$xslt
+  var a = 100
+  function F1() {
+    var b = 200
+    function F2() {
+      var c = 300
+      console.log(a) // 自由变量，顺作用域链向父作用域找
+      console.log(b) // 自由变量，顺作用域链向父作用域找
+      console.log(c) // 本作用域的变量
+    }
+    F2()
+  }
+  F1()
+```
+### 关于自由变量的取值
+```$xslt
+  var x = 10
+  function fn() {
+    console.log(x)
+  }
+  function show(f) {
+    var x = 20;
+    (function() {
+      f() // 10，而不是20 因为调用fn()的作用域中x的值为10
+    })()
+  }
+  show(fn)
+```
+>在fn函数中，取自由变量x的值时，要到哪个作用域取？<br>
+即要到创建fn函数的那个作用域中取，无论fn函数将在哪里被调用
 
 ## 参考文档
 * [谈谈js的作用域](https://juejin.im/post/5abb99e9f265da2392366824)
