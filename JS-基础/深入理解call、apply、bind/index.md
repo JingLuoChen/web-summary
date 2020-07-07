@@ -43,5 +43,33 @@ console.log(a);// 输出 5
 ```
 ## 用途
 ### 改变this的指向
+```$xslt
+let obj1={ 
+  name: 'sven'
+};
+let obj2={ 
+  name: 'anne'
+};
+window.name = 'window';
+let getName = function(){ 
+  console.log ( this.name );
+};
+getName(); // 输出: window
+getName.call( obj1 );// 输出: sven
+getName.call(obj2 ); // 输出: anne
+```
 ### Function.prototype.bind
 ### 借用其他对象的方法
+```$xslt
+let A = function( name ){ 
+  this.name = name;
+};
+let B = function(){ 
+  A.apply(this,arguments);
+};
+B.prototype.getName = function(){ 
+  return this.name;
+};
+var b=new B('sven');
+console.log(b.getName()); // 输出 'sven'
+```

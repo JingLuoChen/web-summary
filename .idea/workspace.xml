@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JS-基础/函数柯里化/inde.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/函数柯里化/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -76,8 +75,8 @@
         <entry file="file://$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="479">
-                <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <first_editor relative-caret-position="501">
+                <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -347,12 +346,12 @@
       <option name="presentableId" value="Default" />
       <updated>1593431643551</updated>
       <workItem from="1593431645006" duration="284000" />
-      <workItem from="1593482289624" duration="91177000" />
+      <workItem from="1593482289624" duration="91452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91461000" />
+    <option name="totallyTimeSpent" value="91736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +366,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16701902" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16701902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,7 +378,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.036144577" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30843374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15542169" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -771,8 +770,8 @@
     <entry file="file://$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="479">
-            <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <first_editor relative-caret-position="501">
+            <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>
