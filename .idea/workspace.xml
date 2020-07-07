@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/手写apply/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写apply/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/手写bind/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写bind/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/手写call/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写call/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-异步/generator/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-异步/promise/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-异步/回调函数/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-异步/回调函数/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-基础/函数柯里化/inde.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/函数柯里化/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +20,20 @@
         <entry file="file://$PROJECT_DIR$/JS-基础/this/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="915">
+              <first_editor relative-caret-position="374">
                 <caret line="184" selection-start-line="184" selection-end-line="184" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-基础/函数柯里化/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,12 +72,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+              <first_editor relative-caret-position="479">
+                <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,18 +97,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/作用域和作用域链/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1845">
-                <caret line="123" selection-start-line="123" selection-end-line="125" selection-end-column="77" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS-基础/原型和原型链/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -201,8 +195,8 @@
         <option value="$PROJECT_DIR$/JS-异步/promise/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/函数柯里化/inde.md" />
         <option value="$PROJECT_DIR$/JS-基础/数组扁平化/index.md" />
-        <option value="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" />
+        <option value="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md" />
       </list>
     </option>
   </component>
@@ -248,6 +242,12 @@
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="JS-基础" type="462c0819:PsiDirectoryNode" />
               <item name="作用域和作用域链" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-基础" type="462c0819:PsiDirectoryNode" />
+              <item name="函数柯里化" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -347,12 +347,12 @@
       <option name="presentableId" value="Default" />
       <updated>1593431643551</updated>
       <workItem from="1593431645006" duration="284000" />
-      <workItem from="1593482289624" duration="90085000" />
+      <workItem from="1593482289624" duration="91177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90369000" />
+    <option name="totallyTimeSpent" value="91461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,16 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS-基础/函数柯里化/inde.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS-响应式编程/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -708,31 +698,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS-基础/this/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="915">
-            <caret line="184" selection-start-line="184" selection-end-line="184" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS-基础/数组扁平化/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1425">
             <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
@@ -773,6 +743,36 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="75">
             <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-基础/this/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="184" selection-start-line="184" selection-end-line="184" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-基础/函数柯里化/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="479">
+            <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           </first_editor>
           <second_editor />
         </state>
