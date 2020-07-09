@@ -189,3 +189,6 @@ test()
   运行时加载：CommonJS模块就是对象，即在输入时是先加载整个模块，生成一个对象，然后在从这个对象上面读取方法
   编译时加载：ES6模块不是对象，而是通过export命令显式指定输出的代码，import时采用静态命令的形式，即在import时可以执行加载某个输出值，而不是整个模块
 ```
+
+## 参考文档
+* [谈谈前端模块化](https://github.com/PDKSophia/blog.io/blob/master/JavaScript%E7%AC%94%E8%AE%B0/JavaScript%E7%AF%87-%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96.md)
