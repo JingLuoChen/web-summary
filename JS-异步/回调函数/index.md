@@ -5,7 +5,7 @@
 这个被传入的、后又被调用的函数就称为回调函数
 
 ### 例子
-```$xslt
+```js
 // 定义函数
 function doSomething(msg, callback){
   alert(msg);
@@ -21,7 +21,7 @@ doSomething("回调函数", function(){
 ```
 
 ### 经典回调函数代码
-```$xslt
+```js
 // 异步请求的回调函数
 $.get(url,function(res) {
   console.log(res)
@@ -51,7 +51,7 @@ doSomething("回调函数", function(){
 
 ### 回调地域问题以及解决方案
 #### 回调地域
-```$xslt
+```js
 var p_client = new Db('integration_tests_20', new Server("127.0.0.1", 27017, {}), {'pk':CustomPKFactory});
    p_client.open(function(err, p_client) {
        p_client.dropDatabase(function(err, done) {

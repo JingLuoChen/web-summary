@@ -75,4 +75,27 @@ function func() {
 func.call(); // 呵呵
 ````
 
-## call和bind的区别
+## bind
+> bind()方法创建一个新的函数，在调用时设置this关键字为提供的值，并在调用新函数时，将给定参数列表作为原函数的参数序列的前若干项
+
+>bing方法与apply和call比较类似，也能改变函数体内的this的指向<br>
+不同的是，bind方法的返回值是函数，并且需要稍后调用，才会执行 --- apply和call是立即执行
+```js
+function add(a, b) {
+  return a + b 
+}
+function sub (a, b) {
+  return a - b
+}
+
+add.bind(sub, 5, 3) // 此时不会返回 8
+add.bind(sub, 5, 3)() // 调用后返回 8  
+```
+* 如果bind的第一个参数是null或者undefined，this就指向全局对象window
+
+## 总结
+```$xslt
+call和apply的主要作用是改变对象的执行上下文，并是立即执行的，它们在参数上的写法略有区别
+
+bind也能改变对象的执行上下文，它与call和apply不同的是，返回值是一个函数，并需要稍后再调用才会执行
+```
