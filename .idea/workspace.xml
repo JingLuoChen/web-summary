@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-V8引擎工作原理/垃圾回收机制/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-V8引擎工作原理/垃圾回收机制/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS-V8引擎工作原理/网页被浏览器渲染出来的过程/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-V8引擎工作原理/网页被浏览器渲染出来的过程/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -86,8 +85,8 @@
         <entry file="file://$PROJECT_DIR$/JS-V8引擎工作原理/网页被浏览器渲染出来的过程/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="346">
-                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <first_editor relative-caret-position="407">
+                <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -344,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147182000" />
+    <option name="totallyTimeSpent" value="148739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,7 +370,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.036144577" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23734939" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3192771" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -758,8 +757,8 @@
     <entry file="file://$PROJECT_DIR$/JS-V8引擎工作原理/网页被浏览器渲染出来的过程/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="346">
-            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <first_editor relative-caret-position="407">
+            <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
