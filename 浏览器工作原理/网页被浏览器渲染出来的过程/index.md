@@ -97,3 +97,4 @@ TCP三次握手结束之后，开始发送HTTP请求报文
 ## 参考文档
 * [从输入URL到页面展示，你想知道些什么](https://juejin.im/post/5b148a2ce51d4506965908d2)
 * [从URL输入到页面展现到底发生什么](https://juejin.im/post/5c7646f26fb9a049fd108380)
+* [“天龙八步”细说浏览器输入URL后发生了什么](https://www.xuecaijie.com/it/157.html#1Q64p5DeC8dKFF)

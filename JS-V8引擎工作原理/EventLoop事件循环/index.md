@@ -52,3 +52,5 @@ setTimeout 为 宏任务 -> 即 加入到宏任务队列
 在看微任务队列中是否有微任务 输出 promise2 后在执行宏任务 输出setTimeout2
 ```
 
+## 参考文档
+* [JavaScript异步机制详解](https://juejin.im/post/5a6ad46ef265da3e513352c8)
