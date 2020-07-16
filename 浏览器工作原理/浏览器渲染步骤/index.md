@@ -23,6 +23,9 @@ DOM全称为文档对象模型（Document Object Model），其中一个DOM节�
 ```$xslt
 解析过程: Bytes -> characters -> tokens -> nodes -> DOM
 ```
+![mahua](./img/dom.png)
+
+1、解码：
 
 ### CSS -> CSSOM树（解析CSS样式）
 ```$xslt
