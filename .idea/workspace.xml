@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/浏览器工作原理/网页被浏览器渲染出来的过程/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/浏览器工作原理/网页被浏览器渲染出来的过程/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="257">
-                <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <first_editor relative-caret-position="388">
+                <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -128,9 +126,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="width" value="714" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -276,12 +273,12 @@
       <workItem from="1594192939278" duration="240000" />
       <workItem from="1594193222054" duration="18000" />
       <workItem from="1594193287059" duration="6033000" />
-      <workItem from="1594779184425" duration="18682000" />
+      <workItem from="1594779184425" duration="19666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171926000" />
+    <option name="totallyTimeSpent" value="172910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,8 +700,8 @@
     <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="257">
-            <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <first_editor relative-caret-position="388">
+            <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>

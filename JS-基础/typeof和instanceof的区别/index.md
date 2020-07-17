@@ -5,7 +5,7 @@
 
 >ps : 000 开头代表是对象，然而null表示为全零，所以typeof null的值为object
 
-```$xslt
+```js
 console.log(typeof '哈哈哈') // -> String
 console.log(typeof 123)  // -> Number
 console.log(typeof true) // -> Boolean
@@ -20,7 +20,7 @@ console.log(typeof function () {}) // -> function
 ## instanceof
 >instanceof 主要是检测某个构造函数的原型对象在不在某个对象的原型链上
 
-```$xslt
+```js
 let person = function () {}
 let newPerson = new person();
 console.log(newPerson instanceof person) // -> true
