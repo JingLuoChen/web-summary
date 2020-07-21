@@ -35,13 +35,11 @@ html对象是body对象的父对象，body是p对象的父对象等等
 ```$xslt
 解析过程: Bytes -> Characters -> Tokens -> Nodes -> CSSOM
 ```
-
 ### 生成渲染树Rendering tree
 ### layout 
 依照盒子模型，计算出每个节点在屏幕中的位置以及尺寸--- 负责各元素尺寸、位置的计算
 ### painting 
 按照计算出来的规则，通过显卡，把内容画到屏幕上---绘制页面像素信息
-
 
 ## 参看文档
 * [你不知道的浏览器页面渲染机制](https://juejin.im/post/5ca0c0abe51d4553a942c17d)

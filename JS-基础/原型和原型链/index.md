@@ -4,6 +4,15 @@
 * 2、Object、Function都是js内置的函数，类似的还有Array、RegExp、Date、Boolean、Number、String
 * 3、属性__proto__是一个对象，它有两个属性：constructor和__proto__
 * 4、原型对象prototype有一个默认的constructor属性，用于记录实例是由哪个构造函数创建
+
+>有以下构造函数Person，他的原型上有所属国的属性motherland= 'china'
+```js
+function Person(name, age) {
+  this.name = name;
+  
+}
+```
+
 ### 构造函数与原型
 >javaScript中的new操作符后面跟的并非类名而是函数名，即并非通过类而是直接通过构造函数来创建实例
 ```$xslt
