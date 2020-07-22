@@ -10,7 +10,7 @@
 
 >优点: 主要是减少请求
 
-```$xslt
+```js
   function deBounce(func, time) {
     let timer = null
     return () => {
@@ -20,6 +20,5 @@
       }, time)
     }
   }
-
 ```
 >即 每次触发都清空计时器，直到在约定时间内没有再次触发，那么计时器就会执行到里面的回调函数
