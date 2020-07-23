@@ -41,6 +41,17 @@ html对象是body对象的父对象，body是p对象的父对象等等
 ### painting 
 按照计算出来的规则，通过显卡，把内容画到屏幕上---绘制页面像素信息
 
+## 问题
+1、浏览器在什么时候向服务器发送获取css、js外部文件的请求<br>
+解析DOM时碰到外部链接，如果还有connection，则立即触发下载请求<br>
+
+2、CSSOM DOM javaScript三者阻塞关系<br>
+CSSOM DOM互不影响，javaScript会阻塞DOM树的构建但JS前的HTML可以正常解析成DOM树，CSSOM会阻塞javaScript的执行<br>
+
+这也解释了为什么javaScript的执行都需要访问DOM和CSSOM的能力，却只受CSSOM的阻塞
+
+
+
 ## 参看文档
 * [你不知道的浏览器页面渲染机制](https://juejin.im/post/5ca0c0abe51d4553a942c17d)
 * [页面渲染：过程分析](https://juejin.im/post/5b879d0fe51d4538843631c1)
