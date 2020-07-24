@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="294">
-                <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+              <first_editor relative-caret-position="375">
+                <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -55,9 +55,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="480">
+                <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -203,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -282,17 +282,14 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="浏览器工作原理" type="462c0819:PsiDirectoryNode" />
+              <item name="浏览器缓存" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="浏览器工作原理" type="462c0819:PsiDirectoryNode" />
               <item name="网页被浏览器渲染出来的过程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,18 +310,18 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/img" />
+      <recent name="$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/img" />
+      <recent name="$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环" />
+      <recent name="$PROJECT_DIR$/浏览器工作原理" />
+      <recent name="$PROJECT_DIR$/JS-V8引擎工作原理/网页被浏览器渲染出来的过程/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind" />
       <recent name="$PROJECT_DIR$/JS-V8引擎工作原理" />
       <recent name="$PROJECT_DIR$/JS-异步" />
       <recent name="$PROJECT_DIR$/前端框架" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/img" />
-      <recent name="$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环" />
-      <recent name="$PROJECT_DIR$/浏览器工作原理" />
-      <recent name="$PROJECT_DIR$/JS-V8引擎工作原理/网页被浏览器渲染出来的过程/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -357,12 +354,12 @@
       <workItem from="1594193222054" duration="18000" />
       <workItem from="1594193287059" duration="6033000" />
       <workItem from="1594779184425" duration="19849000" />
-      <workItem from="1595250707432" duration="12258000" />
+      <workItem from="1595250707432" duration="18381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185351000" />
+    <option name="totallyTimeSpent" value="191474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +371,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
@@ -389,7 +386,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24216868" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20481928" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -759,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="294">
-            <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/浏览器工作原理/HTTP请求流程/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -782,11 +769,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
+    <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <first_editor relative-caret-position="375">
+            <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
           </first_editor>
           <second_editor />
         </state>
