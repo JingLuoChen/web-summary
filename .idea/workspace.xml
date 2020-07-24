@@ -56,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="480">
-                <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+              <first_editor relative-caret-position="510">
+                <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -354,12 +354,12 @@
       <workItem from="1594193222054" duration="18000" />
       <workItem from="1594193287059" duration="6033000" />
       <workItem from="1594779184425" duration="19849000" />
-      <workItem from="1595250707432" duration="18381000" />
+      <workItem from="1595250707432" duration="18719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191474000" />
+    <option name="totallyTimeSpent" value="191812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,9 +372,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,7 +385,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20481928" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20481928" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -782,8 +781,8 @@
     <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <first_editor relative-caret-position="510">
+            <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
