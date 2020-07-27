@@ -13,6 +13,8 @@
 
 执行完本轮的宏任务，回到2，依次循环，直到宏任务和微任务队列都为空
 ```
+示意图：
+![mahua](./img/eventloop.png)
 ## 补充
 >宏任务（Macrotasks）<br>
 script、setTimeout、setInterval、setImmediate、I/O、UI rendering
