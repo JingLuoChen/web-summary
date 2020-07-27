@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JS-ES6+/循环遍历/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-ES6+/循环遍历/index.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -89,29 +91,22 @@
         <entry file="file://$PROJECT_DIR$/JS-ES6+/循环遍历/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-ES6+/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环/img/eventloop.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/函数柯里化/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="2415">
-                <caret line="161" column="17" lean-forward="true" selection-start-line="161" selection-start-column="17" selection-end-line="161" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -139,6 +134,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>var</find>
+      <find>eventloop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,7 +186,6 @@
         <option value="$PROJECT_DIR$/JS-基础/闭包/index.md" />
         <option value="$PROJECT_DIR$/JS-V8引擎工作原理/页面重排和重绘/index.md" />
         <option value="$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md" />
-        <option value="$PROJECT_DIR$/JS-ES6+/循环遍历/index.md" />
         <option value="$PROJECT_DIR$/第三方库/axios/index.md" />
         <option value="$PROJECT_DIR$/JS-函数式编程/index.html" />
         <option value="$PROJECT_DIR$/CSS/Flex布局/子元素宽度失效.md" />
@@ -198,6 +193,7 @@
         <option value="$PROJECT_DIR$/JS-函数式编程/index.md" />
         <option value="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" />
         <option value="$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环/index.md" />
+        <option value="$PROJECT_DIR$/JS-ES6+/循环遍历/index.md" />
       </list>
     </option>
   </component>
@@ -347,12 +343,12 @@
       <workItem from="1594193222054" duration="18000" />
       <workItem from="1594193287059" duration="6033000" />
       <workItem from="1594779184425" duration="19849000" />
-      <workItem from="1595250707432" duration="32603000" />
+      <workItem from="1595250707432" duration="32882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205696000" />
+    <option name="totallyTimeSpent" value="205975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,9 +361,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,7 +374,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16867469" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34096387" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -562,9 +557,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-ES6+/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JS-异步/回调函数/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -829,11 +821,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS-ES6+/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/JS-ES6+/循环遍历/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
