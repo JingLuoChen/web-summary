@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/Flex布局/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-函数式编程/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-响应式编程/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-响应式编程/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/浏览器工作原理/HTTP请求流程/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +20,19 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="108">
+                <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS-面向对象/手写new/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -183,10 +189,10 @@
         <option value="$PROJECT_DIR$/JS-ES6+/循环遍历/index.md" />
         <option value="$PROJECT_DIR$/第三方库/axios/index.md" />
         <option value="$PROJECT_DIR$/JS-函数式编程/index.html" />
-        <option value="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" />
         <option value="$PROJECT_DIR$/CSS/Flex布局/子元素宽度失效.md" />
         <option value="$PROJECT_DIR$/JS-响应式编程/index.md" />
         <option value="$PROJECT_DIR$/JS-函数式编程/index.md" />
+        <option value="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" />
       </list>
     </option>
   </component>
@@ -231,6 +237,12 @@
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
               <item name="水平垂直居中" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="清除浮动" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -423,12 +435,12 @@
       <workItem from="1594193222054" duration="18000" />
       <workItem from="1594193287059" duration="6033000" />
       <workItem from="1594779184425" duration="19849000" />
-      <workItem from="1595250707432" duration="31097000" />
+      <workItem from="1595250707432" duration="31709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204190000" />
+    <option name="totallyTimeSpent" value="204802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,9 +452,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="714" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32900432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -814,16 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="165">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/浏览器工作原理/HTTP请求流程/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -859,16 +861,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
             <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-函数式编程/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -911,6 +903,26 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-函数式编程/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="108">
+            <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
