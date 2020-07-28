@@ -1,5 +1,5 @@
 # typeof和instanceof区别
-## typeof
+## typeof -- 返回的是字符串
 > typeof 表示是对某个类型的检测，基本数据类型除了null，都能正确的显示为对应的类型<br>
 引用类型除了函数会显示为function，其他都是显示为object
 
