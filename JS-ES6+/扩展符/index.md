@@ -74,15 +74,30 @@ const [first, ...list, last] = [1, 2, 3, 4] // 这样也会报错
 const [first, ...list] = [1, 2, 3, 4] // 对
 ```
 ### 对象的扩展运算符
+```js
+let {a, b, ...e} = {a: 12, b: 13, d: 14, c: 15}  // e = {d: 14, c: 15}
 
-### 把类数组转化为数组
-
+var obj = {name : 'coco'}
+var obj1 = {age : 27}
+var newObj = {...obj, ...obj1}
+var newObj1 = {obj, obj1};
+console.log(newObj) // {name: "coco", age: 27}
+console.log(newObj1) // {name: "coco"} {age: 27}
+```
 ### 函数的返回值
-
-### 字符串
+javaScript的函数只能返回一个值，如果需要返回多个值，只能返回数组或对象，扩展运算符提供了解决这个问题的变通方法
+```js
+let dateFields = readDateFields(database)
+console.log(new Date(...dateFields))
+```
+### 把类数组转化为数组
+扩展运算符可以将字符串转为真正的数组
+```js
+var strArr = [...'kiwi']
+console.log(strArr) // ["k","i","w","i"]
+```
 ### 实现了iterator接口对象
 ### Map和Set结构，Generator函数
-
 
 ## 参考文档
 * [ES6:扩展运算符](https://juejin.im/post/5ad88219f265da505546692f)
