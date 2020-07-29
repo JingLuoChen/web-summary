@@ -39,7 +39,49 @@ addES6(...arr) // 6 此处使用扩展符来展开数组
 ```
 
 ## 扩展运算符的应用
+### 合并数组
+扩展运算符提供了数组合并的新写法
+```js
+// ES5
+let more = [3, 4]
+[1, 2].concat(more)
 
+// ES6
+let arr1 = [1, 2, 3]
+let arr2 = [4, 5, 6]
+console.log([...arr1, ...arr2]) // [1, 2, 3, 4, 5, 6]
+```
+### 与解构赋值结合
+扩展运算符可以与解构赋值相结合起来，用于生成数组
+```js
+// ES5 
+let list = [1, 2, 3, 4]
+let a = list[0]
+let rest = list.slice(1)
+
+// rest通过这样来获取数组
+
+// ES6
+let list2 = [1, 2, 3, 4]
+let b = list2[0]
+let rest2 = []
+[b, ...rest2] = list2
+```
+注意：如果将扩展运算符用于数组赋值，只能放在参数的最后一位，否则会报错
+```js
+const [...list, last] = [1, 2, 3, 4] // 这样会报错
+const [first, ...list, last] = [1, 2, 3, 4] // 这样也会报错
+const [first, ...list] = [1, 2, 3, 4] // 对
+```
+### 对象的扩展运算符
+
+### 把类数组转化为数组
+
+### 函数的返回值
+
+### 字符串
+### 实现了iterator接口对象
+### Map和Set结构，Generator函数
 
 
 ## 参考文档
