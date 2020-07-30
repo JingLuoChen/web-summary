@@ -96,8 +96,42 @@ console.log(new Date(...dateFields))
 var strArr = [...'kiwi']
 console.log(strArr) // ["k","i","w","i"]
 ```
-### 实现了iterator接口对象
+### 实现了Iterator接口对象
+任何Iterator接口的对象，都可以用扩展运算符转为真正的数组 ---  即可以把类数组的对象转化为真正的数组
+```js
+let nodeList = document.querySelectorAll('div')
+let arr = [...nodeList]
+console.log(arr)
+
+// querySelectorAll返回的是一个nodeList对象，它不是数组，而是一个类似数组的对象，这时，扩展运算符可以将其转为真正的数组
+
+// 原因就在于nodeList对象实现了Iterator接口
+```
+对于那些没有部署Iterator接口的类似数组的对象，扩展运算符就无法将其转为真正的数组
+```js
+let arrayLike = {
+    '0': 0,
+    '1': 1,
+    '2': 2,
+    length: 3
+} 
+console.log([...arrayLike]) // Uncaught TypeError: arrayLike is not iterable
+
+let arr = Array.from(arrayLike) // [0, 1, 2]
+```
+arrayLike是一个类似数组的对象，但是没有部署Iterator接口，扩展运算符就会报错<br>
+可以使用Array.from将其转为真正的数组
+
 ### Map和Set结构，Generator函数
+扩展运算符内部调用的是数据解构的Iterator接口，因此只要具有Iterator接口的对象，都可以使用扩展运算符
+```js
+let map = new Map([
+[1, 'one'],
+[2, 'two'],
+[3, 'three'],
+])
+console.log([...map.keys()]) // [1, 2, 3]
+```
 
 ## 参考文档
 * [ES6:扩展运算符](https://juejin.im/post/5ad88219f265da505546692f)
