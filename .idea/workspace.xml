@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/算法/排序/冒泡排序.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/排序/冒泡排序.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端源码分析/vue源码/数据驱动原理.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor>
-                <caret column="6" selection-start-column="6" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/浏览器工作原理/HTTP请求流程/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -62,12 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/排序/冒泡排序.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="213">
-                <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+              <first_editor relative-caret-position="182">
+                <caret line="58" selection-start-line="58" selection-end-line="61" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/算法/排序/选择排序.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="315">
+                <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -156,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-基础/作用域和闭包/index1.md" />
         <option value="$PROJECT_DIR$/JS-基础/作用域和闭包/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/作用域和作用域链/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/节流/index.js" />
@@ -207,6 +205,7 @@
         <option value="$PROJECT_DIR$/前端框架/Vue/vuex/index.html" />
         <option value="$PROJECT_DIR$/JS-ES6+/扩展符/index.md" />
         <option value="$PROJECT_DIR$/算法/排序/冒泡排序.md" />
+        <option value="$PROJECT_DIR$/算法/排序/选择排序.md" />
       </list>
     </option>
   </component>
@@ -437,12 +436,12 @@
       <workItem from="1596078386189" duration="4249000" />
       <workItem from="1596112087328" duration="721000" />
       <workItem from="1596113490048" duration="1026000" />
-      <workItem from="1596163018366" duration="4788000" />
+      <workItem from="1596163018366" duration="6618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229590000" />
+    <option name="totallyTimeSpent" value="231420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,8 +454,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15362932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15362932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,7 +468,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35783133" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35783133" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -519,9 +519,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/浏览器工作原理/网页被浏览器渲染出来的过程/img/render.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS-基础/防抖/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -891,8 +888,18 @@
     <entry file="file://$PROJECT_DIR$/算法/排序/冒泡排序.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="213">
-            <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <first_editor relative-caret-position="182">
+            <caret line="58" selection-start-line="58" selection-end-line="61" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/排序/选择排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
