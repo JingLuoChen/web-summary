@@ -8,8 +8,8 @@
 >有以下构造函数Person，他的原型上有所属国的属性motherland= 'china'
 ```js
 function Person(name, age) {
-  this.name = name;
-  
+  this.name = name
+  this.age = age
 }
 ```
 
