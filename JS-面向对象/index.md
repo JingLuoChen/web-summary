@@ -26,6 +26,20 @@
 冰箱 大象
 
 ```
+## ES5中的类和对象
+```js
+function Person(name, age ) {
+    this.name = name;
+    this.age = age;
+}
+Person.prototype.say = function(){
+    return '我叫' + this.name + ',今年' + this.age + '岁';
+}
+var  p = new Person('大彬哥',18);  // Person {name: "大彬哥", age: 18}
+p.say()  
+```
+使用ES5语法定义了一个person类，该类有name和age两个属性和一个原型say方法
+
 ## ES6中的类和对象
 ### 面向对象的思维特点
 * 抽取对象共用的属性和行为组织(封装)成一个类(模版)
