@@ -91,5 +91,34 @@ console.log(zp.name) // 刘德华
 5、类名后面不需要小括号，生成实例时类名后面要有小括号，构造函数不需要加function
 6、多个函数之间不需要添加逗号分隔
 
+## 类中的成员
+### 静态成员
+静态成员是指在方法或属性名前面加上static关键字，和普通方法不一样的是，static修饰的方法不能在实例中访问，只能用类名直接访问
+```js
+class People {
+  constructor(name, age) {
+     this.name = name
+     this.age = age
+  }
+  static say() {
+     console.log(this.name + '你好')
+  }
+}
+Person.say();
+```
+### 实例成员
+在ES6中，类的实例属性只能定义在构造函数中，用this关键字定义只属于实例对象本身的属性，实例之间互不影响，千万不要在类中直接定义成员属性，至少目前来说是不支持的
+```js
+class People {
+  constructor(name, age) {
+     this.name = name // 实例成员
+     this.age = age // 实例成员
+  } 
+  static say() {
+     console.log(this.name + '你好')
+  }
+}
+Person.say();
+```
 
 
