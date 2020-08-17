@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/面试题整理/v-if和v-show的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/面试题整理/v-if和v-show的区别.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/面试题整理/组件中的data为什么是函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/面试题整理/组件中的data为什么是函数.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,18 +21,6 @@
             <state split_layout="FIRST">
               <first_editor relative-caret-position="15">
                 <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器渲染步骤/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="150">
-                <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,12 +63,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/面试题整理/Vue中的computed和methods.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="615">
-                <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS-基础/localStorage和sessionStorage/localStorage和sessionStorage.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-基础/深浅拷贝/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,18 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端框架/Vue/面试题整理/组件中的data为什么是函数.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="390">
-                <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -157,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-V8引擎工作原理/网页被浏览器渲染出来的过程/index.md" />
         <option value="$PROJECT_DIR$/浏览器工作原理/网页被浏览器渲染出来的过程/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/this/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/防抖/index.md" />
@@ -208,6 +205,7 @@
         <option value="$PROJECT_DIR$/前端框架/Vue/面试题整理/组件中的data为什么是函数.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/面试题整理/v-if和v-show的区别.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/面试题整理/Vue中的computed和methods.md" />
+        <option value="$PROJECT_DIR$/JS-基础/localStorage和sessionStorage/localStorage和sessionStorage.md" />
       </list>
     </option>
   </component>
@@ -234,6 +232,23 @@
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-基础" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-基础" type="462c0819:PsiDirectoryNode" />
+              <item name="localStorage和sessionStorage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-基础" type="462c0819:PsiDirectoryNode" />
+              <item name="深浅拷贝" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="前端框架" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,20 +256,6 @@
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="前端框架" type="462c0819:PsiDirectoryNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
-              <item name="知识碎片" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
-              <item name="面试题整理" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -281,11 +282,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JS-基础/localStorage和sessionStorage" />
       <recent name="$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环/img" />
       <recent name="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind" />
       <recent name="$PROJECT_DIR$/JS-V8引擎工作原理" />
       <recent name="$PROJECT_DIR$/JS-异步" />
-      <recent name="$PROJECT_DIR$/前端框架" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/前端框架/Vue/面试题整理" />
@@ -334,12 +335,12 @@
       <workItem from="1596702471953" duration="8294000" />
       <workItem from="1596770439105" duration="10380000" />
       <workItem from="1597115761194" duration="10088000" />
-      <workItem from="1597315399651" duration="8795000" />
+      <workItem from="1597315399651" duration="9638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275276000" />
+    <option name="totallyTimeSpent" value="276119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,7 +367,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.090361446" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4120482" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -417,26 +418,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS-基础/原型和原型链/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-626">
-            <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-基础/函数柯里化/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2415">
-            <caret line="161" column="17" lean-forward="true" selection-start-line="161" selection-start-column="17" selection-end-line="161" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/CSS3/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -784,8 +765,28 @@
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/面试题整理/Vue中的computed和methods.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="615">
-            <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-基础/深浅拷贝/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-基础/localStorage和sessionStorage/localStorage和sessionStorage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
