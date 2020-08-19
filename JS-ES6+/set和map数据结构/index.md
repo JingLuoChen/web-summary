@@ -55,3 +55,7 @@ m.has(o) // false
 
 ### Map的属性和方法
 
+
+## 参考文档
+
+* [ES6的Set和Map数据结构，由你制造](https://juejin.im/post/6844903589920374792#heading-13)
