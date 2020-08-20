@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/JS-ES6+/set和map数据结构/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="405">
-                <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <first_editor relative-caret-position="370">
+                <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -247,12 +247,12 @@
       <workItem from="1596702471953" duration="8294000" />
       <workItem from="1596770439105" duration="10380000" />
       <workItem from="1597115761194" duration="10088000" />
-      <workItem from="1597315399651" duration="13325000" />
+      <workItem from="1597315399651" duration="15690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279806000" />
+    <option name="totallyTimeSpent" value="282171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,8 +703,8 @@
     <entry file="file://$PROJECT_DIR$/JS-ES6+/set和map数据结构/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="405">
-            <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <first_editor relative-caret-position="370">
+            <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
