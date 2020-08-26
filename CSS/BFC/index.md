@@ -19,7 +19,10 @@ BFC(Block Formatting Context)块级格式化上下文，是用于布局块级盒
 5、overflow属性值不为visible
 
 ## BFC的作用与原理
-
+1、自适应两栏布局
+2、可以阻止元素被浮动元素覆盖
+3、可以包含浮动元素---清楚内部浮动
+4、分属于不同的BFC时可以阻止margin重叠
 
 ## 参考文档
 * [[布局概念] 关于CSS-BFC深入理解](https://juejin.im/post/6844903476774830094)
