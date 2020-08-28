@@ -3,7 +3,7 @@
 组件渲染过程 --- template -> ast -> render -> vDom -> 真实的Dom -> 页面
 
 
-##一、Vue的定义
+## 一、Vue的定义
 
 Vue 实际上就是一个用 Function 实现的类， 我们只能通过 new vue 去实例化它
 
