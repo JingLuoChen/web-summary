@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/CSS3/index.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -54,16 +57,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-函数式编程/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/Flex布局/子元素宽度失效.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -85,24 +78,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/清除浮动/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端源码分析/vue源码/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2505">
-                <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,6 +108,18 @@
             <state split_layout="FIRST">
               <first_editor relative-caret-position="435">
                 <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/CSS3/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor>
+                <caret column="6" selection-start-column="6" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -143,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三方库/axios/index.md" />
         <option value="$PROJECT_DIR$/JS-函数式编程/index.html" />
         <option value="$PROJECT_DIR$/CSS/Flex布局/子元素宽度失效.md" />
         <option value="$PROJECT_DIR$/JS-响应式编程/index.md" />
@@ -194,6 +198,7 @@
         <option value="$PROJECT_DIR$/CSS/Flex布局/index.md" />
         <option value="$PROJECT_DIR$/CSS/清除浮动/index.md" />
         <option value="$PROJECT_DIR$/前端源码分析/vue源码/index.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS3/index.md" />
       </list>
     </option>
   </component>
@@ -233,7 +238,13 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="Flex布局" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="grid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -271,17 +282,6 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="前端框架" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端源码分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端源码分析" type="462c0819:PsiDirectoryNode" />
-              <item name="vue源码" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -361,12 +361,12 @@
       <workItem from="1596702471953" duration="8294000" />
       <workItem from="1596770439105" duration="10380000" />
       <workItem from="1597115761194" duration="10088000" />
-      <workItem from="1597315399651" duration="32207000" />
+      <workItem from="1597315399651" duration="32615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298688000" />
+    <option name="totallyTimeSpent" value="299096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,8 +379,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13883016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13883016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,7 +393,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20963855" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20963855" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -443,16 +444,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三方库/Prerender/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="2" selection-start-column="2" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法/排序/冒泡排序.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -777,16 +768,6 @@
     <entry file="file://$PROJECT_DIR$/CSS/BFC/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/BFC/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="435">
-            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Flex布局/子元素宽度失效.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -827,6 +808,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/清除浮动/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端源码分析/vue源码/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Flex布局/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -837,12 +831,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/清除浮动/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/清除浮动/index.md">
+    <entry file="file://$PROJECT_DIR$/CSS/BFC/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="435">
+            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS3/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
           <first_editor>
             <caret column="6" selection-start-column="6" selection-end-column="6" />
           </first_editor>
@@ -850,11 +851,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端源码分析/vue源码/index.md">
+    <entry file="file://$PROJECT_DIR$/CSS/清除浮动/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2505">
-            <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
