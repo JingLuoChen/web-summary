@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/水平垂直居中/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/水平垂直居中/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -100,8 +99,8 @@
         <entry file="file://$PROJECT_DIR$/CSS/水平垂直居中/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="308">
-                <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <first_editor relative-caret-position="263">
+                <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               </first_editor>
               <second_editor />
             </state>
@@ -391,12 +390,12 @@
       <workItem from="1596770439105" duration="10380000" />
       <workItem from="1597115761194" duration="10088000" />
       <workItem from="1597315399651" duration="34349000" />
-      <workItem from="1598865639324" duration="2795000" />
+      <workItem from="1598865639324" duration="3174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303625000" />
+    <option name="totallyTimeSpent" value="304004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -878,8 +877,8 @@
     <entry file="file://$PROJECT_DIR$/CSS/水平垂直居中/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="308">
-            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <first_editor relative-caret-position="263">
+            <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           </first_editor>
           <second_editor />
         </state>
