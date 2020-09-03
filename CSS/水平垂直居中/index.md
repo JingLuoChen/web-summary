@@ -68,6 +68,41 @@
 }
 ```
 
+## 未知高度和宽度元素的水平
+### 当要被居中的元素是inline或者inline-block元素
+当要被居中的元素是inline或者inline-block的时候，可以巧妙的将父级容器设置为display: table-cell，配合text-align: center和vertical-align: middle，即可以实现水平垂直居中
+```$xlst
+#container {
+  display: table-cell;
+  text-algin: center;
+  vertical-align: middle;
+}
+```
+
+### CSS3显示威力
+利用CSS3的transform，可以轻松的在未知元素的高宽的情况下实现元素的垂直居中。
+```$xlst
+#container {
+ position: relative;
+}
+# center {
+ position: absolution;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+```
+
+### flex布局轻松解决
+使用flex布局，无需绝对定位等改变布局的操作，可以轻松实现元素的水平垂直居中。
+```$xlst
+#container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+```
+
 ## 参考文档
 
 * [【前端攻略】最全面的水平垂直居中方案与flexbox布局](https://www.cnblogs.com/coco1s/p/4444383.html)
