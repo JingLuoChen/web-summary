@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/清除浮动/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/清除浮动/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端安全/CSRF/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端安全/XSS/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端安全/CSRF/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端安全/CSRF/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/前端安全/CSRF/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="450">
-                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <first_editor relative-caret-position="293">
+                <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -324,12 +322,12 @@
       <workItem from="1597315399651" duration="34349000" />
       <workItem from="1598865639324" duration="6431000" />
       <workItem from="1599189795782" duration="13329000" />
-      <workItem from="1599824133770" duration="11507000" />
+      <workItem from="1599824133770" duration="12725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332097000" />
+    <option name="totallyTimeSpent" value="333315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,7 +354,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.53493977" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4060241" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -825,8 +823,8 @@
     <entry file="file://$PROJECT_DIR$/前端安全/CSRF/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="450">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <first_editor relative-caret-position="293">
+            <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>

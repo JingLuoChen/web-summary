@@ -33,6 +33,12 @@ CSRF通常是跨域的，因为外域通常更容易被攻击者掌控，但是�
 * CSRF通常发生在第三方域名
 * CSRF攻击者不能获取到Cookie
 
+专门制定的防护策略
+* 阻止不明外域的访问
+同源检测、Samesite Cookie
+* 提交时要求附加本域才能获取的信息
+CSRF Token、双重Cookie验证
+
 ## 参考文档
 * [浅谈CSRF攻击方式](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
 * [浅谈 CSRF 攻击方式](https://juejin.im/entry/6844903461293654024)
