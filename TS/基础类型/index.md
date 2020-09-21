@@ -39,3 +39,6 @@ let list: number[] = [1, 2, 3];
 let list: Array<number> = [1, 2, 3]; // Array<number>泛型语法
 // ES5：var list = [1,2,3];
 ```
+
+## Enum类型
+使用枚举我们可以定义一些带名字的常量，使用枚举可以清晰地表达意图或创建一组有区别的用例
