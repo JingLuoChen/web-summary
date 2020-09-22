@@ -37,7 +37,18 @@ let n: null = null;
 ```
 
 ## void类型
-void类型像是与
+void类型像是与any类型相反，它表示没有任何类型，主要使用场景是当一个函数没有返回值
+```ts
+function warnUser(): void {
+  console.log("This is my warning message");
+}
+```
+
+## never类型
+never类型表示那些永不存在值的类型
+
+never类型是any的子类型，也可以赋值给any，然而没有类型是never的子类型除了never本身，即使any也不可以赋值给never
+
 
 ## Symbol类型
 ```ts
