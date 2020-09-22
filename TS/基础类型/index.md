@@ -21,6 +21,24 @@ let name: string = "semliker";
 // ES5：var name = 'semlinker';
 ```
 
+## Any类型
+可以表示任意类型
+```ts
+let list: any[] = [1, true, "free"];
+// ES5：let list = [1, true, "free"];
+```
+
+## Null和Undefined
+在TypeScript里，undefined和null两者各自有自己的类型分别叫做undefined和null，用处并不大
+
+```ts
+let u: undefined = undefined;
+let n: null = null;
+```
+
+## void类型
+void类型像是与
+
 ## Symbol类型
 ```ts
 const sym = Symbol();

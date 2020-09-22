@@ -109,8 +109,8 @@
         <entry file="file://$PROJECT_DIR$/TS/基础类型/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="383">
-                <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <first_editor relative-caret-position="585">
+                <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -328,12 +328,12 @@
       <workItem from="1597315399651" duration="34349000" />
       <workItem from="1598865639324" duration="6431000" />
       <workItem from="1599189795782" duration="13329000" />
-      <workItem from="1599824133770" duration="16392000" />
+      <workItem from="1599824133770" duration="17534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336982000" />
+    <option name="totallyTimeSpent" value="338124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +346,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,7 +359,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4060241" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14698794" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -825,8 +824,8 @@
     <entry file="file://$PROJECT_DIR$/TS/基础类型/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="383">
-            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <first_editor relative-caret-position="585">
+            <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
