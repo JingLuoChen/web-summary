@@ -49,6 +49,15 @@ never类型表示那些永不存在值的类型
 
 never类型是any的子类型，也可以赋值给any，然而没有类型是never的子类型除了never本身，即使any也不可以赋值给never
 
+## Object类型
+object表示非原始类型，也就是除number、string、boolean、symbol、null或undefined之外的类型
+```ts
+declare function create(o: object | null): void;
+
+create({ prop: 0 }); // OK
+create(null); // OK
+```
+但其实我们通常不会这样去使用妈，通常会使用接口interface更加详细的表示一个对象
 
 ## Symbol类型
 ```ts
