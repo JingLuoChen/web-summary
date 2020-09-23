@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TS/基础类型/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/TS/基础类型/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/前端安全/XSS/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端安全/XSS/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -123,8 +121,8 @@
         <entry file="file://$PROJECT_DIR$/前端安全/XSS/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="320">
-                <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <first_editor relative-caret-position="274">
+                <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
               </first_editor>
               <second_editor />
             </state>
@@ -345,12 +343,12 @@
       <workItem from="1597315399651" duration="34349000" />
       <workItem from="1598865639324" duration="6431000" />
       <workItem from="1599189795782" duration="13329000" />
-      <workItem from="1599824133770" duration="21750000" />
+      <workItem from="1599824133770" duration="22298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342340000" />
+    <option name="totallyTimeSpent" value="342888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,8 +840,8 @@
     <entry file="file://$PROJECT_DIR$/前端安全/XSS/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="320">
-            <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <first_editor relative-caret-position="274">
+            <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
           </first_editor>
           <second_editor />
         </state>
