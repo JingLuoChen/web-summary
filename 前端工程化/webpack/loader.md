@@ -39,3 +39,35 @@ less-loader / sass-loader / babel-loader ...
 ## 图片相关的loader配置
 file-loader => 文件加载器，url或其他文件，图片较大时的图片文件<br>
 url-loader => 将指定格式的文件，转为base64格式图片，一般用于重复性小图标，可以指定在文件大小小于限制时，返回DataURL
+
+* url-loader可以设置将资源大小小于10K的资源转换为base64，即limit设置很重要，超过限制会将图片拷贝到dist文件中，将资源转换为base64，可以减少网络请求，
+但base64数据大，会导致加载变慢
+
+## loader执行顺序
+loader是从右向左的取值/执行
+
+```$xslt
+// 例处理css文件
+
+{
+  test: /\.css$/,
+  use: [
+    {
+      loader: 'style-loader'
+    }, {
+      loader: 'css-loader',
+      options: {
+        modules: true
+      }
+    }, {
+      loader: 'sass-loader'
+    }
+  }]
+}
+
+loader处理顺序：sass-loader postcss-loader css-loader style-loader
+```
+### 什么是options
+query和options都是当前loader需要的特殊配置（可选），webpack2.5之前是query，之后是options
+
+* 不同的loader有不同的配置

@@ -15,3 +15,6 @@
 * 增加了学习成本
 * 短期内增加了一些开发成本
 
+## 参考文档
+* [一份不可多得的 TS 学习指南（1.8W字）](https://juejin.im/post/6872111128135073806)
+* [TypeScript 手册学习整理](https://itbilu.com/javascript/js/typescript.html)

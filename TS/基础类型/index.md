@@ -36,14 +36,6 @@ let u: undefined = undefined;
 let n: null = null;
 ```
 
-## void类型
-void类型像是与any类型相反，它表示没有任何类型，主要使用场景是当一个函数没有返回值
-```ts
-function warnUser(): void {
-  console.log("This is my warning message");
-}
-```
-
 ## never类型
 never类型表示那些永不存在值的类型
 
@@ -80,3 +72,35 @@ let list: Array<number> = [1, 2, 3]; // Array<number>泛型语法
 
 ## Enum类型
 使用枚举我们可以定义一些带名字的常量，使用枚举可以清晰地表达意图或创建一组有区别的用例
+
+## Any类型
+any类型是使用现有javascript的强大方法，可让你在编译过程中逐步选择加入或退出类型检查
+
+## void类型
+void类型像是与any类型相反，它表示没有任何类型，主要使用场景是当一个函数没有返回值
+```ts
+function warnUser(): void {
+  console.log("This is my warning message");
+}
+```
+
+## 类型断言
+类型断言是一种告诉编译器应该使用什么类型的方法，类型断言就像其他语言中的类型转换，但是不执行数据的特殊检查或重组，
+它对运行时没有影响，仅由编译器使用，
+
+### 类型断言有两种形式
+* 一种是"尖括号"语法
+
+```$xslt
+let someValue: any = "this is a string";
+
+let strLength: number = (<string>someValue).length;
+```
+* 一种是使用as语法
+
+```$xslt
+let someValue: any = "this is a string";
+
+let strLength: number = (someValue as string).length;
+```
+这两个方法是等效的
