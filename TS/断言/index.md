@@ -42,7 +42,7 @@ function myFunc(numGenerator: NumGenerator | undefined) {
   // Object is possibly 'undefined'.(2532)
   // Cannot invoke an object which is possibly 'undefined'.(2722)
   const num1 = numGenerator(); // Error
-  const num2 = numGenerator!(); //OK
+  const num2 = numGenerator!(); // OK
 }
 ```
 因为！非空断言操作符会从编译生成的javaScript代码中移除，所以在实际使用的过程中，要特别注意
