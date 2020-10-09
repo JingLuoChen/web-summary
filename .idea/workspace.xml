@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TS/断言/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/TS/断言/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -191,7 +191,6 @@
         <option value="$PROJECT_DIR$/JS-ES6+/set和map数据结构/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/父组件获取子组件数据/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/index.md" />
-        <option value="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" />
         <option value="$PROJECT_DIR$/CSS/BFC/index.md" />
         <option value="$PROJECT_DIR$/CSS/Flex布局/index.md" />
         <option value="$PROJECT_DIR$/前端源码分析/vue源码/index.md" />
@@ -212,11 +211,12 @@
         <option value="$PROJECT_DIR$/TS/接口/index.md" />
         <option value="$PROJECT_DIR$/TS/基础类型/index.md" />
         <option value="$PROJECT_DIR$/TS/断言/index.md" />
+        <option value="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -384,12 +384,12 @@
       <workItem from="1597315399651" duration="34349000" />
       <workItem from="1598865639324" duration="6431000" />
       <workItem from="1599189795782" duration="13329000" />
-      <workItem from="1599824133770" duration="39801000" />
+      <workItem from="1599824133770" duration="41993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360391000" />
+    <option name="totallyTimeSpent" value="362583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,8 +402,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,7 +416,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24216868" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3493976" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
