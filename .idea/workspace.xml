@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/flow/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="331">
-                <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+              <first_editor relative-caret-position="382">
+                <caret line="58" selection-start-line="58" selection-end-line="58" />
               </first_editor>
               <second_editor />
             </state>
@@ -395,12 +395,12 @@
       <workItem from="1597315399651" duration="34349000" />
       <workItem from="1598865639324" duration="6431000" />
       <workItem from="1599189795782" duration="13329000" />
-      <workItem from="1599824133770" duration="48921000" />
+      <workItem from="1599824133770" duration="49253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369511000" />
+    <option name="totallyTimeSpent" value="369843000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +426,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.486747" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37108433" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -888,8 +888,8 @@
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/flow/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="331">
-            <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <first_editor relative-caret-position="382">
+            <caret line="58" selection-start-line="58" selection-end-line="58" />
           </first_editor>
           <second_editor />
         </state>
