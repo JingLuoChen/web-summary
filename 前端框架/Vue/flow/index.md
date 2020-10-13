@@ -57,10 +57,47 @@ add('Hello', 11)
 现在Flow就能检查出错误，因为函数参数的期待类型是数字，而我们提供了字符串。
 
 ### 数组
+```typescript
+var arr: Array<number> = [1, 2, 3]
+
+arr.push('Hello')
+```
+数组类型注释的格式是Array<T>，T表示数组中每项的数据类型，在上述代码中，arr是每项均为数字的数组，
+如果我们给这个数组添加一个字符串，Flow能检查出错误
 
 ### 类和对象
+```typescript
+class Bar {
+  x: string;
+  y: string | number;
+  z: boolean;
+  constructor(x: string, y: string | number) {
+      this.x = x
+      this.y = y
+      this.z = false
+  }
+}
+
+var bar: Bar = new Bar('hello', 4)
+
+var obj: {a: string, b: number, c: Array<string>, d: Bar} = {
+    a: 'hello',
+    b: 11,
+    c: ['hello', 'world'],
+    d: new Bar('hello', 3)
+}
+```
+类的类型注释格式如上，可以对类自身的属性做类型检查，也可以对构造函数的参数做类型检查，这里需要注意的是，属性y的类型中间用|做间隔，表示y的类型即可以是字符串也可以是数字
+
+对象的注释类型类似于类，需要指定对象属性的类型
 
 ### Null
+若想任意类型T可以为null或者undefined，只需类似如下写成?T的格式即可
+```typescript
+var foo:?string = null
+```
+此时，foo可以为字符串，也可以为null
 
 ## Flow在Vue.js源码中的应用
-
+有时候我们需要引用第三方库，或者自定义一些类型，但Flow并不认识，因此检查的时候会报错，为了解决这类问题，Flow提出了一个libdef的概念，
+可以用来识别这些第三方库或者是自定义类型，而Vue.js也利用了这一特性。
