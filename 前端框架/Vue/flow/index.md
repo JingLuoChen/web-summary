@@ -101,3 +101,5 @@ var foo:?string = null
 ## Flow在Vue.js源码中的应用
 有时候我们需要引用第三方库，或者自定义一些类型，但Flow并不认识，因此检查的时候会报错，为了解决这类问题，Flow提出了一个libdef的概念，
 可以用来识别这些第三方库或者是自定义类型，而Vue.js也利用了这一特性。
+
+类似Flow的工具还有如TypeScript
