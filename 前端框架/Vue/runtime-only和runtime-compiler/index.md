@@ -1,6 +1,6 @@
 # runtime-only和runtime-compiler的区别
 ## 组件渲染过程
->先了解下组件是怎么被渲染到页面当中去的？<br>
+>先了解下组件是怎么被渲染到页面当中去的
 ```$xslt
          parse(解析)     compiler(编译)     render      update
 template   ------>   ast   ------> render ------> vDom ------> ui

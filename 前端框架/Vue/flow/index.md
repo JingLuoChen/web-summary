@@ -1,6 +1,6 @@
 # Flow
 ## 概述
-flow是facebook出品的JavaScript静态类型检查工具，Vue.js的源码利用了Flow做了静态类型检查
+Flow是Facebook出品的JavaScript静态类型检查工具，Vue.js的源码利用了Flow做了静态类型检查
 
 ## 为什么用Flow
 JavaScript是动态类型语言，它的灵活性有目共睹，但是过于灵活的副作用是很容易就写出非常隐蔽的隐患代码，在编译期甚至看上去都不会报错，
