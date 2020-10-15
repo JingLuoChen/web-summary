@@ -65,9 +65,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="278">
+                <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -315,12 +315,12 @@
       <workItem from="1598865639324" duration="6431000" />
       <workItem from="1599189795782" duration="13329000" />
       <workItem from="1599824133770" duration="49253000" />
-      <workItem from="1602505709248" duration="15555000" />
+      <workItem from="1602505709248" duration="16673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385398000" />
+    <option name="totallyTimeSpent" value="386516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,6 +333,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -346,7 +347,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.49759036" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29277107" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -770,9 +771,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="278">
+            <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>

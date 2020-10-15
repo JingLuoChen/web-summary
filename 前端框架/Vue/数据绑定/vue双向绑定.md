@@ -22,8 +22,27 @@ MVVM数据双向绑定主要是指：数据变化更新视图，视图变化更�
 流程图：
 ![mahua](./img/双向数据绑定.png)
 
-
 ## 监听器Observer实现
+监听器Observer的实现，主要是指让数据对象变得"可观测"，即每次数据读或者写时，我们能感知到数据被读取了或者数据被改了。
+要使数据变得"可观测"，Vue2.0源码中用到Object.defineProperty()来劫持各个数据属性的setter/getter。
+
+>Object.defineProperty()方法会直接在一个对象上定义一个新属性，或者修改一个对象的现有属性并返回这个对象
+
+### Object.defineProperty()语法
+>Object.defineProperty(obj, prop, descriptor)
+
+* 参数
+obj: 要在其上定义属性的对象<br>
+prop: 要定义或修改的属性的名称<br>
+descriptor: 将被定义或修改的属性描述符<br>
+
+* 返回值
+被传递给函数的对象
+
+* 属性描述符
+
+
+
 ## 订阅者Dep实现
 ## 订阅者Watcher实现
 ## 解析器Compile实现
