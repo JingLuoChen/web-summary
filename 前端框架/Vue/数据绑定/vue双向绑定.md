@@ -40,10 +40,80 @@ descriptor: 将被定义或修改的属性描述符<br>
 被传递给函数的对象
 
 * 属性描述符
+Object.defineProperty()为对象定义属性，分数据描述符和存取描述符，两种形式不能混用
 
+### 监听器Observer的实现
+#### 字面量定义对象
+通过字面量定义对象的方式
+```js
+let person = {
+    name:'tom',
+    age:15
+}
+```
+可以直接使用person.name和person.age的方式来进行获取对象中的属性，但当对象中的属性值发生变化时，无法感知数据的变化？
 
+#### Object.defineProperty()定义对象
+通过Object.defineProperty()来定义对象的方式
+
+```js
+let val = 'tom'
+let person = {}
+Object.defineProperty(person,'name',{
+    get() {
+        console.log('name属性被读取了...');
+        return val;
+    },
+    set(newVal) {
+        console.log('name属性被修改了...');
+        val = newVal;
+    }
+})
+```
+我们通过Object.defineProperty()方法给person的name属性定义了set和get方法进行拦截，每当有属性进行读或者写的操作时就会触发get和set的方法，
+这样我们就可以感知属性值的变化了。
+
+* 改进方法
+封装函数，对对象中的所有属性进行监测
+```js
+/**
+  * 循环遍历数据对象的每个属性
+  */
+function observable(obj) {
+    if (!obj || typeof obj !== 'object') {
+        return;
+    }
+    let keys = Object.keys(obj);
+    keys.forEach((key) => {
+        defineReactive(obj, key, obj[key])
+    })
+    return obj;
+}
+/**
+ * 将对象的属性用 Object.defineProperty() 进行设置
+ */
+function defineReactive(obj, key, val) {
+    Object.defineProperty(obj, key, {
+        get() {
+            console.log(`${key}属性被读取了...`);
+            return val;
+        },
+        set(newVal) {
+            console.log(`${key}属性被修改了...`);
+            val = newVal;
+        }
+    })
+}
+
+let person = observable({
+    name: 'tom',
+    age: 15
+});
+````
+即对对象中的所有属性都可以进行监测了
 
 ## 订阅者Dep实现
+
 ## 订阅者Watcher实现
 ## 解析器Compile实现
 ## 源码
