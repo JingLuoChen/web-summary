@@ -42,6 +42,22 @@ descriptor: 将被定义或修改的属性描述符<br>
 * 属性描述符
 Object.defineProperty()为对象定义属性，分数据描述符和存取描述符，两种形式不能混用
 
+* 数据描述符和存取描述符均具有以下可选键值<br>
+configurable: 当且仅当该属性的configurable为true时，该属性描述符才能够被改变，同时该属性也能从对应的对象上被删除，默认为false<br>
+
+enumerable: 当且仅当该属性的enumerable为true时，该属性才能够出现在对象的枚举属性中默认为false。
+
+* 数据描述符具有以下可选键值<br>
+value: 该属性对应的值。可以是任何有效的JavaScript值（数值、对象、函数等等），默认为undefined<br>
+
+writable: 当且仅当该属性的writable为true时，value才能被赋值运算符改变，默认为false。
+
+* 存取描述符具有以下可选键值<br>
+get: 一个给属性提供getter的方法，如果没有getter则为undefined，当访问该属性时，该方法会被执行，方法执行时没有参数传入，
+但是会传入this对象（由于继承关系，这里的this并不一定是定义该属性的对象），默认为undefined。<br>
+
+set: 一个给属性提供setter的方法，如果没有setter则为undefined。当属性值修改时，触发执行该方法，该方法将接受唯一参数，即该属性新的参数值，默认为undefined。
+
 ### 监听器Observer的实现
 #### 字面量定义对象
 通过字面量定义对象的方式
@@ -117,10 +133,63 @@ let person = observable({
 发布-订阅模式又叫做观察者模式，它定义对象间的一种一对多的依赖关系，当一个对象的状态改变时，所有依赖于它的对象都将得到通知。
 
 * 发布-订阅模式的优点
-发布-订阅模式广泛应用于异步编程中，这是一种替代传递回调函数的方案，比如，我们可以订阅ajax请求的error，success等事件。
+>发布-订阅模式广泛应用于异步编程中，这是一种替代传递回调函数的方案，比如，我们可以订阅ajax请求的error，success等事件。
 在异步编程中使用发布-订阅模式，我们就无需过多关注对象在异步运行期间的内部状态，而只需要订阅感兴趣的事件发生点。
 
 * 发布-订阅模式的生活实例
+>以售楼处的例子来举例说明发布-订阅模式<br>
+小明最近看上了一套房子，到了售楼处之后才被告知，该楼盘的房子早已售罄，好在售楼MM告知小明，不久后还有一些尾盘推出，开发商正在办理相关手续，手续办好之后就可以购买，小明离开之前，
+把电话号码留在 了售楼处。售楼 MM 答应他，新楼盘一推出就马上发信息通知小明。小红、小强和小龙也是一样，他们的电话号码都被记在售楼处的花名册上，
+新楼盘推出的时候，售楼 MM会翻开花名册，遍历上面的电话号码，依次发送一条短信来通知他们。
+
+### 订阅器Dep实现
+完成了数据的可观测，我们就可以在数据被读取或者写的时候通知那些依赖该数据的视图更新了，为了方便，我们需要先将所有依赖收集起来，一旦数据发生变化，就统一通知更新。
+
+>消息订阅器<br>
+用来收集订阅者，然后当数据变化的时候后执行对应订阅者的更新函数
+
+* 创建消息订阅器Dep：
+```js
+function Dep () {
+    this.subs = [];
+}
+Dep.prototype = {
+    addSub: function(sub) {
+        this.subs.push(sub);
+    },
+    notify: function() {
+        this.subs.forEach(function(sub) {
+            sub.update();
+        });
+    }
+};
+Dep.target = null;
+```
+有了订阅器，将defineReactive函数进行改造，向其植入订阅器
+
+```js
+function defineReactive(data, key, val) {
+	var dep = new Dep();
+	Object.defineProperty(data, key, {
+		enumerable: true, // 可枚举
+		configurable: true, // 可更改
+		get: function getter () {
+			if (Dep.target) {
+				dep.addSub(Dep.target);
+			}
+			return val;
+		},
+		set: function setter (newVal) {
+			if (newVal === val) {
+				return;
+			}
+			val = newVal;
+			dep.notify();
+		}
+	});
+}
+```
+订阅器Dep类，该类里面定义类一些属性和方法，其中静态属性Dep.target，这是一个全局唯一的Watcher，因为在同一时间只能有一个全局的Watcher被计算，另外它的自身属性subs也是Watcher的数组
 
 ## 订阅者Watcher实现
 ## 解析器Compile实现
