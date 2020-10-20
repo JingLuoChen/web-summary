@@ -203,12 +203,64 @@ function defineReactive(data, key, val) {
 在Dep.target上缓存下订阅者，添加成功后再将其去掉就可以了
 
 * 订阅者Watcher的实现
+```js
+function Watcher(vm, exp, cb) {
+    this.vm = vm;
+    this.exp = exp;
+    this.cb = cb;
+    this.value = this.get();  // 将自己添加到订阅器的操作
+}
 
+Watcher.prototype = {
+    update: function() {
+        this.run();
+    },
+    run: function() {
+        var value = this.vm.data[this.exp];
+        var oldVal = this.value;
+        if (value !== oldVal) {
+            this.value = value;
+            this.cb.call(this.vm, value, oldVal);
+        }
+    },
+    get: function() {
+        Dep.target = this; // 全局变量 订阅者 赋值
+        var value = this.vm.data[this.exp]  // 强制执行监听器里的get函数
+        Dep.target = null; // 全局变量 订阅者 释放
+        return value;
+    }
+};
+```
+订阅者Watcher是一个类，在它的构造函数中，定义了一些属性：<br>
+* vm: 一个Vue的实例对象 <br>
+* exp: 是node节点的v-model等指令的属性值或者插值符号中的属性，如v-model="name"，exp就是name <br>
+* cb: 是Watcher绑定的更新函数 <br>
 
+当我们去实例化一个渲染Watcher的时候，首先进入Watcher的构造函数逻辑，就会执行它的this.get()方法，进入get函数，首先会执行
 
+> Dep.target = this; // 将自己赋值为全局的订阅者
 
+实际上就是把Dep.target赋值为当前的渲染Watcher，接着又执行了
+
+> let value = this.vm.data[this.exp] // 强制执行监听器里的get函数
+
+在这个过程中会对vm上的数据访问，其实就是为了触发数据对象的getter <br>
+
+每个对象值的getter都持有一个dep，在触发getter的时候会调用dep.depend()方法，也就会执行this.addSub(Dep.target)，即把当前的Watcher订阅到这个数据持有的dep的
+Watchers中，这个目的是为了后续数据变化时候能通知到哪些Watchers做准备<br>
+
+完成依赖收集后，还需要把Dep.target恢复成上一个状态，即：
+
+> Dep.target = null; / /释放自己
+
+而update()函数是用来当数据发生变化时调用Watcher自身的更新函数进行更新的操作，先通过let value = this.vm.data[this.exp]获取到最新的数据，
+然后将其与之前get()获得的旧数据进行比较，如果不一样，则调用更新函数cb进行更新。
 
 ## 解析器Compile实现
+解析器Compile实现步骤：
+* 解析模版指令，并替换模板数据，初始化视图
+* 将模板指令对应的节点绑定对应的更新函数，初始化相应的订阅器
+
 ## 源码
 
 ## 参考文档
