@@ -262,6 +262,7 @@ Watchers中，这个目的是为了后续数据变化时候能通知到哪些Wat
 * 将模板指令对应的节点绑定对应的更新函数，初始化相应的订阅器
 
 ## 源码
+* [web-mvvm](https://github.com/JingLuoChen/web-mvvm)
 
 ## 参考文档
 
