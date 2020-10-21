@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JS-基础/函数柯里化/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/函数柯里化/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TS/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/TS/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-19">
-                <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,8 +189,8 @@
         <option value="$PROJECT_DIR$/面试/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue的双向绑定是如何实现的.md" />
         <option value="$PROJECT_DIR$/JS-基础/函数柯里化/index.md" />
-        <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" />
         <option value="$PROJECT_DIR$/TS/index.md" />
+        <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" />
       </list>
     </option>
   </component>
@@ -384,12 +383,12 @@
       <workItem from="1598865639324" duration="6431000" />
       <workItem from="1599189795782" duration="13329000" />
       <workItem from="1599824133770" duration="49253000" />
-      <workItem from="1602505709248" duration="37131000" />
+      <workItem from="1602505709248" duration="38046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406974000" />
+    <option name="totallyTimeSpent" value="407889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +403,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,7 +415,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.42048192" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22289157" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -839,8 +838,8 @@
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-19">
-            <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
