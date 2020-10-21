@@ -130,7 +130,7 @@ let fn = curry(function (a, b, c) {
     return [a, b, c];
 });
 
-let l=console.log;
+let l = console.log;
 l(fn("a", "b", "c")); // ["a", "b", "c"]
 l(fn("a", "b")("c")); // ["a", "b", "c"]
 l(fn("a")("b")("c")); // ["a", "b", "c"]
@@ -174,5 +174,6 @@ add(1)(2)(3) // 6
 add(1, 2, 3)(4) // 10
 ```
 ## 参考文档
+
 * [js函数柯里化](https://github.com/coffe1891/frontend-hard-mode-interview/blob/master/1/1.3.2.md)
 * [大佬，JavaScript 柯里化，了解一下？](https://juejin.im/post/5af13664f265da0ba266efcf)

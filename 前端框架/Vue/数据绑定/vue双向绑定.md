@@ -266,6 +266,7 @@ Watchers中，这个目的是为了后续数据变化时候能通知到哪些Wat
 
 ## 参考文档
 
+* [双向数据绑定](https://github.com/DMQ/mvvm)
 * [vue 的双向绑定原理及实现](https://juejin.im/entry/6844903479044112391)
 * [0 到 1 掌握：Vue 核心之数据双向绑定](https://juejin.im/post/6844903903822086151)
 
