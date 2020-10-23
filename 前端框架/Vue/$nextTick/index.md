@@ -7,6 +7,10 @@
 
 在数据变化后要执行的某个操作，而这个操作需要使用随数据改变而改变的DOM结构的时候，这个操作都应该放进Vue.nextTick()的回调函数中
 
+## 为什么是nextTick
+### 浏览器
+浏览器(多线程)包含了**Browser进行**（浏览器的主要进程）、**第三方插件进程**和**GPU进程**（浏览器渲染进程），其中GPU进程和Web前端密切相关
+
 ## 原理
 
 Vue实现响应式并不是数据发生变化之后DOM立即变化，而是按一定的策略进行DOM的更新。
@@ -27,5 +31,6 @@ Vue.nextTick()用于延迟执行一段代码
 
 ## 参考文档
 
+* [你真的理解$nextTick么](https://juejin.im/post/5cd9854b5188252035420a13)
 * [Vue.nextTick 的原理和用途](https://segmentfault.com/a/1190000012861862)
 * [简单理解Vue中的nextTick](https://juejin.im/post/6844903557372575752)
