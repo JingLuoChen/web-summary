@@ -14,6 +14,55 @@ VDOM是对DOM的抽象，本质上是JavaScript对象，这个对象就是更加
 review不严格，可能会有开发者写出性能较低的代码，另一方面更重要的是省略手动DOM操作可以大大提高开发效率
 
 
+最后，也是VDOM最初的目的，就是更好的跨平台，比如Node.js就没有DOM，如果想实现SSR，那么一个方式就是借助VDOM，因为VDOM本身就是JS对象
+
+## VDOM的关键因素
+### VDOM的创建
+我们已经知道VDOM是对真是DOM的抽象，根据不同的需求我们可以做出不同的抽象。<br>
+
+比如snabbdom.js的抽象方式是这样的：
+```typescript
+export interface VNode {
+    sel: string | undefined;
+    data: VNodeData | undefined;
+    children: Array<VNode | string> | undefined;
+    elm: Node | undefined;
+    text: string | undefined;
+    key: Key | undefined;
+}
+```
+
+我们采用最简单的抽象方法：
+```typescript
+{
+  type, // String，DOM 节点的类型，如 'div'
+  data, // Object，包括 props，style等等 DOM 节点的各种属性
+  children // Array，子节点
+}
+```
+
+在明确了我们抽象的VDOM构造之后，我们就需要一个函数来创建VDOM
+```typescript
+/**
+ * 生成 vnode
+ * @param  {String} type     类型，如 'div'
+ * @param  {String} key      key vnode的唯一id
+ * @param  {Object} data     data，包括属性，事件等等
+ * @param  {Array} children  子 vnode
+ * @param  {String} text     文本
+ * @param  {Element} elm     对应的 dom
+ * @return {Object}          vnode
+ */
+function vnode(type, key, data, children, text, elm) {
+  const element = {
+    __type: VNODE_TYPE,
+    type, key, data, children, text, elm
+  }
+
+  return element
+}
+```
+这个函数很简单，接受一定的参数，在根据这些参数返回一个对象，这个对象就是DOM的抽象。
 
 
 
