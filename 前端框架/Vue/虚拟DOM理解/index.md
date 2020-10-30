@@ -64,8 +64,10 @@ function vnode(type, key, data, children, text, elm) {
 ```
 这个函数很简单，接受一定的参数，在根据这些参数返回一个对象，这个对象就是DOM的抽象。
 
+### VDOM Tree的创建
 
 
 ## 参考文档
 
+* [对虚拟DOM和Dom-Diff的理解？](https://segmentfault.com/a/1190000022277663)
 * [面试官: 你对虚拟DOM原理的理解?](https://juejin.im/post/6844903902429577229)
