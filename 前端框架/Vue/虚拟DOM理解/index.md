@@ -65,7 +65,7 @@ function vnode(type, key, data, children, text, elm) {
 这个函数很简单，接受一定的参数，在根据这些参数返回一个对象，这个对象就是DOM的抽象。
 
 ### VDOM Tree的创建
-
+上面我们已经声明了一个vnode函数用于单个Virtual DOM的创建工作,但是我们都知道DOM其实是一个Tree,我们接下来要做的就是声明一个函数用于创建DOM Tree的抽象 -- Virtual DOM Tree.
 
 ## 参考文档
 

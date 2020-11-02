@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/虚拟DOM理解/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/虚拟DOM理解/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/虚拟DOM理解/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="379">
-                <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+              <first_editor relative-caret-position="404">
+                <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,7 +44,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="641">
-                <caret line="44" column="65" lean-forward="true" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+                <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
               </first_editor>
               <second_editor />
             </state>
@@ -386,12 +385,12 @@
       <workItem from="1599824133770" duration="49253000" />
       <workItem from="1602505709248" duration="39338000" />
       <workItem from="1603434725167" duration="1654000" />
-      <workItem from="1603678480122" duration="7661000" />
+      <workItem from="1603678480122" duration="9231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418496000" />
+    <option name="totallyTimeSpent" value="420066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +417,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3566265" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -818,7 +817,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="641">
-            <caret line="44" column="65" lean-forward="true" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+            <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
           </first_editor>
           <second_editor />
         </state>
@@ -837,8 +836,8 @@
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/虚拟DOM理解/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="379">
-            <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+          <first_editor relative-caret-position="404">
+            <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           </first_editor>
           <second_editor />
         </state>
