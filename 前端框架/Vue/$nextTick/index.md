@@ -20,6 +20,29 @@
 
 这些线程中，和Vue的nextTick息息相关的是JS引擎线程和事件触发线程
 
+### Vue的API命名nextTick
+Vue官方对nextTick这个API的描述：<br>
+>在下次DOM更新循环结束之后执行延迟回调。在修改数据之后立即使用这个方法，获取更新后的DOM
+
+* 例子
+```javascript
+// 修改数据
+vm.msg = 'Hello'
+// DOM 还没有更新
+Vue.nextTick(function () {
+  // DOM 更新了
+})
+
+// 作为一个 Promise 使用 (2.1.0 起新增，详见接下来的提示)
+Vue.nextTick()
+ .then(function () {
+  // DOM 更新了
+})
+```
+
+Vue异步执行DOM更新，只要观察到数据变化，Vue将开启一个队列，并缓冲在同一事件循环中发生的所有数据改变。如果同一个watcher被多次触发，
+只会被推入到队列中一次。这种在缓冲时去处重复数据对于避免不必要的计算和DOM操作上非常重要。
+
 ## 原理
 
 Vue实现响应式并不是数据发生变化之后DOM立即变化，而是按一定的策略进行DOM的更新。
