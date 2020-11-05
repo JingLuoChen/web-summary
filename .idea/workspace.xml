@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/vuex/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/vuex/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/前端渲染和服务端渲染/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/前端渲染和服务端渲染/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -70,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/前端渲染和服务端渲染/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="369">
-                <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+              <first_editor relative-caret-position="279">
+                <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -438,12 +433,12 @@
       <workItem from="1599824133770" duration="49253000" />
       <workItem from="1602505709248" duration="39338000" />
       <workItem from="1603434725167" duration="1654000" />
-      <workItem from="1603678480122" duration="16021000" />
+      <workItem from="1603678480122" duration="16529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426856000" />
+    <option name="totallyTimeSpent" value="427364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +451,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -898,8 +892,8 @@
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/前端渲染和服务端渲染/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="369">
-            <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+          <first_editor relative-caret-position="279">
+            <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
