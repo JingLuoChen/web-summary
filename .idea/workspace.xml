@@ -67,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/computed和watch是如何工作的/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="360">
-                <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <first_editor relative-caret-position="405">
+                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -444,12 +444,12 @@
       <workItem from="1599824133770" duration="49253000" />
       <workItem from="1602505709248" duration="39338000" />
       <workItem from="1603434725167" duration="1654000" />
-      <workItem from="1603678480122" duration="18591000" />
+      <workItem from="1603678480122" duration="18845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429426000" />
+    <option name="totallyTimeSpent" value="429680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -911,8 +911,8 @@
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/computed和watch是如何工作的/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <first_editor relative-caret-position="405">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor />
         </state>
