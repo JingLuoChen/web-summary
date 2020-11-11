@@ -11,8 +11,20 @@ git有好几个区
 远程仓库 - remote repository - 远程服务器，例如github、gitlab
 ```
 
+## 工作区内容恢复
+```$xslt
+git checkout --file  => 可以丢弃工作区的修改
+```
 
+## 暂存区内容恢复
+```$xslt
+git reset HEAD file  => 可以丢弃暂存区的修改
+```
 
+## 本地仓库内容恢复
+```$xslt
+git reset --hard 1094a  => 可以回退到指定版本
+```
 ## 参考文档
 
 * [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
