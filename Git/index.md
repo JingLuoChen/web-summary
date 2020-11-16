@@ -11,6 +11,13 @@ git有好几个区
 远程仓库 - remote repository - 远程服务器，例如github、gitlab
 ```
 ## 基本指令
+### 代码提交到暂存区
+```$xslt
+git add -A // 提交所有变化
+git add -u // 提交被修改和被删除的文件
+git add . // 提交新文件和被修改的文件
+```
+
 ### 工作区内容恢复
 ```$xslt
 git checkout --file  => 可以丢弃工作区的修改
@@ -79,6 +86,11 @@ git switch -c dev
 ### 删除分支
 ```$xslt
 git branch -d dev
+```
+
+### 推送分支
+```$xslt
+git push origin dev // 本地分支推送到远程分支上
 ```
 
 ## 参考文档
