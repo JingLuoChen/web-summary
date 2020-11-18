@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -70,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/插件/moment.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="90">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               </first_editor>
               <second_editor />
             </state>
@@ -259,19 +257,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/插件" />
+      <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定" />
+      <recent name="$PROJECT_DIR$/前端安全" />
+      <recent name="$PROJECT_DIR$/数据结构" />
+      <recent name="$PROJECT_DIR$/计算机网络" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定/img" />
       <recent name="$PROJECT_DIR$/JS-基础/localStorage和sessionStorage" />
       <recent name="$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环/img" />
       <recent name="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind" />
       <recent name="$PROJECT_DIR$/JS-V8引擎工作原理" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定" />
-      <recent name="$PROJECT_DIR$/前端安全" />
-      <recent name="$PROJECT_DIR$/数据结构" />
-      <recent name="$PROJECT_DIR$/计算机网络" />
-      <recent name="$PROJECT_DIR$/TS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,12 +318,12 @@
       <workItem from="1602505709248" duration="39338000" />
       <workItem from="1603434725167" duration="1654000" />
       <workItem from="1603678480122" duration="20551000" />
-      <workItem from="1604922920663" duration="7890000" />
+      <workItem from="1604922920663" duration="9628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439276000" />
+    <option name="totallyTimeSpent" value="441014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,9 +336,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,7 +349,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3686747" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3686747" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -785,8 +782,8 @@
     <entry file="file://$PROJECT_DIR$/插件/moment.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="90">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           </first_editor>
           <second_editor />
         </state>

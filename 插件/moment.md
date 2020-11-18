@@ -19,8 +19,23 @@ moment().format('X'); 转换当前时间的Unix时间戳
 
 moment().format('d');  今天是周几
 ```
+### 日期格式化
+```$xslt
+moment().format('dddd') 星期三
 
+moment().format('MMM Do YY') 7月4日 18
 
+moment().format() 2018-07-04T18:04:52+08:00
+```
+
+### 日历格式化
+```$xslt
+moment().subtract(1,'days').calendar();昨天下午5点55分
+
+moment.calendar();今天下午5点55分
+
+moment().add(1,'days').calendar();明天下午5点55分
+```
 
 ## 参考文档
 
