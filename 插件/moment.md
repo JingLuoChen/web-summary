@@ -37,6 +37,24 @@ moment.calendar();今天下午5点55分
 moment().add(1,'days').calendar();明天下午5点55分
 ```
 
+### 时间戳转为时间
+```$xslt
+// 时间戳(秒)转时间
+moment(Number);
+
+// 时间戳(毫秒)转时间
+moment.unix(1318781876);
+```
+
+### 时间差转化为相对的秒、分钟或者小时
+
+这里的stopTime和 startTime为开始和结束的日期格式，需要将时间差转化为秒或者分钟，再进行逻辑判断。
+```$xslt
+let consumingSeconds = moment.duration(moment(stopTime).valueOf()- moment(startTime).valueOf()).as('seconds');
+let consumingMinutes = moment.duration(moment(stopTime).valueOf()- moment(startTime).valueOf()).as('minutes');
+let consumingHours = moment.duration(moment(stopTime).valueOf()- moment(startTime).valueOf()).as('hours');
+```
+
 ## 参考文档
 
 * [时间转换函数moment.js](https://www.jianshu.com/p/f3b2ac003542)
