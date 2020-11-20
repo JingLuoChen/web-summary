@@ -124,7 +124,7 @@ pick 111ab9cc261    update templates
 #  s, squash = use commit, but meld into previous commit  
 ```
 
-把第二到四行的pick更改为s，就会使用这个commit，并且合并前个commit
+把第二到四行的pick更改为s，就会使用这个commit，并且合并前几个commit
 
 若出现冲突，解决冲突，应用最新的版本，使用
 ```$xslt
