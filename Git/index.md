@@ -161,3 +161,4 @@ git push (origin master) -f 或者指定远程和分支
 
 * [使用git stash命令保存和恢复进度](https://blog.csdn.net/daguanjia11/article/details/73810577)
 * [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+* [git rebase的两个使用技巧](https://juejin.cn/post/6844903926517465096)
