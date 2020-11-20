@@ -102,6 +102,50 @@ git push origin dev // 本地分支推送到远程分支上
 这样对于review代码和追踪版本时，显的尤为困难了
 
 所以需要将为同一个需求开发的这些commit合并成一个
+```$xslt
+git rebase -i HEAD~n
+
+上面的n代指数字，表示包括当前以前的几个commit
+```
+
+这时会出现一个编辑界面
+
+```$xslt
+pick 5e187c7dbe8    add center style indent  
+pick 6d577eb3440    add center style  
+pick f9b9508a3ab    add center style  
+pick 111ab9cc261    update templates  
+# Rebase 150a643..2fad1ae onto 150a643  
+#  
+# Commands:  
+#  p, pick = use commit  
+#  r, reword = use commit, but edit the commit message  
+#  e, edit = use commit, but stop for amending  
+#  s, squash = use commit, but meld into previous commit  
+```
+
+把第二到四行的pick更改为s，就会使用这个commit，并且合并前个commit
+
+若出现冲突，解决冲突，应用最新的版本，使用
+```$xslt
+git add . //提交索引
+git rebase --continue //继续rebase操作
+```
+若在合并commit的过程中想放弃，可以使用命令
+```$xslt
+git rebase --abort
+```
+
+最后把本地推上远程
+
+```$xslt
+git push -f //必须带上-f，以本地覆盖远程
+
+git push (origin master) -f 或者指定远程和分支
+```
+
+
+
 
 ```$xslt
 步骤：
