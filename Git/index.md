@@ -93,6 +93,19 @@ git branch -d dev
 git push origin dev // 本地分支推送到远程分支上
 ```
 
+### Rebase
+git rebase 能够将分叉的分支重新合并，
+
+```$xslt
+步骤：
+1. dev分支开发完毕后推送远程；
+
+2.切换master分支拉取远程；
+
+3.切换dev分支rebase到master分支
+```
+
+
 ## 参考文档
 
 * [使用git stash命令保存和恢复进度](https://blog.csdn.net/daguanjia11/article/details/73810577)
