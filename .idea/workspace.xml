@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Git/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/Git/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -58,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/Git/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="177">
-                <caret line="222" column="83" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="83" />
+              <first_editor relative-caret-position="119">
+                <caret line="224" column="61" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="61" />
               </first_editor>
               <second_editor />
             </state>
@@ -333,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453935000" />
+    <option name="totallyTimeSpent" value="454790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +344,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,7 +357,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5939759" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.63373494" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -791,8 +788,8 @@
     <entry file="file://$PROJECT_DIR$/Git/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="177">
-            <caret line="222" column="83" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="83" />
+          <first_editor relative-caret-position="119">
+            <caret line="224" column="61" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="61" />
           </first_editor>
           <second_editor />
         </state>
