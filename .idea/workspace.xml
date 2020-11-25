@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="305">
-                <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+              <first_editor relative-caret-position="350">
+                <caret line="50" selection-start-line="50" selection-end-line="50" />
               </first_editor>
               <second_editor />
             </state>
@@ -347,7 +347,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467126000" />
+    <option name="totallyTimeSpent" value="467363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,9 +360,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,7 +373,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33734939" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33734939" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -796,8 +795,8 @@
     <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="305">
-            <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+          <first_editor relative-caret-position="350">
+            <caret line="50" selection-start-line="50" selection-end-line="50" />
           </first_editor>
           <second_editor />
         </state>
