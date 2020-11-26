@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/计算机网络/常见的状态码/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/常见的状态码/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -68,8 +66,8 @@
         <entry file="file://$PROJECT_DIR$/计算机网络/常见的状态码/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="225">
-                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <first_editor relative-caret-position="255">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -342,7 +340,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470996000" />
+    <option name="totallyTimeSpent" value="471582000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,7 +353,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -791,8 +788,8 @@
     <entry file="file://$PROJECT_DIR$/计算机网络/常见的状态码/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="225">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
