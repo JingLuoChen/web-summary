@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="615">
-                <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -83,8 +82,8 @@
         <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -195,10 +194,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="80" />
-    <option name="height" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -286,19 +284,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/计算机网络/HTTP和HTTPS" />
-      <recent name="$PROJECT_DIR$/插件" />
-      <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定" />
-      <recent name="$PROJECT_DIR$/前端安全" />
-      <recent name="$PROJECT_DIR$/数据结构" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定/img" />
       <recent name="$PROJECT_DIR$/JS-基础/localStorage和sessionStorage" />
       <recent name="$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环/img" />
       <recent name="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind" />
       <recent name="$PROJECT_DIR$/JS-V8引擎工作原理" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/计算机网络/HTTP和HTTPS" />
+      <recent name="$PROJECT_DIR$/插件" />
+      <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定" />
+      <recent name="$PROJECT_DIR$/前端安全" />
+      <recent name="$PROJECT_DIR$/数据结构" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,12 +346,12 @@
       <workItem from="1603434725167" duration="1654000" />
       <workItem from="1603678480122" duration="20551000" />
       <workItem from="1604922920663" duration="16948000" />
-      <workItem from="1606471691976" duration="639000" />
+      <workItem from="1606471691976" duration="4125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="473738000" />
+    <option name="totallyTimeSpent" value="477224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +363,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
@@ -380,7 +378,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3626506" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3626506" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -750,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="615">
-            <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/计算机网络/四次挥手/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -801,11 +789,21 @@
     <entry file="file://$PROJECT_DIR$/计算机网络/网络知识点.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="345">
+            <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
