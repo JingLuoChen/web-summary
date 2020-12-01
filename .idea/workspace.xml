@@ -82,8 +82,8 @@
         <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <first_editor relative-caret-position="359">
+                <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -346,12 +346,12 @@
       <workItem from="1603434725167" duration="1654000" />
       <workItem from="1603678480122" duration="20551000" />
       <workItem from="1604922920663" duration="16948000" />
-      <workItem from="1606471691976" duration="5123000" />
+      <workItem from="1606471691976" duration="8768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478222000" />
+    <option name="totallyTimeSpent" value="481867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,8 +802,8 @@
     <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <first_editor relative-caret-position="359">
+            <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
