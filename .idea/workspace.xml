@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -347,12 +346,12 @@
       <workItem from="1603434725167" duration="1654000" />
       <workItem from="1603678480122" duration="20551000" />
       <workItem from="1604922920663" duration="16948000" />
-      <workItem from="1606471691976" duration="13754000" />
+      <workItem from="1606471691976" duration="14351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486853000" />
+    <option name="totallyTimeSpent" value="487450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
