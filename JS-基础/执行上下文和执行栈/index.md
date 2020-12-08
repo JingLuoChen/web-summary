@@ -61,6 +61,30 @@ console.log('Inside Global Execution Context');
 1、创建阶段
 2、执行阶段
 
+#### 创建阶段
+在JavaScript代码执行前，执行上下文将经历创建阶段。在创建阶段会发生三件事：<br>
+1、this值的决定，即我们所熟悉的this绑定<br>
+2、创建词法环境组件<br>
+3、创建变量环境组件<br>
+
+所以执行上下文在概念上表示如下：
+
+```$xslt
+ExecutionContext = {
+  ThisBinding = <this value>,
+  LexicalEnvironment = { ... },
+  VariableEnvironment = { ... },
+}
+```
+
+* this绑定
+
+在全局执行上下文中，this的值指向全局对象（在浏览器中this引用window对象），
+
+
+
+#### 执行阶段
+
 
 ## 参考文档
 * [JavaScript 执行上下文和执行栈](https://juejin.cn/post/6844903891490832391)
