@@ -10,7 +10,14 @@ MVC是应用最广泛的软件架构之一，一般MVC分为Model(模型)、View
 
 * Model：将新的数据发送至View，用户得到反馈
 
+![mahua](./MVVM.png)
 
+## MVVM
+MVVM是把MVC中的Controller改变成了ViewModel
+
+View的变化会自动更新到ViewModel，ViewModel的变化也会自动同步到View上显示，通过数据来显示视图层
+
+![mahua](./MVC.png)
 
 ## 参考文档
 
