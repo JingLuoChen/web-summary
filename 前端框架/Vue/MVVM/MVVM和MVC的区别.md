@@ -20,14 +20,14 @@ Controller业务逻辑的正确性是无法验证的：Controller更新Model的�
 2、View无法组件化，View是强依赖特定的Model的，如果需要把这个View抽出来作为另外一个应用程序可复用的组件就困难，因为不同程序的Domain Model是不一样的
 
 
-![mahua](./MVVM.png)
+![mahua](img/MVVM.png)
 
 ## MVVM
 MVVM是把MVC中的Controller改变成了ViewModel
 
 View的变化会自动更新到ViewModel，ViewModel的变化也会自动同步到View上显示，通过数据来显示视图层
 
-![mahua](./MVC.png)
+![mahua](img/MVC.png)
 
 * 优点
 
