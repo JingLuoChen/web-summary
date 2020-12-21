@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/vue的生命周期.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/生命周期/vue的生命周期.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端框架/Vue/生命周期/生命周期源码解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/生命周期/生命周期源码解析.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/生命周期/生命周期源码解析.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="420">
-                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <first_editor relative-caret-position="500">
+                <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -346,12 +345,12 @@
       <workItem from="1604922920663" duration="16948000" />
       <workItem from="1606471691976" duration="14351000" />
       <workItem from="1607343377120" duration="37052000" />
-      <workItem from="1608017456842" duration="34892000" />
+      <workItem from="1608017456842" duration="35362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="559394000" />
+    <option name="totallyTimeSpent" value="559864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +377,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.10990099" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38118812" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -843,8 +842,8 @@
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/生命周期/生命周期源码解析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="420">
-            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <first_editor relative-caret-position="500">
+            <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
