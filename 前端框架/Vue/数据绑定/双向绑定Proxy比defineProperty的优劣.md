@@ -81,3 +81,6 @@ data.name = '刘德华';
 3、Watcher数据 Observer 和 Compile 桥梁，它将接收到的Observer产生的数据变化，并根据Compile提供的指令进行视图渲染，使得数据变化促使视图比那话
 
 ![mahua](./img/数据劫持.png)
+
+
+## 基于Object.defineProperty双向数据绑定的特点
