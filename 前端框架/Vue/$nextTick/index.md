@@ -150,10 +150,52 @@ Vue实现响应式并不是数据发生变化之后DOM立即变化，而是按�
 3、一旦'执行栈'中所有同步任务执行完毕，系统就会读取'任务队列'，看看里面有哪些事件，哪些对应的异步任务，于是结束等待状态，进入执行栈，开始执行
 4、主线程不断重复上面的第三步
 
+即事件循环原理
+
 ```
 ## 作用
+1、Vue.nextTick()用于延迟执行一段代码
 
-Vue.nextTick()用于延迟执行一段代码
+2、需要在视图更新之后，基于新的视图进行操作
+
+## 其他应用场景
+```
+1、点击按钮显示原本以 v-show = false 隐藏起来的输入框，并获取焦点。
+
+showsou() {
+  this.showit = true //修改 v-show
+  document.getElementById("keywords").focus()  //在第一个 tick 里，获取不到输入框，自然也获取不到焦点
+}
+
+修改为：
+
+showsou() {
+  this.showit = true
+  this.$nextTick(function () {
+    // DOM 更新了
+    document.getElementById("keywords").focus()
+  })
+}
+
+
+2、点击获取元素宽度
+
+<div id="app">
+    <p ref="myWidth" v-if="showMe">{{ message }}</p>
+    <button @click="getMyWidth">获取p元素宽度</button>
+</div>
+
+getMyWidth() {
+    this.showMe = true;
+    //this.message = this.$refs.myWidth.offsetWidth;
+    //报错 TypeError: this.$refs.myWidth is undefined
+    this.$nextTick(()=>{
+        //dom元素更新后执行，此时能拿到p元素的属性
+        this.message = this.$refs.myWidth.offsetWidth;
+  })
+}
+```
+
 
 ## 参考文档
 
