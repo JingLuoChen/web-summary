@@ -305,6 +305,32 @@ Proxy是ES6提供的新特性，兼容性不好，最主要的是这个属性无
 
 ### Proxy可以直接监听对象而非属性
 
+```js
+const input = document.getElementById('input');
+const p = document.getElementById('p');
+const obj = {};
+
+const newObj = new Proxy(obj, {
+  get: function(target, key, receiver) {
+    console.log(`getting ${key}!`);
+    return Reflect.get(target, key, receiver);
+  },
+  set: function(target, key, value, receiver) {
+    console.log(target, key, value, receiver);
+    if (key === 'text') {
+      input.value = value;
+      p.innerHTML = value;
+    }
+    return Reflect.set(target, key, value, receiver);
+  },
+});
+
+input.addEventListener('keyup', function(e) {
+  newObj.text = e.target.value;
+});
+
+```
+可以看到Proxy直接可以劫持整个对象，并返回一个新对象，不管是操作遍历程度还是底层功能上都远强于Object.defineProperty
 
 ## 参考文档
 
