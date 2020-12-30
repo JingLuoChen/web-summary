@@ -332,8 +332,67 @@ input.addEventListener('keyup', function(e) {
 ```
 可以看到Proxy直接可以劫持整个对象，并返回一个新对象，不管是操作遍历程度还是底层功能上都远强于Object.defineProperty
 
+
+### Proxy可以直接监听数组的变化
+当我们对数组进行操作(push、shift、splice等)时，会触发对应的方法名称和length的变化，我们可以借此进行操作，以上述Object.defineProperty无法生效的列表渲染为例
+
+```js
+const list = document.getElementById('list');
+const btn = document.getElementById('btn');
+
+// 渲染列表
+const Render = {
+  // 初始化
+  init: function(arr) {
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < arr.length; i++) {
+      const li = document.createElement('li');
+      li.textContent = arr[i];
+      fragment.appendChild(li);
+    }
+    list.appendChild(fragment);
+  },
+  // 我们只考虑了增加的情况,仅作为示例
+  change: function(val) {
+    const li = document.createElement('li');
+    li.textContent = val;
+    list.appendChild(li);
+  },
+};
+
+// 初始数组
+const arr = [1, 2, 3, 4];
+
+// 监听数组
+const newArr = new Proxy(arr, {
+  get: function(target, key, receiver) {
+    console.log(key);
+    return Reflect.get(target, key, receiver);
+  },
+  set: function(target, key, value, receiver) {
+    console.log(target, key, value, receiver);
+    if (key !== 'length') {
+      Render.change(value);
+    }
+    return Reflect.set(target, key, value, receiver);
+  },
+});
+
+// 初始化
+window.onload = function() {
+    Render.init(arr);
+}
+
+// push数字
+btn.addEventListener('click', function() {
+  newArr.push(6);
+});
+
+```
+
 ## 参考文档
 
 * [数组更新检测](https://cn.vuejs.org/v2/guide/list.html#%E6%95%B0%E7%BB%84%E6%9B%B4%E6%96%B0%E6%A3%80%E6%B5%8B)
 * [Vue篇(004)-Vue3 为什么要用 Proxy 代替 Object.defineProperty](https://my.oschina.net/qiilee/blog/4562011)
 * [面试官: 实现双向绑定Proxy比defineproperty优劣如何?](https://juejin.cn/post/6844903601416978439)
+
