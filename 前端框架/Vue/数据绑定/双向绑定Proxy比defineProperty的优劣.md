@@ -332,7 +332,6 @@ input.addEventListener('keyup', function(e) {
 ```
 可以看到Proxy直接可以劫持整个对象，并返回一个新对象，不管是操作遍历程度还是底层功能上都远强于Object.defineProperty
 
-
 ### Proxy可以直接监听数组的变化
 当我们对数组进行操作(push、shift、splice等)时，会触发对应的方法名称和length的变化，我们可以借此进行操作，以上述Object.defineProperty无法生效的列表渲染为例
 
