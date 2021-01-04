@@ -389,6 +389,15 @@ btn.addEventListener('click', function() {
 
 ```
 
+### Proxy的其他优势
+Proxy有多达13种拦截方法，不限于apply、ownKeys、deleteProperty、has等等是Object.defineProperty不具备的
+
+Proxy返回的是一个新对象，我们可以只操作新的对象从而达到目的，而Object.defineProperty只能遍历对象属性直接修改
+
+Proxy作为新标准将受到浏览器厂商重点持续的性能优化，就是新标准的性能红利
+
+缺点就是兼容性问题
+
 ## 参考文档
 
 * [数组更新检测](https://cn.vuejs.org/v2/guide/list.html#%E6%95%B0%E7%BB%84%E6%9B%B4%E6%96%B0%E6%A3%80%E6%B5%8B)
