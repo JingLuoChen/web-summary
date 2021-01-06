@@ -93,5 +93,63 @@ export default {
 
 ```
 
+* 注意，当$emit传多个参数给父组件时，父组件接收的参数是数组形式
 
 ## $children/$parent
+通过 $parent 和 $children 就可以访问组件的实例，就可以访问该组件内的所有方法和data，$children 是一个数组，是直接儿子的一个集合，
+关于具体是第几个儿子，可以使用_uid属性确定是第几个元素，是元素的唯一标识符。
+
+```vue
+<!--父组件中-->
+<template>
+  <div class="hello_world">
+    <div>{{msg}}</div>
+    <com-a></com-a>
+    <button @click="changeA">点击改变子组件值</button>
+  </div>
+</template>
+
+<script>
+import ComA from './test/comA.vue'
+export default {
+  name: 'HelloWorld',
+  components: { ComA },
+  data() {
+    return {
+      msg: 'Welcome'
+    }
+  },
+
+  methods: {
+    changeA() {
+      // 获取到子组件A
+      this.$children[0].messageA = 'this is new value'
+    }
+  }
+}
+</script>
+
+<!--子组件中-->
+<template>
+  <div class="com_a">
+    <span>{{messageA}}</span>
+    <p>获取父组件的值为:  {{parentVal}}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      messageA: 'this is old'
+    }
+  },
+  computed:{
+    parentVal(){
+      return this.$parent.msg;
+    }
+  }
+}
+</script>
+
+```
