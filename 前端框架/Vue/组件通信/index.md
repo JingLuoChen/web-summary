@@ -153,3 +153,42 @@ export default {
 </script>
 
 ```
+
+## provide/inject
+
+## ref/refs
+ref：如果在普通的 DOM 元素上使用，引用指向的就是 DOM 元素；如果用在子组件上，引用就指向组件实例，可以通过实例直接调用组件的方法或访问数据
+
+```js
+// 子组件 A.vue
+
+export default {
+  data () {
+    return {
+      name: 'Vue.js'
+    }
+  },
+  methods: {
+    sayHello () {
+      console.log('hello')
+    }
+  }
+}
+
+```
+```vue
+// 父组件 app.vue
+
+<template>
+  <component-a ref="comA"></component-a>
+</template>
+<script>
+  export default {
+    mounted () {
+      const comA = this.$refs.comA;
+      console.log(comA.name);  // Vue.js
+      comA.sayHello();  // hello
+    }
+  }
+</script>
+```
