@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="115">
+              <first_editor relative-caret-position="2325">
                 <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
               </first_editor>
               <second_editor />
@@ -43,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/MVVM/原理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1154">
-                <caret line="87" column="51" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="51" />
+              <first_editor relative-caret-position="87">
+                <caret line="223" selection-start-line="223" selection-end-line="223" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -99,23 +99,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/组件通信/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="2895">
-                <caret line="193" selection-start-line="193" selection-end-line="193" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="225">
+                <caret line="192" column="9" lean-forward="true" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/括号的最大嵌套深度/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="254">
+              <first_editor relative-caret-position="464">
                 <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
               </first_editor>
               <second_editor />
@@ -146,9 +146,9 @@
       <find>replace</find>
       <find>observe</find>
       <find>define</find>
-      <find>defineP</find>
       <find>target</find>
       <find>$watch</find>
+      <find>defineP</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -209,8 +209,8 @@
         <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/双向绑定Proxy比defineProperty的优劣.md" />
         <option value="$PROJECT_DIR$/算法/较大分组的位置/index.md" />
         <option value="$PROJECT_DIR$/算法/回文数判断/index.md" />
-        <option value="$PROJECT_DIR$/前端框架/Vue/组件通信/index.md" />
         <option value="$PROJECT_DIR$/算法/括号的最大嵌套深度/index.md" />
+        <option value="$PROJECT_DIR$/前端框架/Vue/组件通信/index.md" />
       </list>
     </option>
   </component>
@@ -236,13 +236,34 @@
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端跨平台开发" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端跨平台开发" type="462c0819:PsiDirectoryNode" />
-              <item name="Flutter" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="$nextTick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="MVVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="组件通信" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -272,11 +293,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/前端框架/Vue/组件通信" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定/img" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/MVVM" />
       <recent name="$PROJECT_DIR$/JS-基础/执行上下文和执行栈" />
       <recent name="$PROJECT_DIR$/计算机网络/DNS" />
-      <recent name="$PROJECT_DIR$/计算机网络/HTTP和HTTPS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/前端框架/Vue/生命周期" />
@@ -336,12 +357,12 @@
       <workItem from="1606471691976" duration="14351000" />
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
-      <workItem from="1609212416120" duration="38405000" />
+      <workItem from="1609212416120" duration="40451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="650372000" />
+    <option name="totallyTimeSpent" value="652418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +388,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5180723" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23614457" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -758,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端框架/Vue/MVVM/原理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1154">
-            <caret line="87" column="51" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/img/数据劫持.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -821,11 +832,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/算法/括号的最大嵌套深度/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="464">
+            <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="115">
+          <first_editor relative-caret-position="2325">
             <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端框架/Vue/MVVM/原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="87">
+            <caret line="223" selection-start-line="223" selection-end-line="223" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
@@ -833,19 +864,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/组件通信/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2895">
-            <caret line="193" selection-start-line="193" selection-end-line="193" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/括号的最大嵌套深度/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="254">
-            <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="192" column="9" lean-forward="true" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>

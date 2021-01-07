@@ -192,3 +192,19 @@ export default {
   }
 </script>
 ```
+
+## eventBus
+eventBus又称事件总线，在vue中可以使用它来作为沟通桥梁的概念，就像是所有组件共用相同的事件中心，可以向事件中心注册发送事件或接收事件，
+所以组件都可以通知其他组件
+
+* 注意 eventBus也有不方便之处，当项目较大，就容易造成难以维护的灾难
+
+![mahua](eventBus.png)
+
+* 移除事件监听者
+
+```js
+EventBus.$off('id-selected', {})
+```
+
+## Vuex
