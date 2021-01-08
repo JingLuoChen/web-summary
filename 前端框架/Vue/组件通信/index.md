@@ -208,3 +208,19 @@ EventBus.$off('id-selected', {})
 ```
 
 ## Vuex
+### 介绍
+Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化.
+Vuex 解决了多个视图依赖于同一状态和来自不同视图的行为需要变更同一状态的问题，将开发者的精力聚焦于数据的更新而不是数据在组件之间的传递上
+
+### 功能模块
+>1、state：用于数据的存储，是store中的唯一数据源<br>
+2、getters：如vue中的计算属性一样，基于state数据的二次包装，常用于数据的筛选和多个数据的相关性计算<br>
+3、mutations：类似函数，改变state数据的唯一途径，且不能用于处理异步事件<br>
+4、actions：类似于mutation，用于提交mutation来改变状态，而不直接变更状态，可以包含任意异步操作<br>
+5、modules：类似于命名空间，用于项目中将各个模块的状态分开定义和操作，便于维护
+
+## localStorage/sessionStorage
+这种通信比较简单，缺点是数据和状态比较混乱，不太容易维护
+
+>通过window.localStorage.getItem(key)获取数据<br>
+通过window.localStorage.setItem(key,value)存储数据
