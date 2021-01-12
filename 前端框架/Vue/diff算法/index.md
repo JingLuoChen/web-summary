@@ -463,3 +463,4 @@ Vue为平台做了一层适配层，不同平台之间通过适配层对外提�
 * [详解vue的diff算法](https://juejin.cn/post/6844903607913938951)
 * [VDom&diff算法](https://github.com/answershuto/learnVue/blob/master/docs/VirtualDOM%E4%B8%8Ediff(Vue%E5%AE%9E%E7%8E%B0).MarkDown)
 * [Vue.js从Virtual DOM映射到真实DOM的过程](https://juejin.cn/post/6844903666944573447)
+* [关于把虚拟dom转换成真实dom原来是这么一回事](https://blog.csdn.net/qq_41996454/article/details/110811143)

@@ -1,5 +1,10 @@
 # Vue.js的computed和watch是如何工作的？
-## 计算属性
+## 概述
+Vue的组件对象支持计算属性computed和侦听属性watch两个选项，但这两个属性用法有什么异同以及它们底层实现的原理是什么？
+
+## computed和watch定义
+1、computed是计算属性，类似于过滤器，对绑定到视图的数据进行处理，并监听变化进而执行对应的方法
+
 基础例子
 ```vue
 <div id="example">
@@ -24,26 +29,17 @@ var vm = new Vue({
 ```
 计算属性是基于它们的依赖进行缓存的，只在相关依赖发生改变时它们才会重新求值。值得注意的是reversedMessage不能在组件的props和data中定义，否则会报错
 
-### 计算属性缓存vs方法
-你可能已经注意到我们可以通过在表达式中调用方法来达到相同的效果：
-```vue
-<p>Reversed message: "{{ reversedMessage() }}"</p>
-```
-```javascript
-var vm = new Vue({
-  el: '#example',
-  data: {
-    message: 'Hello'
-  },
-  methods: {
-    reversedMessage: function () {
-      return this.message.split('').reverse().join('')
-    }
-  }
-})
-```
-我们可以将同一函数定义为一个方法而不是一个计算属性，两种方式的最终结果是完全相同的。然而，不同的是计算属性是基于它们的响应式依赖进行缓存的
-## 参考文档
+2、watch是一个侦听的动作，用来观察和响应Vue实例上的数据驱动
 
+## computed和watch用法异同
+相同：computed和watch都起到监听/依赖一个数据，并进行处理的作用
+
+异同：它们其实都是Vue对监听器的实现，只不过computed主要用于对同步数据的处理，watch则主要用于观测某个值的变化去完成一段开销较大的复杂业务逻辑
+
+注意：能用computed的时候优先用computed，避免了多个数据影响其中数据时多次调用watch的尴尬情况
+
+## watch高级用法
+
+## 参考文档
 * [计算属性和侦听器](https://cn.vuejs.org/v2/guide/computed.html)
 * [Vue.js的computed和watch是如何工作的？](https://juejin.im/post/6844903667884097543)
