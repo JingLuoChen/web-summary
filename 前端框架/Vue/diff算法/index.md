@@ -448,10 +448,10 @@ Vue为平台做了一层适配层，不同平台之间通过适配层对外提�
 
 * 将虚拟DOM转为真实DOM
 
-1、确定VNode的结构
-2、创建一个结点的方法
-3、给结点设置properties的方法
-4、将一个virtualDom转换成真实的DOM对象
+1、确定VNode的结构<br>
+2、创建一个结点的方法<br>
+3、给结点设置properties的方法<br>
+4、将一个virtualDom转换成真实的DOM对象<br>
 5、将一个结点添加到root元素上
 
 
