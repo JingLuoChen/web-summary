@@ -1,6 +1,6 @@
 # 详解Vue的diff算法
 ## 当数据发生变化时，Vue是怎么更新Dom节点的？
-要知道渲染真实Dom的开销是很大的，比如有时候我们修改了某个数据，如果直接渲染到真实的Dom上会引起整个Dom树的重排和重绘，
+要知道渲染真实Dom的开销是很大的，比如有时候我们修改了某个数据，如果直接渲染到真实的Dom上会引起整个Dom树的重排和重绘。
 有没有可能我们更新数据的时候，只更新我们修改的那一小块Dom而不要更新整个Dom呢？
 
 方式：
@@ -38,6 +38,10 @@ var Vnode = {
 </div>
 ```
 上面的代码会分别比较同一层的两个div以及第二层的p和span，但是不会拿div和span作比较，只会在同一层级进行比较
+
+## 虚拟DOM
+diff算法的基础是virtual DOM，virtual DOM是一棵以JavaScript对象作为基础的树，每一个节点称为VNode，用对象属性来描述节点，实际上它是一层对真实DOM的抽象，
+最终可以通过渲染操作使这棵树映射到真实的环境上，简单来说，Virtual DOM就是一个JS对象，用以描述整个文档。
 
 ## 修改视图
 Vue通过数据绑定来修改视图，当某个数据被修改的时候，set方法会让闭包中的Dep调用notify通知所有订阅者Watcher，Watcher通过get方法执行vm._update(vm._render(), hydrating)
@@ -454,13 +458,10 @@ Vue为平台做了一层适配层，不同平台之间通过适配层对外提�
 4、将一个virtualDom转换成真实的DOM对象<br>
 5、将一个结点添加到root元素上
 
-
-
-
-
 ## 参考文档
 
 * [详解vue的diff算法](https://juejin.cn/post/6844903607913938951)
 * [VDom&diff算法](https://github.com/answershuto/learnVue/blob/master/docs/VirtualDOM%E4%B8%8Ediff(Vue%E5%AE%9E%E7%8E%B0).MarkDown)
 * [Vue.js从Virtual DOM映射到真实DOM的过程](https://juejin.cn/post/6844903666944573447)
 * [关于把虚拟dom转换成真实dom原来是这么一回事](https://blog.csdn.net/qq_41996454/article/details/110811143)
+* [Vue中diff算法的理解](https://www.cnblogs.com/WindrunnerMax/p/13463096.html)
