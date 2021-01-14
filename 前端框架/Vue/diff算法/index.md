@@ -97,14 +97,13 @@ update方法的第一个参数是一个VNode对象，在内部会将该VNode对�
 
 ![mahua](diff流程.png)
 
+
 ## 流程分析
 ### patch
 patch将新老VNode节点进行比对，然后将根据两者的比较结果进行最小单位地修改视图，而不是将整个视图根据新的VNode重绘，patch的核心在于diff算法，
 这套算法可以高效地比较Virtual DOM的变更，得出变化以修改视图
 
-diff算法是通过同层的树节点进行比较而非对树进行逐层搜索遍历的方式，所以时间复杂度只有O(n)，是一种相当高效的算法
-
-来看看patch是怎么打补丁的（代码核心部分）
+Vue的diff算法是基于snabbdom改造过来的，仅在同级的vnode间做diff，递归地进行同级vnode的diff，最终实现整个DOM树的更新，因为跨层级的操作是非常少的，忽略不计，时间复杂度就从O(n3)变成了O(n)
 
 ```js
 /*createPatchFunction的返回值，一个patch函数*/
@@ -441,25 +440,10 @@ function updateChildren (parentElm, oldCh, newCh, insertedVnodeQueue, removeOnly
 >1、如果新旧子节点都存在key，那么会根据oldChild的key生成一张hash表，用S的key与hash表做匹配，匹配成功就判断S和匹配节点是否为sameNode，
 如果是，就在真实dom中将成功的节点移到最前面，否则，将S生成对应的节点插入到dom中对应的oldS位置，S指针向中间移动，被匹配old中的节点置为null<br>
 2、如果没有key，则直接将S生成新的节点插入真实dom（ps：解释为什么v-for的时候需要设置key了，如果没有key那么就只会做四种匹配，就算指针中间有可复用的节点都不能被复用了）
-    
-## DOM操作
-由于Vue使用了虚拟DOM，所以虚拟DOM可以在任何支持JavaScript语言平台上操作，譬如说目前Vue支持的浏览器平台或者weex，在虚拟DOM的实现上是一致的
-
-那么最后虚拟DOm如何映射到真实的DOM节点上？
-
-Vue为平台做了一层适配层，不同平台之间通过适配层对外提供相同的接口，虚拟DOM进行操作真实DOM节点的时候，只需要调用这些适配层的接口即可，而内部实现则不需要关心，
-它会根据平台的改变而改变
-
-* 将虚拟DOM转为真实DOM
-
-1、确定VNode的结构<br>
-2、创建一个结点的方法<br>
-3、给结点设置properties的方法<br>
-4、将一个virtualDom转换成真实的DOM对象<br>
-5、将一个结点添加到root元素上
 
 ## 参考文档
 
+* [详解Vue中的虚拟DOM](https://blog.fundebug.com/2019/06/26/vue-virtual-dom/)
 * [详解vue的diff算法](https://juejin.cn/post/6844903607913938951)
 * [VDom&diff算法](https://github.com/answershuto/learnVue/blob/master/docs/VirtualDOM%E4%B8%8Ediff(Vue%E5%AE%9E%E7%8E%B0).MarkDown)
 * [Vue.js从Virtual DOM映射到真实DOM的过程](https://juejin.cn/post/6844903666944573447)
