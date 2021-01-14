@@ -96,7 +96,12 @@ Object.defineProperty(person,'name',{
         val = newVal;
     }
 })
+
+console.log(person.name) // name属性被读取了...
+person.name = "Tom" // name属性被修改了...
+
 ```
+
 我们通过Object.defineProperty()方法给person的name属性定义了set和get方法进行拦截，每当有属性进行读或者写的操作时就会触发get和set的方法，
 这样我们就可以感知属性值的变化了。
 
@@ -132,12 +137,13 @@ function defineReactive(obj, key, val) {
     })
 }
 
+// 通过以上方法封装，我们可以直接定义person
 let person = observable({
     name: 'tom',
     age: 15
 });
 ````
-即对对象中的所有属性都可以进行监测了
+即对对象中的所有属性都可以进行监测了，当对象中的属性值发生修改时我们就可以感知了
 
 ## 订阅器Dep实现
 ### 发布-订阅设计模式
@@ -147,6 +153,10 @@ let person = observable({
 >发布-订阅模式广泛应用于异步编程中，这是一种替代传递回调函数的方案，比如，我们可以订阅ajax请求的error，success等事件。
 在异步编程中使用发布-订阅模式，我们就无需过多关注对象在异步运行期间的内部状态，而只需要订阅感兴趣的事件发生点。
 
+>发布-订阅模式可以取代对象之间硬编码的通知机制，一个对象不用再显示地调用另外一个对象的某个接口。发布-订阅模式让两个对象松耦合的联系在一起，虽然不太清楚彼此的细节，
+但这不影响它们之间相互通信。当有新的订阅者出现时，发布者的代码不需要任何修改；同样发布者需要改变时，也不会影响到之前的订阅者，只要之前约定的事件名没有变化，就可以自由地改变它们
+
+
 * 发布-订阅模式的生活实例
 >以售楼处的例子来举例说明发布-订阅模式<br>
 小明最近看上了一套房子，到了售楼处之后才被告知，该楼盘的房子早已售罄，好在售楼MM告知小明，不久后还有一些尾盘推出，开发商正在办理相关手续，手续办好之后就可以购买，小明离开之前，
@@ -155,6 +165,7 @@ let person = observable({
 
 ### 订阅器Dep实现
 完成了数据的可观测，我们就可以在数据被读取或者写的时候通知那些依赖该数据的视图更新了，为了方便，我们需要先将所有依赖收集起来，一旦数据发生变化，就统一通知更新。
+其实，这就是前面所讲的发布订阅模式，数据变化为---"发布者"，依赖对象为---"订阅者"
 
 >消息订阅器<br>
 用来收集订阅者，然后当数据变化的时候后执行对应订阅者的更新函数
@@ -164,7 +175,7 @@ let person = observable({
 function Dep () {
     this.subs = [];
 }
-Dep.prototype = {
+Dep.prototype = {  // 原型对象上
     addSub: function(sub) {
         this.subs.push(sub);
     },
@@ -268,9 +279,24 @@ Watchers中，这个目的是为了后续数据变化时候能通知到哪些Wat
 然后将其与之前get()获得的旧数据进行比较，如果不一样，则调用更新函数cb进行更新。
 
 ## 解析器Compile实现
+### 解析器Compile关键逻辑代码分析
+通过监听器Observer、订阅器Dep和订阅者Watcher的实现，其实就已经实现了一个双向数据绑定的例子，但是整个过程都没有去解析dom节点，而是直接固定某个节点进行替换数据的。
+
 解析器Compile实现步骤：
 * 解析模版指令，并替换模板数据，初始化视图
 * 将模板指令对应的节点绑定对应的更新函数，初始化相应的订阅器
+
+```js
+compileText: function(node, exp) {
+	var self = this;
+	var initText = this.vm[exp]; // 获取属性值
+	this.updateText(node, initText); // dom 更新节点文本值
+    // 将这个指令初始化为一个订阅者，后续 exp 改变时，就会触发这个更新回调，从而更新视图
+	new Watcher(this.vm, exp, function (value) { 
+		self.updateText(node, value);
+	});
+}
+```
 
 ## 源码
 * [web-mvvm](https://github.com/JingLuoChen/web-mvvm)

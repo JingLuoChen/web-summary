@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/前端框架/Vue/diff算法/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/diff算法/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,23 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="195">
-                <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <first_editor relative-caret-position="464">
+                <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TS/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor />
+              <first_editor relative-caret-position="315">
+                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -75,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/双向绑定Proxy比defineProperty的优劣.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="243">
-                <caret line="387" column="3" lean-forward="true" selection-start-line="387" selection-start-column="3" selection-end-line="387" selection-end-column="3" />
+              <first_editor relative-caret-position="125">
+                <caret line="76" column="45" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,18 +114,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端框架/React/面向组件编程.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="30">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -147,6 +137,7 @@
       <find>defineP</find>
       <find>reduce</find>
       <find>patchVnode</find>
+      <find>Observer</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -181,7 +172,6 @@
         <option value="$PROJECT_DIR$/WebWorker/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/MVVM/ViewModel好处.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/MVVM/MVVM和MVC的区别.md" />
-        <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/MVVM/原理.md" />
         <option value="$PROJECT_DIR$/技术/serverless/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/生命周期/补充.md" />
@@ -194,7 +184,6 @@
         <option value="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/状态管理/状态管理.md" />
         <option value="$PROJECT_DIR$/算法/两数之和/两数之和.md" />
-        <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/双向绑定Proxy比defineProperty的优劣.md" />
         <option value="$PROJECT_DIR$/算法/较大分组的位置/index.md" />
         <option value="$PROJECT_DIR$/算法/回文数判断/index.md" />
         <option value="$PROJECT_DIR$/算法/括号的最大嵌套深度/index.md" />
@@ -209,6 +198,8 @@
         <option value="$PROJECT_DIR$/前端框架/Vue/虚拟DOM理解/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/computed和watch是如何工作的/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/diff算法/index.md" />
+        <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/双向绑定Proxy比defineProperty的优劣.md" />
+        <option value="$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md" />
       </list>
     </option>
   </component>
@@ -235,6 +226,17 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="JS-基础" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-设计模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="观察者模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -285,11 +287,6 @@
               <item name="前端框架" type="462c0819:PsiDirectoryNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
               <item name="虚拟DOM理解" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,12 +375,12 @@
       <workItem from="1606471691976" duration="14351000" />
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
-      <workItem from="1609212416120" duration="76543000" />
+      <workItem from="1609212416120" duration="79106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="688510000" />
+    <option name="totallyTimeSpent" value="691073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +407,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19518073" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.057831325" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -461,16 +458,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/计算机网络/DNS/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="45">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端跨平台开发/Flutter/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -880,30 +867,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/双向绑定Proxy比defineProperty的优劣.md">
+    <entry file="file://$PROJECT_DIR$/TS/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="243">
-            <caret line="387" column="3" lean-forward="true" selection-start-line="387" selection-start-column="3" selection-end-line="387" selection-end-column="3" />
+          <first_editor relative-caret-position="315">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/双向绑定Proxy比defineProperty的优劣.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="125">
+            <caret line="76" column="45" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-设计模式/观察者模式/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/vue双向绑定.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <first_editor relative-caret-position="464">
+            <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TS/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
           <second_editor />
         </state>
       </provider>
