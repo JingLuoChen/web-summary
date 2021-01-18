@@ -1,6 +1,6 @@
 # 基础类型
 ## 概述
-TypeScript基本类型，也就是可以被直接使用的单一类型
+TypeScript是JavaScript的超集，自然能够支持所有JavaScript的数据类型，除此之外，TypeScript还提供了让人喜欢的枚举类型（enum）
 
 ## Boolean类型
 ```typescript
@@ -82,3 +82,8 @@ function warnUser(): void {
   console.log("This is my warning message");
 }
 ```
+
+
+## 参考文档
+
+* [TypeScript 基础类型和变量声明](https://github.com/axuebin/articles/issues/36)
