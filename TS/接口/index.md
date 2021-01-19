@@ -96,4 +96,81 @@ getUserInfo({name: "koala", age: 18});
 getUserInfo(); // Invalid number of arguments, expected 1 
 ```
 
-### 好处Two --- 过去我们用Node.js写后端接口
+## 接口的定义
+和java语言相同，TypeScript中定义接口也是使用interface关键字来定义
+
+```typescript
+interface IQuery {
+    page: number
+}
+```
+
+## 接口中定义方法
+看上面的接口中，我们定义了page常规属性，定义接口时候不仅仅可以有属性，也可以有方法，看下面的例子：
+```typescript
+interface IQuery {
+    page: number;
+    findOne(): void;
+    findAll(): void;
+}
+```
+如果我们有一个对象是该接口类型，那么必须包含对应的属性和方法（无可选属性情况）：
+```typescript
+const q: IQuery = {
+  page: 1,
+  findOne() {
+    console.log("findOne");
+  },
+  findAll() {
+    console.log("findAll");
+  },
+};
+```
+
+## 接口中定义属性
+### 普通属性
+上面的page就是普通属性，如果一个对象是该接口类型，那么必须包含对应的普通属性。
+
+### 可选属性
+默认情况下一个变量（对象）是对应的接口类型，那么这个变量（对象）必须实现接口中所有的属性和方法
+
+但是，开发中为了让接口更加的灵活，某些属性我们可能希望设计成可选的，这个时候就可以使用可选属性
+
+```typescript
+interface IQuery {
+    page: number;
+    findOne(): void;
+    findAll(): void;
+    isOnline?: string | number; // 是否出售中的商品
+    delete?() : void;
+}
+```
+上面的代码中，我们增加了isOnline属性和delete方法，这两个都是可选的
+
+>注意<br>
+可选属性如果没有赋值，那么获取到的值是undefined; 对于可选方法，必须先进行判断，在调用，否则会报错
+
+```typescript
+const q: IQuery = {
+ page: 1,
+ findOne() {
+   console.log("findOne");
+ },
+ findAll() {
+   console.log("findAll");
+ },
+};
+
+console.log(q.isOnline); // undefined
+q.delete(); // 不能调用可能是“未定义”的对象。
+
+// 正确的调用方式：
+if (q.delete) {
+    q.delete()
+}
+```
+
+大家可能会问既然是可选属性，可有可无的，那么为什么还要定义呢？对比起完全不定义，定义可选属性主要是：为了让接口更加的灵活，
+某些属性我们可能希望设计成可选，并且如果存在属性，能约束类型，而这也是十分关键的
+
+
