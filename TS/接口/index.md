@@ -173,4 +173,6 @@ if (q.delete) {
 大家可能会问既然是可选属性，可有可无的，那么为什么还要定义呢？对比起完全不定义，定义可选属性主要是：为了让接口更加的灵活，
 某些属性我们可能希望设计成可选，并且如果存在属性，能约束类型，而这也是十分关键的
 
+## 参考文档
+* [接口](https://jkchao.github.io/typescript-book-chinese/typings/interfaces.html#%E7%B1%BB%E5%8F%AF%E4%BB%A5%E5%AE%9E%E7%8E%B0%E6%8E%A5%E5%8F%A3)
 
