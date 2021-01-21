@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/链表/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/get和post区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/get和post区别.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/二叉树/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/链表/链表.md" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/链表/链表.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/链表/链表.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/浏览器缓存.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/缓存对比.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -83,12 +74,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构/链表/链表.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="422">
-                <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+              <first_editor relative-caret-position="333">
+                <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="15">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -110,6 +113,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构/数据结构.png">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构/树/树.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -147,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Git/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/闭包/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/闭包/底层运行机制.md" />
         <option value="$PROJECT_DIR$/计算机网络/常见的状态码/index.md" />
@@ -198,6 +210,7 @@
         <option value="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/基础.md" />
         <option value="$PROJECT_DIR$/算法/两数相加/两数相加.md" />
         <option value="$PROJECT_DIR$/数据结构/链表/链表.md" />
+        <option value="$PROJECT_DIR$/数据结构/二叉树/二叉树.md" />
       </list>
     </option>
   </component>
@@ -229,7 +242,7 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -288,11 +301,11 @@
       <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/数据结构/树" />
       <recent name="$PROJECT_DIR$/数据结构/链表" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/生命周期" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/MVVM/img" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定/img" />
-      <recent name="$PROJECT_DIR$/JS-基础/localStorage和sessionStorage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,12 +358,12 @@
       <workItem from="1606471691976" duration="14351000" />
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
-      <workItem from="1609212416120" duration="111778000" />
+      <workItem from="1609212416120" duration="120957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="723745000" />
+    <option name="totallyTimeSpent" value="732924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,8 +376,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,7 +390,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35903615" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40481928" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,36 +441,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端框架/Vue/生命周期/生命周期源码解析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="224">
-            <caret line="171" column="80" selection-start-line="171" selection-start-column="80" selection-end-line="171" selection-end-column="80" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端框架/Vue/生命周期/生命周期初始化源码.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="152">
-            <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端框架/Vue/生命周期/数据初始化源码.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="224">
-            <caret line="35" column="64" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/生命周期/事件初始化源码.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -809,16 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面试/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -850,8 +824,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/数据结构.png">
+    <entry file="file://$PROJECT_DIR$/数据结构/链表/链表.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="135">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -866,9 +850,30 @@
     <entry file="file://$PROJECT_DIR$/数据结构/链表/链表.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="422">
-            <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+          <first_editor relative-caret-position="333">
+            <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
           </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/数据结构.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/树/树.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>
