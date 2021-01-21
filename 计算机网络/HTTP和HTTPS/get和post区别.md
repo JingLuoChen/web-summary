@@ -23,3 +23,4 @@ get参数通过url传递，post放在Request Body中
 
 ## 参考文档
 * [听说『99% 的人都理解错了 HTTP 中 GET 与 POST 的区别』？？](https://zhuanlan.zhihu.com/p/25028045)
+* [都9102年了，还问GET和POST的区别](https://segmentfault.com/a/1190000018129846)
