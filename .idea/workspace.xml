@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据结构/树/二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/树/二叉树.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,16 +23,6 @@
               <first_editor relative-caret-position="135">
                 <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -65,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/数据结构/链表/链表.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="756">
-                <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              <first_editor relative-caret-position="233">
+                <caret line="157" selection-start-line="157" selection-end-line="157" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <first_editor relative-caret-position="319">
+                <caret line="236" column="23" lean-forward="true" selection-start-line="236" selection-start-column="23" selection-end-line="236" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,6 +103,11 @@
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -252,12 +248,6 @@
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="两数相加" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -294,11 +284,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/数据结构/树" />
       <recent name="$PROJECT_DIR$/数据结构/链表" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/虚拟DOM理解" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/diff算法" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/组件通信" />
-      <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/数据结构/树" />
@@ -358,12 +348,12 @@
       <workItem from="1606471691976" duration="14351000" />
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
-      <workItem from="1609212416120" duration="123036000" />
+      <workItem from="1609212416120" duration="134109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="735003000" />
+    <option name="totallyTimeSpent" value="746076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,9 +366,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,7 +379,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4493976" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37349397" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -441,16 +430,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端框架/Vue/MVVM/MVVM和MVC的区别.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="152">
-            <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/数据绑定/img/数据劫持.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -846,8 +825,8 @@
     <entry file="file://$PROJECT_DIR$/数据结构/链表/链表.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="756">
-            <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <first_editor relative-caret-position="233">
+            <caret line="157" selection-start-line="157" selection-end-line="157" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -863,11 +842,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <first_editor relative-caret-position="319">
+            <caret line="236" column="23" lean-forward="true" selection-start-line="236" selection-start-column="23" selection-end-line="236" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
