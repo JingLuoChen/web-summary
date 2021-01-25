@@ -18,5 +18,46 @@
 然后将其计算结果保存在一个表格中，当再次需要计算已经计算过的子问题时，只是在表格中简单地查看一下结果，从而获得较高的解题效率
 
 ## 实例
+### 计算斐波那契数列
+斐波那契数列可以定义为以下序列： 
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, …
+
+该数列是由前两项数值相加而成的
+
+
+```js
+// 递归的实现方式
+function recurFib(n) {
+    if (n < 2) {
+        return n; 
+    } else {
+        
+        return recurFib(n-1) + recurFib(n-2);
+    } 
+}
+document.write(recurFib(10)); // 显示 55
+```
+在这个计算过程中，有太多值在递归调用中被重新计算，这也是递归方法效率低下的原因。
+
+```js
+// 动态规则的实现方法
+function dynFib(n) {
+    var val = [];
+    for (var i = 0; i <= n; ++i) {
+        val[i] = 0; 
+    }
+    if (n == 1 || n == 2) {
+        return 1;
+    } else {
+        val[1] = 1;
+        val[2] = 2;
+        for (var i = 3; i <= n; ++i) {
+            val[i] = val[i-1] + val[i-2];
+        }
+        return val[n-1];
+    }
+}
+```
 
 
