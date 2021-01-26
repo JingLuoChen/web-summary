@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/算法/动态规划/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/动态规划/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/算法/动态规划/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="472">
-                <caret line="77" selection-start-line="77" selection-end-line="77" />
+              <first_editor relative-caret-position="1005">
+                <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
               </first_editor>
               <second_editor />
             </state>
@@ -403,12 +401,12 @@
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
-      <workItem from="1611541583054" duration="10521000" />
+      <workItem from="1611541583054" duration="10663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="757797000" />
+    <option name="totallyTimeSpent" value="757939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +419,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -896,8 +893,8 @@
     <entry file="file://$PROJECT_DIR$/算法/动态规划/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="472">
-            <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <first_editor relative-caret-position="1005">
+            <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
           </first_editor>
           <second_editor />
         </state>
