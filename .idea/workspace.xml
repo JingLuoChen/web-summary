@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/算法/动态规划/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/动态规划/index.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/算法/动态规划/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1005">
-                <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
+              <first_editor relative-caret-position="600">
+                <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -217,8 +220,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="y" value="23" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -401,12 +405,12 @@
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
-      <workItem from="1611541583054" duration="10663000" />
+      <workItem from="1611541583054" duration="15356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="757939000" />
+    <option name="totallyTimeSpent" value="762632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,6 +423,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,7 +437,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2987952" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1373494" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -893,8 +898,8 @@
     <entry file="file://$PROJECT_DIR$/算法/动态规划/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1005">
-            <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
+          <first_editor relative-caret-position="600">
+            <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
