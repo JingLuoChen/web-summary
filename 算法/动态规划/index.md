@@ -42,6 +42,7 @@ document.write(recurFib(10)); // 显示 55
 
 ```js
 // 动态规则的实现方法
+// 法1，额外多了一层数据的遍历
 function dynFib(n) {
     var val = [];
     for (var i = 0; i <= n; ++i) {
@@ -58,6 +59,17 @@ function dynFib(n) {
         return val[n-1];
     }
 }
+
+// 法2
+var climbStairs = function(n) {
+    var val = [];
+    val[1] = 1;
+    val[2] = 2;
+    for (var i = 3; i <= n; ++i) {
+        val[i] = val[i-1] + val[i-2];
+    }
+    return val[n];
+};
 ```
 
 在这个数组val中保存了中间结果，如果要计算的斐波那契数是1或者2， 那么if语句会返回1。否则，数值1和2将被保存在val数组中1和2的位置。循环将会从3到输入的参数之间进行遍历，
@@ -94,6 +106,41 @@ var climbStairs = function (n) {
     return climbStairs(n - 1) + climbStairs(n - 2)
 }
 console.log(climbStairs(10)) //89
+```
+
+## 按摩师
+一个有名的按摩师会收到源源不断的预约请求，每个预约都可以选择接或不接。在每次预约服务之间要有休息时间，因此她不能接受相邻的预约。
+给定一个预约请求序列，替按摩师找到最优的预约集合（总预约时间最长），返回总的分钟数。
+
+```
+// 示例1
+输入： [1,2,3,1]
+输出： 4
+解释： 选择 1 号预约和 3 号预约，总时长 = 1 + 3 = 4。
+```
+
+```
+示例2
+输入： [2,7,9,3,1]
+输出： 12
+解释： 选择 1 号预约、 3 号预约和 5 号预约，总时长 = 2 + 9 + 1 = 12。
+```
+
+```js
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var massage = function(nums) {
+    let dp = []
+    let n = nums.length
+    dp[0] = 0
+    dp[1] = nums[0]
+    for (let i=2; i<=n; i++) {
+        dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i-1])
+    }
+    return dp[n]
+};
 ```
 
 ## 不同路径例子
