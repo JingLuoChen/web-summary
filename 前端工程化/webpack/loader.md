@@ -58,6 +58,8 @@ loaders: loader数组<br>
 
 ### 异步loader
 
+## loader几个重要的api
+所谓loader，也只是一个符合commonjs规范的node模块，它会导出一个可执行函数，loader runner会调用这个函数，将文件的内容或者上一个loader处理的结果传递过去
 
 
 * 最佳实践
