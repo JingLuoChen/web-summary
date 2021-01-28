@@ -15,8 +15,27 @@
 
 * 结论对比：webpack的处理速度更快更直接，能打包多种不同类型的文件
 
+* 工作流程
+
+>1、参数解析<br>
+2、找到入口文件<br>
+3、调用loader编译文件<br>
+4、遍历AST，收集依赖<br>
+5、生成Chunk<br>
+6、输出文件
+
+其中真正起编译作用的便是Loader
+
 ## 功能
-多种文件的编译、压缩、打包、搭建脚手架、生产版本...
+代码转换：TypeScript编译成JavaScript、SCSS、LESS编译成CSS
+文件优化：压缩JavaScript、CSS、HTML代码，压缩合并图片
+代码分割：提取多个页面的公共代码、提取首屏不需要执行部分的代码让其异步加载
+模块合并：在采用模块化的项目里会有很多个模块和文件，需要构建功能把模块分类合并成一个文件
+自动刷新：监听本地源代码的变化，自动重新构建，刷新浏览器
+...
 
 ## 参考文档
+
+* [带你走进webpack世界，成为webpack头号玩家。](https://juejin.cn/post/6844903588607557639)
+* [一文掌握Webpack编译流程](https://mp.weixin.qq.com/s?__biz=MzI0MTUxOTE5NQ==&mid=2247484030&idx=1&sn=d630d4b3995bbfd50f99e781074acfeb)
 * [webpack：从入门到真实项目配置](https://juejin.im/post/6844903495959576583)
