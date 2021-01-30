@@ -56,6 +56,10 @@ loaders: loader数组<br>
 ## loader的类型
 ### 同步loader
 
+
+
+
+
 ### 异步loader
 
 ## loader几个重要的api
