@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/前端工程化/webpack/loader.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/loader.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,21 +24,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="441">
-                <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="206">
+                <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="143">
-                <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+              <first_editor relative-caret-position="401">
+                <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,7 +46,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/index.vue">
+        <entry file="file://$PROJECT_DIR$/组件/date-picker/index.vue">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -58,22 +59,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/组件/tags-input/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-481">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="795">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/picker-panel.vue">
+        <entry file="file://$PROJECT_DIR$/组件/date-picker/picker-panel.vue">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/util/dom.js">
+        <entry file="file://$PROJECT_DIR$/组件/date-picker/util/dom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
@@ -82,7 +83,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/util/index.js">
+        <entry file="file://$PROJECT_DIR$/组件/date-picker/util/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="43">
               <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
@@ -91,7 +92,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker.png">
+        <entry file="file://$PROJECT_DIR$/组件/date-picker/date-picker.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -178,14 +179,14 @@
         <option value="$PROJECT_DIR$/算法/动态规划/index.md" />
         <option value="$PROJECT_DIR$/前端工程化/babel/index.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/index.md" />
-        <option value="$PROJECT_DIR$/前端工程化/webpack/loader.md" />
         <option value="$PROJECT_DIR$/组件/时间选择框/date-picker/util/dom.js" />
         <option value="$PROJECT_DIR$/组件/时间选择框/date-picker/util/index.js" />
         <option value="$PROJECT_DIR$/组件/tags-input/index.vue" />
+        <option value="$PROJECT_DIR$/前端工程化/webpack/loader.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -208,19 +209,13 @@
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="组件" type="462c0819:PsiDirectoryNode" />
+              <item name="前端工程化" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="组件" type="462c0819:PsiDirectoryNode" />
-              <item name="loading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="组件" type="462c0819:PsiDirectoryNode" />
-              <item name="tags-input" type="462c0819:PsiDirectoryNode" />
+              <item name="前端工程化" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,11 +239,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/组件/date-picker" />
+      <recent name="$PROJECT_DIR$/组件" />
       <recent name="$PROJECT_DIR$/数据结构/树" />
       <recent name="$PROJECT_DIR$/数据结构/链表" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/生命周期" />
-      <recent name="$PROJECT_DIR$/前端框架/Vue/MVVM/img" />
-      <recent name="$PROJECT_DIR$/前端框架/Vue/数据绑定/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/组件/loading" />
@@ -309,12 +304,12 @@
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
-      <workItem from="1611541583054" duration="26899000" />
+      <workItem from="1611541583054" duration="29757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="774175000" />
+    <option name="totallyTimeSpent" value="777033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,10 +321,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,7 +336,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2759036" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -725,48 +720,19 @@
     <entry file="file://$PROJECT_DIR$/前端工程化/工程化知识点.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="441">
-            <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="143">
-            <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/util/dom.js">
+    <entry file="file://$PROJECT_DIR$/组件/date-picker/util/dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/util/index.js">
+    <entry file="file://$PROJECT_DIR$/组件/date-picker/util/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/picker-panel.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/组件/时间选择框/date-picker/index.vue">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/组件/loading/index.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,8 +743,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/组件/tags-input/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-481">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="795">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/组件/date-picker/date-picker.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/组件/date-picker/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/组件/date-picker/picker-panel.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="206">
+            <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="401">
+            <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

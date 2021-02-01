@@ -53,17 +53,19 @@ include: 包含的文件名<br>
 loader: 逗号分割的loaders<br>
 loaders: loader数组<br>
 
-## loader的类型
-### 同步loader
+## loader工作流程
+loader的一些特点
+>loader是一个node模块；<br>
+loader可以处理任意类型的文件。转换成webpack可以处理的模块；<br>
+loader可以在webpack.config.js里配置，也可以在require语句里内联；<br>
+loader可以根据配置从右向左链式执行；<br>
+loader接受源文件内容字符串或者Buffer<br>
+loader分为多种类型：同步、异步和pitching，他们的执行流程不一样；<br>
+webpack为loader提供了一个上下文，有一些api可以使用
 
 
 
 
-
-### 异步loader
-
-## loader几个重要的api
-所谓loader，也只是一个符合commonjs规范的node模块，它会导出一个可执行函数，loader runner会调用这个函数，将文件的内容或者上一个loader处理的结果传递过去
 
 
 * 最佳实践
