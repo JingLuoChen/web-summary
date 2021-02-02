@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/前端工程化/webpack/loader.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/loader.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="401">
-                <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <first_editor relative-caret-position="181">
+                <caret line="66" selection-start-line="66" selection-end-line="66" />
               </first_editor>
               <second_editor />
             </state>
@@ -214,8 +213,22 @@
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端工程化" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="前端源码分析" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="前端跨平台开发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="插件" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,12 +317,12 @@
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
-      <workItem from="1611541583054" duration="29757000" />
+      <workItem from="1611541583054" duration="30799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="777033000" />
+    <option name="totallyTimeSpent" value="778075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,8 +783,8 @@
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="401">
-            <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <first_editor relative-caret-position="181">
+            <caret line="66" selection-start-line="66" selection-end-line="66" />
           </first_editor>
           <second_editor />
         </state>

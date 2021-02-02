@@ -67,7 +67,6 @@ webpack为loader提供了一个上下文，有一些api可以使用
 
 
 
-
 * 最佳实践
 ```$xlst
 只有在test和文件名匹配中使用正则表达式，在include和exclude中使用绝对路径数组，避免exclude，更倾向于使用include
@@ -111,7 +110,3 @@ loader是从右向左的取值/执行
 
 loader处理顺序：sass-loader postcss-loader css-loader style-loader
 ```
-### 什么是options
-query和options都是当前loader需要的特殊配置（可选），webpack2.5之前是query，之后是options
-
-* 不同的loader有不同的配置
