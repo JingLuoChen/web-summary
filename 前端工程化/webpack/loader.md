@@ -53,6 +53,51 @@ include: 包含的文件名<br>
 loader: 逗号分割的loaders<br>
 loaders: loader数组<br>
 
+* 最佳实践
+```$xlst
+只有在test和文件名匹配中使用正则表达式，在include和exclude中使用绝对路径数组，避免exclude，更倾向于使用include
+```
+
+### 样式相关的loader配置
+style-loader => 将css样式以style的方式加载到脚本文件中，样式起作用<br>
+css-loader => css文件可以直接作为模块加载到其他脚本文件中<br>
+postcss-loader => 兼容性，加厂商前缀，需要一个配置文件postcss.config.js<br>
+less-loader / sass-loader / babel-loader ...
+
+* 执行顺序：less-loader ->  postcss-loader -> css-loader -> style-loader
+
+### 图片相关的loader配置
+file-loader => 文件加载器，url或其他文件，图片较大时的图片文件<br>
+url-loader => 将指定格式的文件，转为base64格式图片，一般用于重复性小图标，可以指定在文件大小小于限制时，返回DataURL
+
+* url-loader可以设置将资源大小小于10K的资源转换为base64，即limit设置很重要，超过限制会将图片拷贝到dist文件中，将资源转换为base64，可以减少网络请求，
+但base64数据大，会导致加载变慢
+
+### loader执行顺序
+loader是从右向左的取值/执行
+
+```$xslt
+// 例处理css文件
+
+{
+  test: /\.css$/,
+  use: [
+    {
+      loader: 'style-loader'
+    }, {
+      loader: 'css-loader',
+      options: {
+        modules: true
+      }
+    }, {
+      loader: 'sass-loader'
+    }
+  }]
+}
+
+loader处理顺序：sass-loader postcss-loader css-loader style-loader
+```
+
 ## loader工作流程
 loader的一些特点
 >loader是一个node模块；<br>
@@ -136,60 +181,52 @@ NormalModule是webpack中不得不提的一个类函数。源码中的模块在�
 
 NormalModuleFactory是NormalModule的工厂类。其创建是在Compiler.js中进行的，Compiler.js是webpack基本编译流程的控制类
 
-compiler.run()方法中的主体（钩子）流程如下：
+### 解析（resolve）loader的真实绝对路径
 
-
-
-
-
-
-
-
-
-
-
-
-
-* 最佳实践
-```$xlst
-只有在test和文件名匹配中使用正则表达式，在include和exclude中使用绝对路径数组，避免exclude，更倾向于使用include
+```
+问题：webpack中有一个resolve的概念，用于解析模块文件的真实绝对路径，那么loader模块与normal module(源码模块)的resolve使用的是同一个么？
 ```
 
-## 样式相关的loader配置
-style-loader => 将css样式以style的方式加载到脚本文件中，样式起作用<br>
-css-loader => css文件可以直接作为模块加载到其他脚本文件中<br>
-postcss-loader => 兼容性，加厂商前缀，需要一个配置文件postcss.config.js<br>
-less-loader / sass-loader / babel-loader ...
+在NormalModuleFactory中，创建出NormalModule实例之前会涉及到四个钩子：
 
-* 执行顺序：less-loader ->  postcss-loader -> css-loader -> style-loader
-## 图片相关的loader配置
-file-loader => 文件加载器，url或其他文件，图片较大时的图片文件<br>
-url-loader => 将指定格式的文件，转为base64格式图片，一般用于重复性小图标，可以指定在文件大小小于限制时，返回DataURL
+* beforeResolve <br>
+* resolve <br>
+* factory <br>
+* afterResolve <br>
 
-* url-loader可以设置将资源大小小于10K的资源转换为base64，即limit设置很重要，超过限制会将图片拷贝到dist文件中，将资源转换为base64，可以减少网络请求，
-但base64数据大，会导致加载变慢
+其中较为重要的有两个：
+* resolve部分负责解析loader模块的路径（例如css-loader，这个loader的模块路径是什么）<br>
+* factory负责来基于resolve钩子的返回值来创建NormalModule实例 <br>
 
-## loader执行顺序
-loader是从右向左的取值/执行
+resolve钩子上注册的方法较长，其中还包括了模块资源本身的路径解析。resolve有两种，分别是loaderResolver 和 normalResolver
 
-```$xslt
-// 例处理css文件
-
-{
-  test: /\.css$/,
-  use: [
-    {
-      loader: 'style-loader'
-    }, {
-      loader: 'css-loader',
-      options: {
-        modules: true
-      }
-    }, {
-      loader: 'sass-loader'
-    }
-  }]
-}
-
-loader处理顺序：sass-loader postcss-loader css-loader style-loader
+```js
+const loaderResolver = this.getResolver("loader");
+const normalResolver = this.getResolver("normal", data.resolveOptions);
 ```
+
+由于除了config文件中可以配置loader外，还有inline loader的写法，因此，对loader文件的路径解析也分为两种：inline loader 和 config文件中的loader。
+resolve钩子中会先处理inline loader
+
+#### inline loader
+
+import Styles from 'style-loader!css-loader?modules!./styles.css';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

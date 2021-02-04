@@ -31,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="182">
-                <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+              <first_editor relative-caret-position="581">
+                <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -197,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -348,12 +348,12 @@
       <workItem from="1607343377120" duration="37052000" />
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
-      <workItem from="1611541583054" duration="37109000" />
+      <workItem from="1611541583054" duration="40099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="784385000" />
+    <option name="totallyTimeSpent" value="787375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +365,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20366456" />
@@ -380,7 +380,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.12891567" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.059036143" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -828,8 +828,8 @@
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="182">
-            <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+          <first_editor relative-caret-position="581">
+            <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
