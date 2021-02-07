@@ -53,6 +53,11 @@ webpack的运行流程是一个串行的过程，从启动到结束会依次执�
 * 编译：从Entry出发，针对每个Module串行调用对应的Loader去翻译文件的内容，再找到该Module依赖的Module，递归地进行编译处理<br>
 * 输出：将编译后的Module组合成Chunk，将Chunk转换成文件，输出到文件系统中
 
+## webpack的本质
+webpack的本质上一种基于事件流的编程范例，其实就是一系列的插件运行
+
+webpack主要使用compiler 和 compilation 两个类来控制webpack的整个生命周期，它们都继承了Tapabel并且通过Tapabel来注册了生命周期中的每一个流程需要触发的事件
+
 ## loader 和 plugin 的区别
 loader本质就是一个函数，在该函数中对接受到的内容进行替换，返回转换后的结果。因为Webpack只认识JavaScript，所以loader就成了翻译官，对其他类型的资源进行转译的预处理工作
 
