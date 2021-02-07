@@ -1,8 +1,24 @@
 # webpack面试题
 ## 常见的loader有哪些？你用过哪些loader？
-raw-loader：加载文件原始内容（utf-8）
-file-loader：把文件输出到一个文件夹中，在代码中通过相对url去引用输出的文件（处理图片和字体）
-url-loader：与file-loader类似，区别是用户可以设置一个阀值，大于阀值会交给file-loader处理，小于阀值时返回文件base64形式编码（处理图片和字体）
+raw-loader：加载文件原始内容（utf-8）<br>
+file-loader：把文件输出到一个文件夹中，在代码中通过相对url去引用输出的文件（处理图片和字体）<br>
+url-loader：与file-loader类似，区别是用户可以设置一个阀值，大于阀值会交给file-loader处理，小于阀值时返回文件base64形式编码（处理图片和字体）<br>
+source-map-loader：加载额外的Source Map文件，以方便断点调试 <br>
+image-loader：加载并压缩图片文件 <br>
+json-loader：加载json文件（默认包含）<br>
+handlebars-loader：将Handlebars模版编译成函数并返回<br>
+babel-loader：把ES6转换成ES5 <br>
+ts-loader：将TypeScript转换成JavaScript <br>
+awesome-typescript-loader：将TypeScript转换成JavaScript，性能优于ts-loader <br>
+sass-loader：将scss/sass代码转换成css <br>
+style-loader：把css代码注入到JavaScript中，通过DOM操作去加载css <br>
+postcss-loader：扩展css语法，使用下一代css，可以配合autoprefixer插件自动补齐css3前缀 <br>
+eslint-loader：通过eslint检查JavaScript代码 <br>
+mocha-loader：加载 Mocha 测试用例的代码 <br>
+coverjs-loader：计算测试的覆盖率 <br>
+vue-loader：加载 Vue.js 单文件组件 <br>
+i18n-loader: 国际化 <br>
+cache-loader: 可以在一些性能开销较大的 Loader 之前添加，目的是将结果缓存到磁盘里 <br>
 
 ## 有哪些常见的plugin？你用过哪些plugin?
 ## 说一说loader和plugin的区别
