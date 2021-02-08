@@ -81,8 +81,28 @@ webpack开启监听模式，有两种方式：
 原理：轮询判断文件的最后编辑时间是否变化，如何某个文件发生变化，并不会立刻告诉监听者，而是先缓存起来，等aggregateTimeout后在执行
 
 ## webpack的热更新原理
+webpack的热更新又称热替换（Hot Module Replacement）,缩写为HMR，这个机制可以做到不用刷新浏览器而将变更的模块替换掉旧的模块
+
+HMR的核心就是客户端从服务端拉去更新后的文件，准确的说是 chunk diff (chunk 需要更新的部分)，实际上 WDS 与浏览器之间维护了一个 Websocket，
+当本地资源发生变化时，WDS 会向浏览器推送更新，并带上构建时的 hash，让客户端与上一次资源进行对比。客户端对比出差异后会向 WDS 发起 Ajax 
+请求来获取更改内容(文件列表、hash)，这样客户端就可以再借助这些信息继续向 WDS 发起 jsonp 请求获取该chunk的增量更新。
+
 ## 如何对bundle体积进行监控和分析
+
+
 ## 文件指纹是什么？怎么用？
+文件指纹是打包后输出的文件名的后缀
+
+Hash：和整个项目的构建相关，只要项目文件有修改，整个项目构建的hash值就会发生更改
+
+Chunkhash：和webpack打包的chunk有关，不同的entry会生出不同的chunkhash
+
+Contenthash：根据文件内容来定义hash，文件内容不变，则contenthash不变
+
+
+
+
+
 ## 如何优化webpack的构建速度？
 ## 是否写过loader？简单描述下编写一个loader的思路
 ## 是否写过plugin？简单描述下编写plugin的思路

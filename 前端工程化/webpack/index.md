@@ -4,6 +4,8 @@
 每个 JS 文件都需要从服务器去拿，由此会导致加载速度变慢。Webpack 最主要的目的就是为了解决这个问题，
 将所有小文件打包成一个或多个大文件，官网的图片很好的诠释了这个事情，除此之外，Webpack 也是一个能让你使用各种前端新技术的工具。
 
+webpack是一个现代javaScript应用程序的静态模块打包器，当webpack处理应用程序时，会递归构建一个依赖关系图，其中包含应用程序需要的每个模块，然后将这些模块打包成一个或多个bundle
+
 ## 前端构建工具--- 模块打包机
 分析项目结构，找到JS模块以及其他一些浏览器不能直接运行的拓展语言scss、less，并将其转换和打包为合适的格式供浏览器使用
 
@@ -58,6 +60,12 @@ webpack的本质上一种基于事件流的编程范例，其实就是一系列�
 
 webpack主要使用compiler 和 compilation 两个类来控制webpack的整个生命周期，它们都继承了Tapabel并且通过Tapabel来注册了生命周期中的每一个流程需要触发的事件
 
+## webpack的核心概念
+entry：入口 <br>
+output：输出 <br>
+loader：模块转换器，用于把模块原有内容按照需求转换成新内容 <br>
+plugin：扩展插件，在webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或做你想要做的事情 <br>
+
 ## loader 和 plugin 的区别
 loader本质就是一个函数，在该函数中对接受到的内容进行替换，返回转换后的结果。因为Webpack只认识JavaScript，所以loader就成了翻译官，对其他类型的资源进行转译的预处理工作
 
@@ -69,6 +77,7 @@ plugin在plugins中单独配置，类型为数组，每一项是一个plugin的�
 
 ## 参考文档
 
+* [带你深度解锁Webpack系列(基础篇)](https://juejin.cn/post/6844904079219490830)
 * [带你走进webpack世界，成为webpack头号玩家。](https://juejin.cn/post/6844903588607557639)
 * [一文掌握Webpack编译流程](https://mp.weixin.qq.com/s?__biz=MzI0MTUxOTE5NQ==&mid=2247484030&idx=1&sn=d630d4b3995bbfd50f99e781074acfeb)
 * [webpack：从入门到真实项目配置](https://juejin.im/post/6844903495959576583)
