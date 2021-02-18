@@ -4,7 +4,6 @@
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/前端工程化/webpack/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/plugin.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/plugin.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端工程化/webpack/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端工程化/webpack/五个核心概念.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/进阶/静态资源拷贝.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -65,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-基础/操作符运算/异或运算.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/组件通信/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/零碎点.md" />
         <option value="$PROJECT_DIR$/前端框架/React/基本使用.md" />
@@ -105,7 +127,6 @@
         <option value="$PROJECT_DIR$/前端工程化/webpack/如何写一个loader.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/webpack面试题.md" />
         <option value="$PROJECT_DIR$/Node/node面试题.md" />
-        <option value="$PROJECT_DIR$/前端工程化/webpack/index.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/mode.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/plugin.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/如何处理样式文件呢.md" />
@@ -116,6 +137,8 @@
         <option value="$PROJECT_DIR$/前端工程化/webpack/出口配置.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/每次打包前清空dist目录.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/进阶/静态资源拷贝.md" />
+        <option value="$PROJECT_DIR$/前端工程化/webpack/index.md" />
+        <option value="$PROJECT_DIR$/前端工程化/webpack/五个核心概念.md" />
       </list>
     </option>
   </component>
@@ -153,13 +176,6 @@
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="前端工程化" type="462c0819:PsiDirectoryNode" />
               <item name="webpack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="前端工程化" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
-              <item name="进阶" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -306,12 +322,12 @@
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
       <workItem from="1611541583054" duration="76566000" />
-      <workItem from="1613616775607" duration="13636000" />
+      <workItem from="1613616775607" duration="15926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="837478000" />
+    <option name="totallyTimeSpent" value="839768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,14 +405,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http缓存策略.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面试/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -695,16 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-26">
-            <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/loader.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -800,6 +798,26 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="30">
             <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/五个核心概念.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
           </first_editor>
           <second_editor />
         </state>
