@@ -28,6 +28,69 @@ loader用于转换某些类型的模块，而插件则可以用于执行范围�
 * size-plugin：监控资源体积变大，尽早发现问题<br>
 * HotModuleReplacementPlugin：模块热替换<br>
 
+## HtmlWebpackPlugin
+HtmlWebpackPlugin简化了HTML文件的创建，以便为你的webpack包提供服务
+
+* 安装
+```
+npm install --save-dev html-webpack-plugin
+```
+
+* 基本用法
+
+该插件为你生成一个HTML5文件，其中包括使用script标签的body中的所有webpack包，只需添加插件到你的webpack配置
+
+````js
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
+
+var webpackConfig = {
+  entry: 'index.js',
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: 'index_bundle.js'
+  },
+  plugins: [new HtmlWebpackPlugin()]
+};
+````
+
+这将会产生一个包含以下内容的文件dist/index.html
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>webpack App</title>
+  </head>
+  <body>
+    <script src="index_bundle.js"></script>
+  </body>
+</html>
+```
+如果你有多个webpack入口点，他们都会在生成的HTML文件中的script标签内
+
+当然你也可以有自己的模版html文件，webpack会自动插入script脚本到模版文件中
+
+```js
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+module.exports = {
+    //...
+    plugins: [
+        // 数组 放着所有的webpack插件
+        new HtmlWebpackPlugin({
+            template: './public/index.html',
+            filename: 'index.html', // 打包后的文件名
+            minify: {
+                removeAttributeQuotes: false, // 是否删除属性的双引号
+                collapseWhitespace: false, // 是否折叠空白
+            },
+            // hash: true // 是否加上hash，默认是 false
+        })
+    ]
+}
+```
+以上会在dist目录下新增index.html文件，并其中自动插入了script脚本，引入的是我们打包之后的js文件，index.html文件是以public目录下的index.html为模版导出的
+
 
 
 
