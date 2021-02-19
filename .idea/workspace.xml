@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/进阶/静态资源拷贝.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/进阶/静态资源拷贝.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/plugin.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/plugin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,12 +76,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/进阶/静态资源拷贝.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="60">
                 <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端工程化/webpack/plugin.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1245">
+                <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="322">
+                <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
               </first_editor>
               <second_editor />
             </state>
@@ -163,10 +187,8 @@
         <option value="$PROJECT_DIR$/前端工程化/webpack/webpack面试题.md" />
         <option value="$PROJECT_DIR$/Node/node面试题.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/mode.md" />
-        <option value="$PROJECT_DIR$/前端工程化/webpack/plugin.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/如何处理样式文件呢.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/图片/字体文件的处理.md" />
-        <option value="$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/处理html中的本地图片.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/入口配置.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/出口配置.md" />
@@ -175,10 +197,12 @@
         <option value="$PROJECT_DIR$/前端工程化/webpack/五个核心概念.md" />
         <option value="$PROJECT_DIR$/算法/找出井字棋获胜者/index.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/进阶/静态资源拷贝.md" />
+        <option value="$PROJECT_DIR$/前端工程化/webpack/plugin.md" />
+        <option value="$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
@@ -357,12 +381,12 @@
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
       <workItem from="1611541583054" duration="76566000" />
-      <workItem from="1613616775607" duration="22522000" />
+      <workItem from="1613616775607" duration="23453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="846364000" />
+    <option name="totallyTimeSpent" value="847295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +398,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20366456" />
@@ -389,7 +413,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30361447" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46144578" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -730,31 +754,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/plugin.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="403">
-            <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/如何处理样式文件呢.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="415">
             <caret line="46" column="105" selection-start-line="46" selection-start-column="105" selection-end-line="46" selection-end-column="105" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="430">
-            <caret line="53" column="91" selection-start-line="53" selection-start-column="91" selection-end-line="53" selection-end-column="91" />
           </first_editor>
           <second_editor />
         </state>
@@ -855,6 +859,26 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="60">
             <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/plugin.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1245">
+            <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="322">
+            <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
           </first_editor>
           <second_editor />
         </state>

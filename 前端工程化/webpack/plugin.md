@@ -31,6 +31,9 @@ loader用于转换某些类型的模块，而插件则可以用于执行范围�
 ## HtmlWebpackPlugin
 HtmlWebpackPlugin简化了HTML文件的创建，以便为你的webpack包提供服务
 
+* 作用
+默认会创建一个空的HTML，自动引入打包输出的所有资源（js/css）
+
 * 安装
 ```
 npm install --save-dev html-webpack-plugin
@@ -78,6 +81,7 @@ module.exports = {
     plugins: [
         // 数组 放着所有的webpack插件
         new HtmlWebpackPlugin({
+            /// 复制src下的index.html文件，并自动引入打包输出的所有资源（js/css）
             template: './public/index.html',
             filename: 'index.html', // 打包后的文件名
             minify: {
