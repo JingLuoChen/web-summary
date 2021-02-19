@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/plugin.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/plugin.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -104,8 +103,8 @@
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="322">
-                <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+              <first_editor relative-caret-position="217">
+                <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -381,12 +380,12 @@
       <workItem from="1608017456842" duration="87465000" />
       <workItem from="1609212416120" duration="135309000" />
       <workItem from="1611541583054" duration="76566000" />
-      <workItem from="1613616775607" duration="23453000" />
+      <workItem from="1613616775607" duration="23974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="847295000" />
+    <option name="totallyTimeSpent" value="847816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +400,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20366456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20366456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -413,7 +412,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46144578" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15903614" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -877,8 +876,8 @@
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/图片-字体文件的处理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="322">
-            <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+          <first_editor relative-caret-position="217">
+            <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
