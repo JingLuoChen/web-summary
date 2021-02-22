@@ -1,0 +1,22 @@
+# exclude/include
+我们可以通过exclude、include配置来确保转译尽可能少的文件，顾名思义，exclude指定要排除的文件，include指定要包含的文件
+
+exclude的优先级高于include，在include和exclude中使用绝对路径数组，尽量避免exclude，更倾向于使用include
+
+```js
+//webpack.config.js
+const path = require('path');
+module.exports = {
+    //...
+    module: {
+        rules: [
+            {
+                test: /\.js[x]?$/,
+                use: ['babel-loader'],
+                include: [path.resolve(__dirname, 'src')]
+            }
+        ]
+    },
+}
+```
+
