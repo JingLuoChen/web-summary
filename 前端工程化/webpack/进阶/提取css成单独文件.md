@@ -32,3 +32,6 @@ module.exports =  {
 
 ## css兼容性处理
 css兼容性处理: postcss --- postcss-loader postcss-preset-env
+
+## css代码压缩处理
+optimize-css-assets-webpack-plugin
