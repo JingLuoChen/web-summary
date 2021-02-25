@@ -4,7 +4,6 @@
 启动devServer指令为：npx webpack-dev-server
 
 ```js
-const webpack = require('webpack');
 module.exports = {
     //....
     devServer: {
