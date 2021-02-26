@@ -137,7 +137,39 @@
 </template>
 
 <script>
-    import {defaultPresets} from './util/index'
+    /*
+    * value：日期，数组
+    *
+    * placeholder：占位文本
+    *
+    * clearable：是否显示清楚按钮
+    *
+    * type：是否是静态时间/动态时间 0：静态时间 1：动态时间
+    *
+    * pickerOptions：快捷功能配置 disabledDate为禁用日期 limitDate为时间范围限制
+    *
+    *
+    * pickerOptions: {
+        disabledDate(time) {
+          return time.getTime() > Date.now() || time.getTime() < new Date('2017-12-31').getTime()
+        },
+        limitDate(time) {
+          const timeRange = new Date(time[1]).getTime() - new Date(time[0]).getTime()
+          const oneMothDays = 1000 * 3600 * 24 * 30 // 此处设置时间范围不能超过一个月
+          if (timeRange > oneMothDays) {
+            return {
+              state: false,
+              message: '查询时间范围请选择一个月以内'
+            }
+          }
+          return {
+            state: true
+          }
+        }
+      },
+    *
+    * */
+    import {defaultPresets, getPresetsDate} from './util/index'
     import {hasClass, addClass, removeClass} from './util/dom'
     import {directive as clickOutside} from 'v-click-outside-x'
     import moment from 'moment'
@@ -324,6 +356,7 @@
                 // }
                 return dateList
             },
+            // 预设时间快捷数组
             finalPresetRanges() {
                 const tmp = {}
                 const presets = defaultPresets()
@@ -401,6 +434,25 @@
                     this.leftValue = left > width ? '-403' : '0'
                 })
             },
+            // 获取动态时间
+            getDynamicText(dataRange) {
+                const presetsDate = getPresetsDate()
+                for (let item in presetsDate) {
+                    let range = this.getPresetsTimeValue(presetsDate[item].value)
+                    if (this.isArrayEqual(range, dataRange)) {
+                        this.presetActive = presetsDate[item].label
+                        return true
+                    }
+                }
+                return false
+            },
+            // 时间日期格式转换
+            getPresetsTimeValue(timeRange) {
+                return [new Date(timeRange[0]).getTime(), new Date(timeRange[1]).getTime()]
+            },
+            isArrayEqual(listA, listB) {
+                return listA.length === listB.length && listA.every(a => listB.some(b => a === b)) && listB.every(_b => listA.some(_a => _a === _b))
+            },
             // 获取选中的时间范围
             getDateRange(e) {
                 if (e.length !== 0) {
@@ -415,6 +467,7 @@
             // 获取动态/静态时间
             getRealTime(range, timeType) {
                 if (range.start && range.end) {
+                    let timeArr = this.getPresetsTimeValue([range.start, range.end])
                     if (timeType === 0) {
                         let start = range.start ? moment(new Date(range.start).getTime()).format('YYYY-MM-DD') : ''
                         let end = range.end ? moment(new Date(range.end).getTime()).format('YYYY-MM-DD') : ''
@@ -422,7 +475,7 @@
                     } else {
                         let start = range.start ? moment(moment()).diff(new Date(range.start).getTime(), 'day') : ''
                         let end = range.end ? moment(moment()).diff(new Date(range.end).getTime(), 'day') : ''
-                        if (this.presetActive) {
+                        if (this.getDynamicText(timeArr)) {
                             this.realTime = this.presetActive
                         } else {
                             if (start === 0) {
@@ -614,6 +667,11 @@
             },
             // 时间确定事件
             setDateValue() {
+                let limitDate = this.pickerOptions.limitDate
+                if (typeof limitDate === 'function' && !limitDate([this.dateRange.start, this.dateRange.end]).state) {
+                    this.$Message.warning(limitDate([this.dateRange.start, this.dateRange.end]).message)
+                    return false
+                }
                 this.range = this.getRangeText(this.dateRange)
                 this.visible = false
                 this.$emit('input', [moment(new Date(this.dateRange.start).getTime()).format('YYYY-MM-DD'), moment(new Date(this.dateRange.end).getTime()).format('YYYY-MM-DD')]) // to update v-model

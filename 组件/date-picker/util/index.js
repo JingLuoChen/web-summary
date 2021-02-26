@@ -62,7 +62,7 @@ export const defaultPresets = function () {
         },
         lastMonth: function () {
             const startMonth = new Date(moment().startOf('month').subtract('month', 1).format('YYYY-MM-DD'))
-            const endMonth = new Date(moment().endOf('month').subtract('month', 1).format('YYYY-MM-DD'))
+            const endMonth = new Date(moment().endOf('month').subtract('month', 1).endOf('month').format('YYYY-MM-DD'))
             return {
                 label: presetRangeLabel.lastMonth,
                 active: false,
@@ -86,7 +86,7 @@ export const defaultPresets = function () {
         },
         lastYear: function () {
             const startYear = new Date(moment().startOf('year').subtract('year', 1).format('YYYY-MM-DD'))
-            const endYear = new Date(moment().endOf('year').format('YYYY-MM-DD'))
+            const endYear = new Date(moment().endOf('year').subtract('year', 1).format('YYYY-MM-DD'))
             return {
                 label: presetRangeLabel.lastYear,
                 active: false,
@@ -110,7 +110,7 @@ export const defaultPresets = function () {
         },
         lastSevenSays: function () {
             const start = new Date(moment().subtract(7, 'days').format('YYYY-MM-DD'))
-            const end = new Date(moment().format('YYYY-MM-DD'))
+            const end = new Date(moment().subtract(1, 'days').format('YYYY-MM-DD'))
             return {
                 label: presetRangeLabel.lastSevenSays,
                 active: false,
@@ -122,7 +122,7 @@ export const defaultPresets = function () {
         },
         lastThirtyDays: function () {
             const start = new Date(moment().subtract(30, 'days').format('YYYY-MM-DD'))
-            const end = new Date(moment().format('YYYY-MM-DD'))
+            const end = new Date(moment().subtract(1, 'days').format('YYYY-MM-DD'))
             return {
                 label: presetRangeLabel.lastThirtyDays,
                 active: false,
@@ -134,3 +134,49 @@ export const defaultPresets = function () {
         }
     }
 }
+
+export const getPresetsDate = function () {
+    return {
+        yesterday: {
+            value: [new Date(moment().subtract(1, 'days').format('YYYY-MM-DD')),  new Date(moment().subtract(1, 'days').format('YYYY-MM-DD'))],
+            label: presetRangeLabel.yesterday
+        },
+        today: {
+            value: [new Date(moment().startOf('day').format('YYYY-MM-DD')), new Date(moment().startOf('day').format('YYYY-MM-DD'))],
+            label: presetRangeLabel.today
+        },
+        lastWeek: {
+            value: [new Date(moment().startOf('isoWeek').subtract('week', 1).format('YYYY-MM-DD')), new Date(moment().endOf('isoWeek').subtract('week', 1).format('YYYY-MM-DD'))],
+            label: presetRangeLabel.lastWeek
+        },
+        thisWeek: {
+            value: [new Date(moment().startOf('isoWeek').format('YYYY-MM-DD')), new Date(moment().format('YYYY-MM-DD'))],
+            label: presetRangeLabel.thisWeek
+        },
+        lastMonth: {
+            value: [new Date(moment().startOf('month').subtract('month', 1).format('YYYY-MM-DD')), new Date(moment().endOf('month').subtract('month', 1).endOf('month').format('YYYY-MM-DD'))],
+            label: presetRangeLabel.lastMonth
+        },
+        thisMonth: {
+            value: [new Date(moment().startOf('month').format('YYYY-MM-DD')), new Date(moment().format('YYYY-MM-DD'))],
+            label: presetRangeLabel.thisMonth
+        },
+        lastYear: {
+            value: [new Date(moment().startOf('year').subtract('year', 1).format('YYYY-MM-DD')), new Date(moment().endOf('year').subtract('year', 1).format('YYYY-MM-DD'))],
+            label: presetRangeLabel.lastYear
+        },
+        thisYear: {
+            value: [new Date(moment().startOf('year').format('YYYY-MM-DD')), new Date(moment().format('YYYY-MM-DD'))],
+            label: presetRangeLabel.thisYear
+        },
+        lastSevenSays: {
+            value: [new Date(moment().subtract(7, 'days').format('YYYY-MM-DD')), new Date(moment().subtract(1, 'days').format('YYYY-MM-DD'))],
+            label: presetRangeLabel.lastSevenSays
+        },
+        lastThirtyDays: {
+            value: [new Date(moment().subtract(30, 'days').format('YYYY-MM-DD')), new Date(moment().subtract(1, 'days').format('YYYY-MM-DD'))],
+            label: presetRangeLabel.lastThirtyDays
+        }
+    }
+}
+

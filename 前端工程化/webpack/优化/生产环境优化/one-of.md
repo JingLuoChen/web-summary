@@ -1,6 +1,7 @@
 # one-of
 其中的loader只会匹配一个，不能有两个配置处理同一种类型文件即当es-loader 和 babel-loader 都处理js文件，只会一个生效
 
+作用：只要是提示构建速度
 
 ```js
 const {resolve} = require('path')
