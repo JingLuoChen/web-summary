@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/externals.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-异步/promise/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-异步/promise/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/优化/happypack2.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/happypack2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/优化/lazy-loading.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/lazy-loading.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件/date-picker/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/组件/date-picker/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TS/ts知识点.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/dll.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/dll.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/dll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+              <first_editor relative-caret-position="420">
+                <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,23 +81,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/托普利茨矩阵/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端源码分析/vue源码/数据驱动原理.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/TS/typescript.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -214,8 +196,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -244,6 +226,11 @@
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="JS-异步" type="462c0819:PsiDirectoryNode" />
               <item name="promise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="TS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -325,18 +312,18 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TS" />
+      <recent name="$PROJECT_DIR$/前端框架/Vue/源码解析/3、模板编译" />
+      <recent name="$PROJECT_DIR$/前端框架/Vue/vuex" />
+      <recent name="$PROJECT_DIR$/前端工程化/webpack/优化" />
+      <recent name="$PROJECT_DIR$/算法/找出井字棋获胜者" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化" />
       <recent name="$PROJECT_DIR$/前端工程化/webpack/优化" />
       <recent name="$PROJECT_DIR$/前端工程化/webpack/进阶" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/EventBus" />
-      <recent name="$PROJECT_DIR$/前端工程化/webpack" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/前端框架/Vue/源码解析/3、模板编译" />
-      <recent name="$PROJECT_DIR$/前端框架/Vue/vuex" />
-      <recent name="$PROJECT_DIR$/前端工程化/webpack/优化" />
-      <recent name="$PROJECT_DIR$/算法/找出井字棋获胜者" />
       <recent name="$PROJECT_DIR$/前端工程化/webpack" />
     </key>
   </component>
@@ -394,12 +381,12 @@
       <workItem from="1611541583054" duration="76566000" />
       <workItem from="1613616775607" duration="56647000" />
       <workItem from="1614085954402" duration="78318000" />
-      <workItem from="1614844556049" duration="2071000" />
+      <workItem from="1614844556049" duration="3186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="960878000" />
+    <option name="totallyTimeSpent" value="961993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,7 +401,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,7 +413,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.10843374" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.036144577" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -477,24 +464,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS-V8引擎工作原理/EventLoop事件循环/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Flex布局/flex如何让最后一项右对齐.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="90">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/one-of.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -920,11 +889,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TS/ts知识点.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TS/typescript.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/dll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <first_editor relative-caret-position="420">
+            <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
