@@ -617,6 +617,9 @@
             },
             // 获取新的时间范围
             getNewDateRange (result, activeMonth, activeYear) {
+                if (this.dateRange.start && this.dateRange.end) {
+                    this.isFirstChoice = true
+                }
                 const newData = {}
                 let key = 'start'
                 if (!this.isFirstChoice) {
@@ -625,12 +628,10 @@
                     newData['end'] = null
                 }
                 const resultDate = new Date(moment([activeYear, activeMonth, result]).format('YYYY-MM-DD'))
-                if (!this.isFirstChoice && resultDate < this.dateRange.start) {
+                if (!this.isFirstChoice && this.dateRange.end) {
                     this.isFirstChoice = false
                     return { start: resultDate }
                 }
-
-                // toggle first choice
                 this.isFirstChoice = !this.isFirstChoice
                 newData[key] = resultDate
                 return newData
@@ -638,15 +639,34 @@
             // 选中时间
             selectDate(event, item, type) {
                 let target = event.target
+                if (item.previousMonth) {
+                    return false
+                }
                 if (hasClass(target, 'disabled')) {
                     return
                 }
                 this.presetActive = ''
                 const result = item.value
                 if (type === 'first') {
-                    this.dateRange = {...this.dateRange, ...this.getNewDateRange(result, this.activeMonthStart, this.activeYearStart)}
+                    this.dateRange = this.adjustDateRange({...this.dateRange, ...this.getNewDateRange(result, this.activeMonthStart, this.activeYearStart)})
                 } else {
-                    this.dateRange = {...this.dateRange, ...this.getNewDateRange(result, this.startNextActiveMonth, this.activeYearEnd)}
+                    this.dateRange = this.adjustDateRange({...this.dateRange, ...this.getNewDateRange(result, this.startNextActiveMonth, this.activeYearEnd)})
+                }
+            },
+            // 调整时间范围的顺序，保证小日期在前，大日期在后
+            adjustDateRange(obj) {
+                let start = new Date(obj.start).getTime()
+                let end = new Date(obj.end).getTime()
+                if (start <= end) {
+                    return {
+                        start: obj.start,
+                        end: obj.end
+                    }
+                } else {
+                    return {
+                        start: obj.end,
+                        end: obj.start
+                    }
                 }
             },
             // 鼠标浮动效果handleMouseMove
@@ -665,11 +685,27 @@
                 let target = event.target
                 removeClass(target, 'hover')
             },
+            // 判断数据是否正确
+            judgmentDateValue(dateRange) {
+                if (!dateRange.start && !dateRange.end) {
+                    return false
+                }
+                if (!dateRange.start) {
+                    this.dateRange.start = this.dateRange.end
+                }
+                if (!dateRange.end) {
+                    this.dateRange.end = this.dateRange.start
+                }
+                return true
+            },
             // 时间确定事件
             setDateValue() {
                 let limitDate = this.pickerOptions.limitDate
                 if (typeof limitDate === 'function' && !limitDate([this.dateRange.start, this.dateRange.end]).state) {
                     this.$Message.warning(limitDate([this.dateRange.start, this.dateRange.end]).message)
+                    return false
+                }
+                if (!this.judgmentDateValue(this.dateRange)) {
                     return false
                 }
                 this.range = this.getRangeText(this.dateRange)

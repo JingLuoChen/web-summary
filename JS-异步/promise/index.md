@@ -1,5 +1,8 @@
 # promise
 
+
+
+
 ### 总结
 ```$xslt
 1、Promise的状态一经改变就不能再改变  即 pending -> resolved 或者 pending -> rejected 状态不再更改
@@ -23,3 +26,6 @@
 10、.finally方法也是返回一个Promise，他在Promise结束的时候，无论结果为resolved还是rejected，都会执行里面的回调函数
 
 ```
+
+## 参考文档
+* [彻底弄懂promise](https://juejin.cn/post/6844904063570542599)

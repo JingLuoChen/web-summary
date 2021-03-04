@@ -12,12 +12,13 @@ module.exports = {
         rules: [
             {
                 test: /\.js[x]?$/,
-                use: 'Happypack/loader?id=js',
+                // 把对.js文件的处理转交给id为js的HappyPack实例
+                use: 'happypack/loader?id=js',
                 include: [path.resolve(__dirname, 'src')]
             },
             {
                 test: /\.css$/,
-                use: 'Happypack/loader?id=css',
+                use: 'happypack/loader?id=css',
                 include: [
                     path.resolve(__dirname, 'src'),
                     path.resolve(__dirname, 'node_modules', 'bootstrap', 'dist')
@@ -26,6 +27,7 @@ module.exports = {
         ]
     },
     plugins: [
+        // 用唯一的标识符id来代表当前的HappyPack是用来处理一类特定文件
         new Happypack({
             id: 'js', //和rule中的id=js对应
             //将之前 rule 中的 loader 在此配置
