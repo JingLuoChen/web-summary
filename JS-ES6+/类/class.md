@@ -3,7 +3,7 @@
 ### 构造函数分为实例成员和静态成员
 实例成员：实例成员就是在构造函数内部，通过this添加的成员，实例成员只能通过实例化的对象来访问
 
-静态成员：在构造函数本身上添加的成员，只能通过构造函数来访问
+静态成员：在构造函数本身上添加的成员，只能通过构造函数来访问，对于es6来说就是属于类的，而不属于实例对象
 
 ````js
 function  Star(name, age) {
@@ -18,6 +18,14 @@ let stars = new Star('小红', 18)
 console.log(stars) // Star {name: '小红'， age: 18}
 console.log(stars.sex)  // undefined 实例无法访问sex属性，只能通过构造函数来访问
 ````
+
+```js
+console.log(stars) // Star {name: '小红'， age: 18}
+```
+为什么stars是实例对象输出的反而是Star {name: '小红'， age: 18}的？
+
+本身输出的确实是实例对象，但是前面的Star是代表的是这个实例是由哪个类new出来的
+
 
 ### 通过构造函数创建对象 --- 该过程也叫实例化
 #### 如何通过构造函数创建一个对象？
@@ -115,3 +123,38 @@ let obj = new Star('张萌', 18)
 console.log(obj.__proto__ === Star.prototype)
 ````
 
+### 原型链图
+
+![mahua](class.png)
+
+### 原型查找方式
+例如查找obj的dance方法
+```js
+function Star(name) {
+    this.name = name
+    
+    // 1、首先看obj对象身上是否有dance方法，如果有，则执行对象身上的方法
+    this.dance = function() {
+        console.log(this.name + '1')
+    }
+}
+// 2、如果没有dance方法，就去构造函数原型对象prototype身上去查找dance这个方法
+Star.prototype.dance = function() {
+  console.log(this.name + '2')
+}
+
+// 3、如果在没有dance这个方法，就去Object原型对象prototype身上去查找dance方法，
+Object.prototype.dance = function(){
+   console.log(this.name + '3')
+}
+// 如果在没有，则会报错
+let obj = new Star('小红')
+obj.dance()
+```
+
+
+## ES6
+### 构造器
+理论上是可以不写的
+
+构造器中的this是谁？--- 类的实例对象

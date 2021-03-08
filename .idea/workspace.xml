@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/优化/性能优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/优化/性能优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/dll.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/dll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-ES6+/类/class.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-ES6+/类/class.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-异步/promise/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-异步/promise/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,28 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端工程化/webpack/进阶/js语法检查.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="99">
-                <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/localStorage和sessionStorage/localStorage和sessionStorage.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/计算机网络/常见的状态码/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -54,8 +30,42 @@
         <entry file="file://$PROJECT_DIR$/JS-ES6+/类/class.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="564">
-                <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+              <first_editor relative-caret-position="377">
+                <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-异步/promise/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/get和post区别.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="327">
+                <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,18 +121,6 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/happypack2.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -211,10 +209,10 @@
         <option value="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/externals.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/happypack2.md" />
         <option value="$PROJECT_DIR$/组件/date-picker/index.vue" />
-        <option value="$PROJECT_DIR$/JS-异步/promise/index.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/dll.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/优化/性能优化.md" />
         <option value="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" />
+        <option value="$PROJECT_DIR$/JS-异步/promise/index.md" />
         <option value="$PROJECT_DIR$/JS-ES6+/类/class.md" />
       </list>
     </option>
@@ -341,6 +339,24 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
+              <item name="HTTP和HTTPS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
+              <item name="三次握手" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
+              <item name="四次挥手" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
               <item name="常见的状态码" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -370,11 +386,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JS-ES6+/类" />
       <recent name="$PROJECT_DIR$/TS" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/源码解析/3、模板编译" />
       <recent name="$PROJECT_DIR$/前端框架/Vue/vuex" />
       <recent name="$PROJECT_DIR$/前端工程化/webpack/优化" />
-      <recent name="$PROJECT_DIR$/算法/找出井字棋获胜者" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JS-ES6+/类" />
@@ -438,12 +454,12 @@
       <workItem from="1611541583054" duration="76566000" />
       <workItem from="1613616775607" duration="56647000" />
       <workItem from="1614085954402" duration="78318000" />
-      <workItem from="1614844556049" duration="13798000" />
+      <workItem from="1614844556049" duration="15612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="972605000" />
+    <option name="totallyTimeSpent" value="974419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,7 +486,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.13373494" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20963855" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -521,24 +537,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/进阶/利用webpack解决跨域问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/进阶/压缩html和js.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="465">
-            <caret line="31" column="36" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="31" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/进阶/抽离css.md" />
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/进阶/按需加载.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -763,16 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS-异步/promise/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TS/ts知识点.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -945,11 +933,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/get和post区别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="327">
+            <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-异步/promise/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JS-ES6+/类/class.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="564">
-            <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <first_editor relative-caret-position="377">
+            <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>
