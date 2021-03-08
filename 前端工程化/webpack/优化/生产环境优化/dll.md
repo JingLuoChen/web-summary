@@ -3,7 +3,7 @@
 
 当运行webpack时，默认查找webpack.config.js配置文件
 
-需求：需要运行webpack.dll.js文件 --- webpack -- config webpack.dll.js
+需求：需要运行webpack.dll.js文件 --- webpack --config webpack.dll.js
 
 ````js
 // webpack.dll.js
@@ -46,13 +46,15 @@ module.export = {
             template: './src/index.html'
         }),
         // 告诉webpack哪些库不参与打包，同时使用时的名称也得变
-        new webpakc.DllReferencePlugin({
+        new webpack.DllReferencePlugin({
             manifest: resolve(__dirname, 'dll/manifest.json')
         }),
         // 将某个文件打包输出去，并在html中自动引入该资源
         new AddAssestHtmlWebpackPlugin({
             filepath: resolve(__dirname, 'dll/jquery.js')
         })
-    ],
+    ]
 }
 ```
+
+
