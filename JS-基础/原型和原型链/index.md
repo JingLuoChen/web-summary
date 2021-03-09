@@ -84,3 +84,7 @@ function Person(name, age) {
 * 通过原型链就可以在JavaScript中实现继承，JavaScript中的继承相当灵活，有多种继承的实现方法
 
 * 继承会在JavaScript面向对象中详细讲解～～～哈
+
+## 参考文档
+
+* [一张图搞定JS原型&原型链](https://segmentfault.com/a/1190000021232132)
