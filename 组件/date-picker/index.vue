@@ -17,7 +17,7 @@
                     <div class="ranges">
                         <ul>
                             <li
-                                    v-for="(item, index) in finalPresetRanges"
+                                    v-for="(item, index) in presetRanges"
                                     :key="index"
                                     :class="{'active': presetActive === item.label}"
                                     @click="updatePreset(item)"
@@ -253,6 +253,7 @@
                 activeYearStart: this.startActiveYear,
                 activeYearEnd: this.startActiveYear,
                 leftValue: 0,
+                presetRanges: {} // 预设时间快捷数组
             }
         },
         computed: {
@@ -356,20 +357,6 @@
                 // }
                 return dateList
             },
-            // 预设时间快捷数组
-            finalPresetRanges() {
-                const tmp = {}
-                const presets = defaultPresets()
-                for (const i in presets) {
-                    const item = presets[i]
-                    let plainItem = item
-                    if (typeof item === 'function') {
-                        plainItem = item()
-                    }
-                    tmp[i] = plainItem
-                }
-                return tmp
-            },
             // 通过改变this.activeYearStart则可以改变年份数组
             yearList() {
                 return Array.from({ length: 12 }, (value, index) => this.activeYearStart + index)
@@ -421,6 +408,11 @@
             visible(e) {
                 if (e) {
                     this.getLeft()
+                    // 重置为选中的时间范围 --- 作用：以开始时间进行显示
+                    this.activeMonthStart = new Date(this.value[0]).getMonth()
+                    this.activeYearStart = new Date(this.value[0]).getFullYear()
+                    this.activeYearEnd = new Date(this.value[0]).getFullYear()
+                    this.getPresetRanges()
                 }
             }
         },
@@ -428,6 +420,20 @@
             this.getDateRange(this.value)
         },
         methods: {
+            // 预设时间快捷数组
+            getPresetRanges() {
+                this.presetRanges = {}
+                const presets = defaultPresets()
+                for (const i in presets) {
+                    const item = presets[i]
+                    let plainItem = item
+                    if (typeof item === 'function') {
+                        plainItem = item()
+                    }
+                    this.presetRanges[i] = plainItem
+                }
+            },
+            // 获取位置
             getLeft() {
                 this.$nextTick(() => {
                     const {left, width} = this.$refs.menu.getBoundingClientRect()
@@ -472,6 +478,7 @@
                         let start = range.start ? moment(new Date(range.start).getTime()).format('YYYY-MM-DD') : ''
                         let end = range.end ? moment(new Date(range.end).getTime()).format('YYYY-MM-DD') : ''
                         this.realTime = `${start} - ${end}`
+                        this.getDynamicText(timeArr)
                     } else {
                         let start = range.start ? moment(moment()).diff(new Date(range.start).getTime(), 'day') : ''
                         let end = range.end ? moment(moment()).diff(new Date(range.end).getTime(), 'day') : ''
@@ -564,6 +571,9 @@
             },
             // 设置快捷时间
             updatePreset(item) {
+                if (this.presetActive === item.label) {
+                    return
+                }
                 this.presetActive = item.label
                 this.dateRange = item.dateRange
                 this.activeMonthStart = this.dateRange.start.getMonth()
