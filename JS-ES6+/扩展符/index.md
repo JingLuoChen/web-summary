@@ -65,7 +65,7 @@ let rest = list.slice(1)
 let list2 = [1, 2, 3, 4]
 let b = list2[0]
 let rest2 = []
-[b, ...rest2] = list2
+let [b, ...rest2] = list2
 ```
 注意：如果将扩展运算符用于数组赋值，只能放在参数的最后一位，否则会报错
 ```js
@@ -82,7 +82,7 @@ var obj1 = {age : 27}
 var newObj = {...obj, ...obj1}
 var newObj1 = {obj, obj1};
 console.log(newObj) // {name: "coco", age: 27}
-console.log(newObj1) // {name: "coco"} {age: 27}
+console.log(newObj1) // {obj: {name: "coco"}, obj1: {age: 27}}
 ```
 ### 函数的返回值
 javaScript的函数只能返回一个值，如果需要返回多个值，只能返回数组或对象，扩展运算符提供了解决这个问题的变通方法
