@@ -56,3 +56,4 @@ setTimeout 为 宏任务 -> 即 加入到宏任务队列
 
 ## 参考文档
 * [JavaScript异步机制详解](https://juejin.im/post/5a6ad46ef265da3e513352c8)
+* [微任务、宏任务与Event-Loop](https://juejin.cn/post/6844903657264136200)

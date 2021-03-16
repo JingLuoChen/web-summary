@@ -2,6 +2,8 @@
 ## 概述
 前端开发的时候，在网页刷新的时候，所有数据都会被清空，这时候就要用到本地存储的技术，前端本地存储的方式有三种，分别是cookie、localStorage和sessionStorage
 
+![mahua](cookie.png)
+
 ## cookie
 1、保存cookie值：
 ```js
@@ -27,3 +29,4 @@ let cookieData = getCookie('token'); // cookie赋值给变量。
 ## sessionStorage
 ```$xslt
 ```
+

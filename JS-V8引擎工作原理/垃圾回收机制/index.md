@@ -79,5 +79,6 @@ V8引擎将保存对象的堆（heap）进行了分代：
 清理掉新生区中不再活跃的死对象
 * 对于超过2个小周期的对象，则需要将其移动至老生区，老生区在标记-清除或者标记-紧缩的过程中进行回收
 
+
 ## 参考文档
 * [垃圾回收机制](https://github.com/PDKSophia/blog.io/blob/master/JavaScript%E7%AC%94%E8%AE%B0/JavaScript%E7%AF%87-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6.md)
