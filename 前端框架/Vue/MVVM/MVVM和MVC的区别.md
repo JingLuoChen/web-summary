@@ -40,7 +40,6 @@ View的变化会自动更新到ViewModel，ViewModel的变化也会自动同步�
 
 ## 参考文档
 
-* [面试必问“MVVM模式及与MVP和MVC的区别”的标准答案](https://zhuanlan.zhihu.com/p/87752772)
 * [MVVM与MVC设计模式区别...](https://juejin.cn/post/6844903854782283790)
 * [不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.cn/post/6844903586103558158)
 
