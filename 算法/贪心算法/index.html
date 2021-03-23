@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var findMinArrowShots = function(points) {
+        if (points.length === 0) {
+            return 0
+        }
+        let num = 1
+        points.sort((a, b) => a[1] - b[1])
+        console.log(points, 'points')
+        let arrow = points[0][1]
+        console.log(arrow, 'arrow')
+        for (let i=1; i<points.length; i++) {
+            if (arrow < points[i][0] || arrow > points[i][1]) {
+                arrow = points[i][1]
+                console.log(arrow, 'arrow2')
+                num++
+            }
+        }
+        return num
+    };
+    console.log(findMinArrowShots([[3,9],[7,12],[3,8],[6,8],[9,10],[2,9],[0,9],[3,9],[0,6],[2,8]]), 1111111)
+</script>
+</body>
+</html>
