@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法/贪心算法/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/算法/贪心算法/根据身高重建队列.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/贪心算法/根据身高重建队列.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,12 +71,24 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/贪心算法/根据身高重建队列.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="75">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/算法/深度优先遍历/水域大小.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -90,18 +101,6 @@
             <state split_layout="FIRST">
               <first_editor relative-caret-position="30">
                 <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/变量提升/函数声明和函数表达式.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="458">
-                <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -156,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/code-split.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/优化/lazy-loading.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/源码解析/3、模板编译/index.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/优化/PWA.md" />
@@ -207,6 +205,7 @@
         <option value="$PROJECT_DIR$/JS-基础/变量提升/函数声明和函数表达式.md" />
         <option value="$PROJECT_DIR$/算法/贪心算法/具有给定数值的最小字符串.md" />
         <option value="$PROJECT_DIR$/算法/贪心算法/根据身高重建队列.md" />
+        <option value="$PROJECT_DIR$/算法/深度优先遍历/水域大小.md" />
       </list>
     </option>
   </component>
@@ -298,25 +297,14 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="map的应用" type="462c0819:PsiDirectoryNode" />
+              <item name="深度优先遍历" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="两数之和" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="两数相加" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="托普利茨矩阵" type="462c0819:PsiDirectoryNode" />
+              <item name="深度优先遍历" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -354,11 +342,11 @@
       <recent name="$PROJECT_DIR$/前端框架/Vue/EventBus" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/算法/深度优先遍历/img" />
       <recent name="$PROJECT_DIR$/算法/贪心算法/img" />
       <recent name="$PROJECT_DIR$/H5" />
       <recent name="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写apply" />
       <recent name="$PROJECT_DIR$/JS-基础/localStorage和sessionStorage" />
-      <recent name="$PROJECT_DIR$/JS-ES6+/类" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,12 +405,12 @@
       <workItem from="1614085954402" duration="78318000" />
       <workItem from="1614844556049" duration="93030000" />
       <workItem from="1616149639209" duration="518000" />
-      <workItem from="1616151649954" duration="20631000" />
+      <workItem from="1616151649954" duration="23120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1072986000" />
+    <option name="totallyTimeSpent" value="1075475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,16 +488,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS-面向对象/手写new/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS-ES6+/箭头函数/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -895,15 +873,18 @@
     <entry file="file://$PROJECT_DIR$/算法/贪心算法/img/贪心算法3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/算法/贪心算法/用最少数量的箭引爆气球.md">
+    <entry file="file://$PROJECT_DIR$/算法/贪心算法/具有给定数值的最小字符串.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+          <first_editor>
+            <caret selection-end-line="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/贪心算法/img/贪心算法4.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/算法/贪心算法/避免重复字母的最小删除成本.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -915,14 +896,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/算法/贪心算法/img/贪心算法4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/贪心算法/具有给定数值的最小字符串.md">
+    <entry file="file://$PROJECT_DIR$/算法/贪心算法/用最少数量的箭引爆气球.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret selection-end-line="5" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
@@ -931,8 +909,18 @@
     <entry file="file://$PROJECT_DIR$/算法/贪心算法/根据身高重建队列.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/深度优先遍历/水域大小.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
