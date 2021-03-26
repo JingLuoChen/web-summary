@@ -15,7 +15,7 @@ typeof undefined -> undefined  /  Number(undefined) -> NaN
 以下是不正确的用法
 ```js
 var exp = undefined;
-if (exp == undefined)
+if (exp === undefined)
 {
   alert("undefined");
 }
@@ -25,7 +25,7 @@ if (exp == undefined)
 ```
 ```js
 var exp = undefined;
-if (typeof(exp) == undefined)
+if (typeof(exp) === undefined)
 {
   alert("undefined");
 }
@@ -34,7 +34,7 @@ if (typeof(exp) == undefined)
 以下是正确的用法
 ```js
 var exp = undefined;
-if (typeof(exp) == "undefined")
+if (typeof(exp) === "undefined")
 {
   alert("undefined");
 }
@@ -43,7 +43,7 @@ if (typeof(exp) == "undefined")
 以下是不正确的用法
 ```js
 var exp = null;
-if (exp == null)
+if (exp === null)
 {
   alert("is null");
 }
@@ -64,7 +64,7 @@ if (!exp)
 以下是正确的用法
 ```js
 var exp = null;
-if (!exp && typeof(exp)!="undefined" && exp!=0)
+if (!exp && typeof(exp) !== "undefined" && exp!==0)
 {
   alert("is null");
 }　
