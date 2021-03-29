@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-响应式编程/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-响应式编程/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/js执行流程/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/js执行流程/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/浏览器工作原理/HTTP请求流程/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/浏览器工作原理/HTTP请求流程/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/计算机网络/跨域/跨域.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/跨域/跨域.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试/面试总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试/面试总结.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,23 +17,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/js执行流程/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
-                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/null和undefined 的区别/index.md">
+        <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="514">
-                <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+              <first_editor relative-caret-position="2074">
+                <caret line="292" column="28" lean-forward="true" selection-start-line="292" selection-start-column="28" selection-end-line="292" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -43,7 +29,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/this/index.md">
+        <entry file="file://$PROJECT_DIR$/前端框架/Vue3/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor />
@@ -53,10 +39,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-设计模式/观察者模式/index.md">
+        <entry file="file://$PROJECT_DIR$/前端框架/Vue/this.$set/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor />
+              <first_editor>
+                <caret column="15" selection-start-column="15" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端框架/Vue/vuex/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor>
+                <folding>
+                  <element signature="e#0#21#0" expanded="true" />
+                  <element signature="e#0#22#0" expanded="true" />
+                  <element signature="e#0#22#0" expanded="true" />
+                  <element signature="e#0#22#0" expanded="true" />
+                  <element signature="e#0#22#0" expanded="true" />
+                  <element signature="e#0#22#0" expanded="true" />
+                </folding>
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -66,7 +73,9 @@
         <entry file="file://$PROJECT_DIR$/计算机网络/跨域/跨域.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor />
+              <first_editor relative-caret-position="15">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -96,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -168,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-基础/数据类型/index.md" />
-        <option value="$PROJECT_DIR$/JS-基础/原型和原型链/index.md" />
         <option value="$PROJECT_DIR$/CSS/隐藏元素/index.md" />
         <option value="$PROJECT_DIR$/兼容性问题/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/$nextTick/index.md" />
@@ -213,12 +220,14 @@
         <option value="$PROJECT_DIR$/算法/动态规划/一和零.md" />
         <option value="$PROJECT_DIR$/有意思的内容/index.md" />
         <option value="$PROJECT_DIR$/算法/动态规划/经典背包问题.md" />
-        <option value="$PROJECT_DIR$/面试/面试总结.md" />
         <option value="$PROJECT_DIR$/CSS/怪异盒模型&amp;标准盒模型/index.md" />
         <option value="$PROJECT_DIR$/JS-响应式编程/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/js执行流程/index.md" />
         <option value="$PROJECT_DIR$/浏览器工作原理/HTTP请求流程/index.md" />
         <option value="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/index.md" />
+        <option value="$PROJECT_DIR$/计算机网络/跨域/跨域.md" />
+        <option value="$PROJECT_DIR$/面试/面试总结.md" />
+        <option value="$PROJECT_DIR$/前端框架/Vue/this.$set/index.md" />
       </list>
     </option>
   </component>
@@ -308,48 +317,26 @@
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器工作原理" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器工作原理" type="462c0819:PsiDirectoryNode" />
-              <item name="HTTP请求流程" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器工作原理" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器渲染步骤" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vuex" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器工作原理" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器缓存" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器工作原理" type="462c0819:PsiDirectoryNode" />
-              <item name="网页被浏览器渲染出来的过程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
-              <item name="常见的状态码" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="计算机网络" type="462c0819:PsiDirectoryNode" />
-              <item name="跨域" type="462c0819:PsiDirectoryNode" />
+              <item name="前端框架" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,11 +368,11 @@
       <recent name="$PROJECT_DIR$/前端工程化/webpack/优化" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/浏览器工作原理/浏览器缓存/img" />
       <recent name="$PROJECT_DIR$/计算机网络/四次挥手" />
       <recent name="$PROJECT_DIR$/计算机网络/三次握手" />
       <recent name="$PROJECT_DIR$/CSS/怪异盒模型&amp;标准盒模型/img" />
       <recent name="$PROJECT_DIR$/算法/动态规划/img" />
-      <recent name="$PROJECT_DIR$/算法/深度优先遍历/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -444,12 +431,12 @@
       <workItem from="1614085954402" duration="78318000" />
       <workItem from="1614844556049" duration="93030000" />
       <workItem from="1616149639209" duration="518000" />
-      <workItem from="1616151649954" duration="36162000" />
+      <workItem from="1616151649954" duration="38124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1088517000" />
+    <option name="totallyTimeSpent" value="1090479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,8 +449,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19379845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19379845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,7 +463,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.39518073" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25421688" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -526,39 +514,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/算法/贪心算法/根据身高重建队列.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/深度优先遍历/img/深度优先遍历1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/贪心算法/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/贪心算法/具有给定数值的最小字符串.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="390">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法/深度优先遍历/水域大小.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -811,16 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="855">
-            <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/组件/date-picker/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1935" />
@@ -912,14 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/计算机网络/跨域/跨域.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/计算机网络/常见的状态码/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -955,6 +892,64 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="180">
             <caret line="12" column="32" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器工作原理/浏览器缓存/img/cache-example.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/计算机网络/跨域/跨域.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="2074">
+            <caret line="292" column="28" lean-forward="true" selection-start-line="292" selection-start-column="28" selection-end-line="292" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端框架/Vue3/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端框架/Vue/this.$set/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret column="15" selection-start-column="15" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端框架/Vue/vuex/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <folding>
+              <element signature="e#0#21#0" expanded="true" />
+              <element signature="e#0#22#0" expanded="true" />
+              <element signature="e#0#22#0" expanded="true" />
+              <element signature="e#0#22#0" expanded="true" />
+              <element signature="e#0#22#0" expanded="true" />
+              <element signature="e#0#22#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
