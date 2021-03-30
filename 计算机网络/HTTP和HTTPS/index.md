@@ -21,7 +21,7 @@ HTTP和HTTPS的区别主要如下：
 
 https并非独立的通信协议，而是对http的扩展，保证了通信安全，也就是说https = http + ssl/tls
 
-![mahua](https.png)
+![mahua](img/https.png)
 
 https的整个通信过程可以分为两个阶段：证书验证和数据传输阶段，数据传输阶段又可以分为非对称加密和对称加密两个阶段
 
