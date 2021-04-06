@@ -92,3 +92,4 @@ plugin在plugins中单独配置，类型为数组，每一项是一个plugin的�
 * [一文掌握Webpack编译流程](https://mp.weixin.qq.com/s?__biz=MzI0MTUxOTE5NQ==&mid=2247484030&idx=1&sn=d630d4b3995bbfd50f99e781074acfeb)
 * [webpack：从入门到真实项目配置](https://juejin.im/post/6844903495959576583)
 * [「搞点硬货」从源码窥探Webpack4.x原理](https://juejin.cn/post/6844904046294204429)
+* [webpack打包原理 ? 看完这篇你就懂了 !](https://segmentfault.com/a/1190000021494964)
