@@ -51,6 +51,6 @@ function Random(min, max) {
 }
 
 function Random(min, max) {
-    return Math.floor(Math.random() * ((max-1) - (min+1))) + (min+1);相当于 min+1 ≤ r ≤ max - 1
+    return Math.floor(Math.random() * ((max-1) - (min+1))) + (min+1);
 }
 ```

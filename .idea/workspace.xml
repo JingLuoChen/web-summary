@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/算法/生成某个范围内的随机整数/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/生成某个范围内的随机整数/index.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/算法/生成某个范围内的随机整数/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <first_editor relative-caret-position="735">
+                <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -371,12 +373,12 @@
       <workItem from="1614844556049" duration="93030000" />
       <workItem from="1616149639209" duration="518000" />
       <workItem from="1616151649954" duration="58032000" />
-      <workItem from="1617258761865" duration="27323000" />
+      <workItem from="1617258761865" duration="27609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1137710000" />
+    <option name="totallyTimeSpent" value="1137996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,8 +889,8 @@
     <entry file="file://$PROJECT_DIR$/算法/生成某个范围内的随机整数/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <first_editor relative-caret-position="735">
+            <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
           </first_editor>
           <second_editor />
         </state>
