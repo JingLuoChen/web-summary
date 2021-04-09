@@ -79,7 +79,10 @@ function Student(name, age, grade) {
   Person.call(this, name, age)
   this.grade = grade;
 }
+//  用于设置原型
 Student.prototype = Object.create(Person.prototype)
+//  设置原型的构造器
+// 把Student的constructor重新设为Student，不然的话它就会变成Person
 Student.prototype.constructor = Student;
 
 let xm = new Student('小明', 14, '初二')
