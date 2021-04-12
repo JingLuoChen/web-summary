@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/算法/滑动窗口问题/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/滑动窗口问题/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/树/二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/树/二叉树.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,22 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/原型和原型链/index.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/算法/js算法/生成某个范围内的随机整数/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="165">
+                <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-基础/数组扁平化/index.md">
+        <entry file="file://$PROJECT_DIR$/算法/js算法/生成某个范围内的随机整数/取不重复的10个10-100之间的随机整数并排序.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="185">
-                <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <first_editor relative-caret-position="90">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,20 +77,42 @@
         <entry file="file://$PROJECT_DIR$/JS-ES6+/set和map数据结构/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="266">
-                <caret line="71" column="3" lean-forward="true" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+              <first_editor relative-caret-position="270">
+                <caret line="91" column="4" selection-start-line="91" selection-end-line="91" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="3795">
+                <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/算法/排序/快速排序.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-20" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/滑动窗口问题/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="240">
-                <caret line="16" column="9" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+                <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,28 +125,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="30">
                 <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-ES6+/类/class.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="-1831" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-面向对象/继承/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -168,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-基础/变量提升/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/变量提升/函数声明和函数表达式.md" />
         <option value="$PROJECT_DIR$/算法/贪心算法/根据身高重建队列.md" />
         <option value="$PROJECT_DIR$/算法/贪心算法/index.md" />
@@ -219,6 +220,7 @@
         <option value="$PROJECT_DIR$/JS-面向对象/继承/index.md" />
         <option value="$PROJECT_DIR$/数据结构/队列/单调队列.md" />
         <option value="$PROJECT_DIR$/算法/滑动窗口问题/index.md" />
+        <option value="$PROJECT_DIR$/数据结构/树/二叉树.md" />
       </list>
     </option>
   </component>
@@ -328,12 +330,37 @@
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="树" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="队列" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="js算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="js算法" type="462c0819:PsiDirectoryNode" />
+              <item name="生成某个范围内的随机整数" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="排序" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
@@ -448,12 +475,12 @@
       <workItem from="1616149639209" duration="518000" />
       <workItem from="1616151649954" duration="58032000" />
       <workItem from="1617258761865" duration="29244000" />
-      <workItem from="1617809417167" duration="21934000" />
+      <workItem from="1617809417167" duration="23602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1161565000" />
+    <option name="totallyTimeSpent" value="1163233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,7 +507,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36746988" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36144578" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -550,46 +577,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/优化/提升打包速度.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/EventEmitter实现.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="615">
-            <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/js算法/生成某个范围内的随机整数/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="615">
-            <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/js算法/生成某个范围内的随机整数/取不重复的10个10-100之间的随机整数并排序.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="90">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法/链表/img/两数相加.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -950,16 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS-ES6+/set和map数据结构/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="266">
-            <caret line="71" column="3" lean-forward="true" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法/链表/旋转链表.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -974,7 +951,55 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="240">
-            <caret line="16" column="9" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+            <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/js算法/生成某个范围内的随机整数/取不重复的10个10-100之间的随机整数并排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-ES6+/set和map数据结构/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="91" column="4" selection-start-line="91" selection-end-line="91" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3795">
+            <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/排序/快速排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-20" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/js算法/生成某个范围内的随机整数/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="165">
+            <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
