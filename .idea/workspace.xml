@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试/面试总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试/面试总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/伪类与伪元素/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/伪类与伪元素/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,12 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="668">
-                <caret line="397" column="52" selection-start-line="397" selection-start-column="10" selection-end-line="397" selection-end-column="52" />
+              <first_editor relative-caret-position="6015">
+                <caret line="401" column="4" lean-forward="true" selection-start-line="401" selection-start-column="4" selection-end-line="401" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -93,12 +92,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/伪类与伪元素/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="75">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="405">
+                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -223,10 +222,10 @@
         <option value="$PROJECT_DIR$/算法/js算法/二维数组转一维数组.md" />
         <option value="$PROJECT_DIR$/面试/面试总结.md" />
         <option value="$PROJECT_DIR$/CSS/元素选择器/index.md" />
-        <option value="$PROJECT_DIR$/CSS/伪类与伪元素/index.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/知识碎片/vue-router的query和params的区别.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/知识碎片/路由跳转方式.md" />
         <option value="$PROJECT_DIR$/前端框架/Vue/路由守卫/index.md" />
+        <option value="$PROJECT_DIR$/CSS/伪类与伪元素/index.md" />
       </list>
     </option>
   </component>
@@ -408,12 +407,12 @@
       <workItem from="1616149639209" duration="518000" />
       <workItem from="1616151649954" duration="58032000" />
       <workItem from="1617258761865" duration="29244000" />
-      <workItem from="1617809417167" duration="43950000" />
+      <workItem from="1617809417167" duration="44532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1183581000" />
+    <option name="totallyTimeSpent" value="1184163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,8 +425,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,7 +439,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30361447" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.09277108" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -879,16 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/伪类与伪元素/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端框架/Vue/vuex/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -947,8 +937,18 @@
     <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="668">
-            <caret line="397" column="52" selection-start-line="397" selection-start-column="10" selection-end-line="397" selection-end-column="52" />
+          <first_editor relative-caret-position="6015">
+            <caret line="401" column="4" lean-forward="true" selection-start-line="401" selection-start-column="4" selection-end-line="401" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/伪类与伪元素/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="405">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor />
         </state>
