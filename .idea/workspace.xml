@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/算法/动态规划/最短路径和问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/动态规划/最短路径和问题.md" afterDir="false" />
-    </list>
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/链表/旋转链表.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/画三角形/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -77,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
+              <first_editor relative-caret-position="-4086">
                 <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               </first_editor>
               <second_editor />
@@ -86,11 +72,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node/exports和module.exports的关系.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/动态规划/最短路径和问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
-                <caret line="62" column="1" lean-forward="true" selection-start-line="46" selection-end-line="62" selection-end-column="1" />
+              <first_editor relative-caret-position="570">
+                <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -170,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-V8引擎工作原理/垃圾回收机制/index.md" />
         <option value="$PROJECT_DIR$/JS-ES6+/promise/手写promise.md" />
         <option value="$PROJECT_DIR$/JS-基础/深浅拷贝/实现深拷贝.md" />
         <option value="$PROJECT_DIR$/前端工程化/webpack/index.md" />
@@ -221,6 +218,7 @@
         <option value="$PROJECT_DIR$/面试/面试总结.md" />
         <option value="$PROJECT_DIR$/算法/js算法/获取对象属性.md" />
         <option value="$PROJECT_DIR$/算法/动态规划/最短路径和问题.md" />
+        <option value="$PROJECT_DIR$/Node/exports和module.exports的关系.md" />
       </list>
     </option>
   </component>
@@ -246,81 +244,7 @@
             <path>
               <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="水平垂直居中" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="画三角形" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="JS-ES6+" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="JS-ES6+" type="462c0819:PsiDirectoryNode" />
-              <item name="类" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
               <item name="Node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="js算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="分治发" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="贪心算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="队列" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-summary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-summary" type="462c0819:PsiDirectoryNode" />
-              <item name="面试" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,12 +349,12 @@
       <workItem from="1618884992624" duration="383000" />
       <workItem from="1618887271324" duration="553000" />
       <workItem from="1618930257372" duration="722000" />
-      <workItem from="1618933183205" duration="425000" />
+      <workItem from="1618933183205" duration="2619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1200547000" />
+    <option name="totallyTimeSpent" value="1202741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,7 +369,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14517266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14517266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,7 +381,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.47108433" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.47108433" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -527,14 +451,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP和HTTPS/http结构.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/怪异盒模型&amp;标准盒模型/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -934,16 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法/排序/冒泡排序.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -975,8 +881,28 @@
     <entry file="file://$PROJECT_DIR$/算法/动态规划/最短路径和问题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="330">
-            <caret line="62" column="1" lean-forward="true" selection-start-line="46" selection-end-line="62" selection-end-column="1" />
+          <first_editor relative-caret-position="570">
+            <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-4086">
+            <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/exports和module.exports的关系.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
