@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="" />
+    <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/遇到难点.md" beforeDir="false" afterPath="$PROJECT_DIR$/遇到难点.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,18 +16,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/js算法/获取对象属性.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor>
-                <caret column="17" selection-start-column="17" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/排序/插入排序.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -35,12 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-4360">
+              <first_editor relative-caret-position="330">
                 <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/遇到难点.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -178,7 +180,6 @@
         <option value="$PROJECT_DIR$/算法/链表/判断是否有环.md" />
         <option value="$PROJECT_DIR$/数据结构/栈/index.md" />
         <option value="$PROJECT_DIR$/JS-基础/零碎点.md" />
-        <option value="$PROJECT_DIR$/遇到难点.md" />
         <option value="$PROJECT_DIR$/算法/index.md" />
         <option value="$PROJECT_DIR$/数据结构/队列/index.md" />
         <option value="$PROJECT_DIR$/面试/index.md" />
@@ -215,14 +216,13 @@
         <option value="$PROJECT_DIR$/算法/js算法/获取对象属性.md" />
         <option value="$PROJECT_DIR$/算法/动态规划/最短路径和问题.md" />
         <option value="$PROJECT_DIR$/Node/exports和module.exports的关系.md" />
+        <option value="$PROJECT_DIR$/遇到难点.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
-    <option name="y" value="-95" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -387,12 +387,12 @@
       <workItem from="1618884992624" duration="383000" />
       <workItem from="1618887271324" duration="553000" />
       <workItem from="1618930257372" duration="722000" />
-      <workItem from="1618933183205" duration="3777000" />
+      <workItem from="1618933183205" duration="4489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1203899000" />
+    <option name="totallyTimeSpent" value="1204611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,9 +404,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-95" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108478144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14517266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -418,7 +418,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26633662" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -488,14 +488,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/code-split.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端工程化/webpack/优化/生产环境优化/happypack2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -936,8 +928,18 @@
     <entry file="file://$PROJECT_DIR$/面试/面试总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-4360">
+          <first_editor relative-caret-position="330">
             <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/遇到难点.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>
