@@ -1,0 +1,5 @@
+# preload、prefetch和preconnect
+
+preload是一个声明式fetch，可以强制浏览器在不阻塞document和onload事件的情况下请求资源
+
+prefetch告诉浏览器这个资源将来可能需要，但是什么时间加载这个资源是由浏览器来决定的
