@@ -97,3 +97,4 @@ forEach()：遍历字典的所有成员
 ## 参考文档
 
 * [ES6的Set和Map数据结构，由你制造](https://juejin.im/post/6844903589920374792#heading-13)
+* [介绍下 Set、Map、WeakSet 和 WeakMap 的区别？](https://juejin.cn/post/6844904047351169038#heading-2)
