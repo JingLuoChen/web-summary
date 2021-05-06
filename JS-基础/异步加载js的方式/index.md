@@ -18,6 +18,15 @@
 2、区别在于脚本下载之后何时执行，显然defer是最接近我们对于应用脚本加载和执行的要求的
 3、async是乱序执行的，加载完了就会立刻执行，谁先加载完就先执行谁
 
+
+## 补充
+```
+DOMContentLoaded —— 浏览器已完全加载 HTML，并构建了 DOM 树，但像 <img> 和样式表之类的外部资源可能尚未加载完成。
+load —— 浏览器不仅加载完成了 HTML，还加载完成了所有外部资源：图片，样式等。
+beforeunload/unload —— 当用户正在离开页面时。
+```
+
 ## 参考文档
 * [异步加载js的几种方式](https://www.jianshu.com/p/aeef061daab3)
 * [defer和async的区别](https://segmentfault.com/q/1010000000640869)
+* [页面生命周期](https://zh.javascript.info/onload-ondomcontentloaded)
