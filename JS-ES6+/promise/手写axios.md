@@ -18,6 +18,6 @@ class Axios {
             }
             xml.send(data)
         })
-    } 
+    }
 } 
 ```
