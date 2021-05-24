@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/插件/fabric/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/插件/fabric/part2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/插件/fabric/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/插件/fabric/part1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +244,7 @@
       <workItem from="1621587350169" duration="288000" />
       <workItem from="1621598272024" duration="42000" />
       <workItem from="1621839199182" duration="40000" />
-      <workItem from="1621856735653" duration="715000" />
+      <workItem from="1621856735653" duration="1027000" />
     </task>
     <servers />
   </component>

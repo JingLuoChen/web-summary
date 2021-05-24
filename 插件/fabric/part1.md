@@ -45,3 +45,16 @@ canvas.add(rect);
 
 ![ ](http://fabricjs.com/article_assets/1.png)
 
+对比之下，Fabric的使用更加方便，是以对象的形式进行使用和声明。
+
+## Fabric中的对象
+Fabric涵盖了所有的基本形状：圆、三角形、矩形、椭圆等，所有的这些就是Fabric命令空间下的：fabric.Circle，fabric.Triangle，fabric.Rect，fabric.Ellipse等
+
+Fabric提供了7中基础形状
+- [fabric.Circle](http://fabricjs.com/docs/fabric.Circle.html)
+- [fabric.Ellipse](http://fabricjs.com/docs/fabric.Ellipse.html)
+- [fabric.Line](http://fabricjs.com/docs/fabric.Line.html)
+- [fabric.Polygon](http://fabricjs.com/docs/fabric.Polygon.html)
+- [fabric.Polyline](http://fabricjs.com/docs/fabric.Polyline.html)
+- [fabric.Rect](http://fabricjs.com/docs/fabric.Rect.html)
+- [fabric.Triangle](http://fabricjs.com/docs/fabric.Triangle.html)
