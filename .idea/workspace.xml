@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/插件/fabric/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/插件/fabric/part2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/插件/fabric/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/插件/fabric/part1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/代理工具" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/bin/node" />
@@ -244,7 +243,8 @@
       <workItem from="1621587350169" duration="288000" />
       <workItem from="1621598272024" duration="42000" />
       <workItem from="1621839199182" duration="40000" />
-      <workItem from="1621856735653" duration="1027000" />
+      <workItem from="1621856735653" duration="1873000" />
+      <workItem from="1622030024081" duration="322000" />
     </task>
     <servers />
   </component>
