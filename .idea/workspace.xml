@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代理工具/whistle.md" beforeDir="false" afterPath="$PROJECT_DIR$/代理工具/whistle.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/代理工具" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/bin/node" />
@@ -165,11 +166,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/代理工具" />
       <recent name="$PROJECT_DIR$/资源图片/img" />
       <recent name="$PROJECT_DIR$/Git/img" />
       <recent name="$PROJECT_DIR$/JS-异步/promise/img" />
       <recent name="$PROJECT_DIR$/算法/滑动窗口问题/img" />
-      <recent name="$PROJECT_DIR$/算法/栈/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/计算机网络/HTTP和HTTPS" />
@@ -244,7 +245,8 @@
       <workItem from="1621598272024" duration="42000" />
       <workItem from="1621839199182" duration="40000" />
       <workItem from="1621856735653" duration="1873000" />
-      <workItem from="1622030024081" duration="322000" />
+      <workItem from="1622030024081" duration="1044000" />
+      <workItem from="1622461145414" duration="747000" />
     </task>
     <servers />
   </component>
