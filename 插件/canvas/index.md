@@ -64,6 +64,38 @@ canvas元素本质上就是一个图片，其很多样式表现和img元素是�
 getContext方法可以返回canvas的绘制上下文，"上下文"是计算机领域的一个术语，类似于小说中的藏经阁，现实世界的工具箱，表示一种特殊的环境。
 在这个环境中，我们就能做一些特殊的事情，对于canvas而言，我们可以借助其上下文绘制各种图形和效果。
 
+语法：
+var context = canvas.getContext(contextType)
+var context = canvas.getContext(contextType, contextAttributes)
+
+这里的context就是canvas的绘制上下文
+
+```
+参数说明：
+contextType
+    支持参数包括下面这些：
+    1、'2d'：会创建并返回一个CanvasRenderingContext2D对象，主要用来进行2d绘制，也就是二维绘制，平面绘制
+    2、'webgl'或'experimental-webgl'：返回一个WebGLRenderingContext(WebGL渲染上下文)对象，WebGL是一种3D绘图协议，可以为HTML5 Canvas提供硬件3D加速渲染
+    3、'webgl2'：返回一个WebGLRenderingContext对象，可以用来绘制三维3D效果
+    4、'bitmaprenderer'：创建一个ImageBitmapRenderingContext(位图渲染上下文)，可以借助给定的ImageBitmap替换Canvas的内容
+    
+contextAttributes
+    contextAttributes为一个纯对象参数，该参数对象支持的属性值具体如下：
+    
+```
+```
+返回值
+无论getContext()方法中的参数是什么，其返回值都可以称之为RenderingContext，在细分可以包括下面这些
+'2d'：参数值对应的CanvasRenderingContext2D
+'webgl'或'experimental-webgl'：参数值对应的WebGLRenderingContext
+'webgl2'：参数值对应的WebGL2RenderingContext
+'bitmaprenderer'：参数值对应的ImageBitmapRenderingContext
+```
+
+
+
+
+
 
 
 

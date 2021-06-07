@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/插件/canvas/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/插件/canvas/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +256,7 @@
       <workItem from="1622030024081" duration="1044000" />
       <workItem from="1622461145414" duration="816000" />
       <workItem from="1622547854228" duration="1266000" />
-      <workItem from="1622721069088" duration="22240000" />
+      <workItem from="1622721069088" duration="23946000" />
     </task>
     <servers />
   </component>
