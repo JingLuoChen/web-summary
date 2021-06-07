@@ -43,6 +43,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -247,6 +255,7 @@
       <workItem from="1622030024081" duration="1044000" />
       <workItem from="1622461145414" duration="816000" />
       <workItem from="1622547854228" duration="1266000" />
+      <workItem from="1622721069088" duration="22240000" />
     </task>
     <servers />
   </component>
