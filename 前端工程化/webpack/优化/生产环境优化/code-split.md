@@ -1,4 +1,4 @@
-# code split --- 代码分割 
+# code split --- 代码分割
 文件打包分割成多个文件--- 这样文件可以并行加载、文件可以实现按需加载
 
 ## 根据入口文件进行代码分割
@@ -11,7 +11,7 @@ const {resolve} = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
     entry: {
-        main: './src/index.js',
+        main: './src/index.md',
         test: './src/test.js'
     },
     output: {
@@ -44,7 +44,7 @@ module.exports = {
 const {resolve} = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.md',
     output: {
         filename: 'js/build.[contenthash:10].js',
         path: resolve(__dirname, 'build')

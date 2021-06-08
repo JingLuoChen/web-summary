@@ -1,11 +1,11 @@
 # js语法检查
-语法检查：eslint-loader eslint 
+语法检查：eslint-loader eslint
 
 ```js
 const {resolve} = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.md',
     output: {
         filename: 'js/built.js',
         path: resolve(__dirname, 'build')
@@ -34,7 +34,7 @@ module.exports = {
 ```
 
 ## js兼容性处理
-js兼容性处理使用babel-loader @babel-core 
+js兼容性处理使用babel-loader @babel-core
 
 1、基本js语法兼容性处理 --- @babel/preset-env
 
@@ -51,7 +51,7 @@ js兼容性处理使用babel-loader @babel-core
 ```js
 const {resolve} = require('path')
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.md',
     output: {
         filename: 'js/built.js',
         path: resolve(__dirname, 'build')
@@ -87,6 +87,6 @@ module.exports = {
             }
         ]
     }
-    
+
 }
 ```

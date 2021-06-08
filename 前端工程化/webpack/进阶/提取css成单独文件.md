@@ -3,7 +3,7 @@
 ```js
 const {resolve} = require('path')
 module.exports =  {
-    entry: './src/index.js',
+    entry: './src/index.md',
     output: {
         filename: 'js/built.js',
         path: resolve(__dirname, 'build')

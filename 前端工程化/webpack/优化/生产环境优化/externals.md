@@ -5,7 +5,7 @@
 const {resolve} = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.expert = {
-    entry: './src/index.js',
+    entry: './src/index.md',
     output: {
         filename: 'js/build.js',
         path: resolve(__dirname, 'build')
@@ -13,7 +13,7 @@ module.expert = {
     plugins: [
         new HtmlWebpackPlugin({
           template: './src/index.html'
-        }) 
+        })
     ],
     mode: 'production',
     externals: {

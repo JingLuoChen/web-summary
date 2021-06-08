@@ -1,4 +1,11 @@
 # Nest
+## 介绍
+Nest是一个渐进的Node.js框架，可以在TypeScript和JavaScript(ES6、ES7、ES8)之上构建高效、可伸缩的企业级服务器端应用程序
+
+Nest基于TypeScript编写并且结合了OOP(面向对象编程)、FP(函数式编程)和FRP(函数式响应编程)的相关理念，在设计上的很多灵感来自Angular，
+Angular的很多模式又来自Java中的Spring框架，依赖注入，面向切面编程等，所以我们也可以认为Nest是Node.js版的Spring框架
+
+
 ## 创建
 使用Nest CLI建立新项目只要确保你已经安装了npm，然后在你的OS终端中使用以下命令
 ```js

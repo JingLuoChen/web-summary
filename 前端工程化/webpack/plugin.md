@@ -48,7 +48,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 
 var webpackConfig = {
-  entry: 'index.js',
+  entry: 'index.md',
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'index_bundle.js'

@@ -25,7 +25,7 @@ const commonCssLoader = [
     }
 ]
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.md',
     output: {
         filename: 'js/built.js',
         path: resolve(__dirname, 'build')
@@ -35,7 +35,7 @@ module.exports = {
             {
                 // 正常来讲，一个文件只能被一个loader处理
                 // 当一个文件要被多个loader处理，那么一定要指定loader的执行的先后顺序 先执行eslint-loader 在执行babel-loader 语法没问题在进行转换
-                 
+
                 // js语法检查
                 // 在package.json中的eslintConfig --- airbnb
                 test: /\.js$/,
@@ -61,7 +61,7 @@ module.exports = {
                             'less-loader'
                         ]
                     },
-                    
+
                     {
                         // js兼容性检查
                         test: /\.js$/,
@@ -115,7 +115,7 @@ module.exports = {
                     }
                 ]
             }
-            
+
         ]
     },
     plugins: [

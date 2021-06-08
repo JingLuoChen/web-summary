@@ -8,7 +8,7 @@ var mainElement = document.createElement("script");
 mainElement.src = "/resources/js/main.js";
 
 var indexElement = document.createElement("script");
-indexElement.src = "/resources/js/index.js";
+indexElement.src = "/resources/js/index.md";
 
 var googleApiElement = document.createElement("script");
 googleApiElement.src = "https://maps.googleapis.com/maps/api/js?key=***mysecetrkey**&callback=initMap";

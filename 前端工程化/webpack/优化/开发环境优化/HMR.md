@@ -48,4 +48,4 @@ html文件：默认是没有HMR功能的，同时会导致问题：html文件不
 
 解决：修改入口entry，将html文件引入，但这样还是使用不了HMR功能---html只有一个文件，不需要做HMR功能
 
-entry: ['./src/index.js', './src/index.html']
+entry: ['./src/index.md', './src/index.html']
