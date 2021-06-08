@@ -114,7 +114,7 @@
     <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="1sWc3npoDpqiw1kpt90cxhK39XX" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -169,7 +169,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -256,7 +256,9 @@
       <workItem from="1622030024081" duration="1044000" />
       <workItem from="1622461145414" duration="816000" />
       <workItem from="1622547854228" duration="1266000" />
-      <workItem from="1622721069088" duration="23946000" />
+      <workItem from="1622721069088" duration="25787000" />
+      <workItem from="1623120870149" duration="5698000" />
+      <workItem from="1623142642694" duration="3973000" />
     </task>
     <servers />
   </component>
@@ -341,6 +343,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/demo-nest" />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JS-ES6+/promise/手写promise.md">
