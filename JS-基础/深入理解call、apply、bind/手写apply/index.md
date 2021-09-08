@@ -12,7 +12,7 @@ function mySymbol(obj) {
     }
 }
 //接下来我们一并把多参数和执行完删除自定义方法删除掉一块搞定
-Function.prototype.myCall1 = function(context) {
+Function.prototype.myApply = function(context) {
     // 如果没有传或传的值为空对象 context指向window
     context = context || window
     let fn = mySymbol(context)

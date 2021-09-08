@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nest/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Nest/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写apply/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写apply/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nest/控制器.md" beforeDir="false" afterPath="$PROJECT_DIR$/Nest/控制器.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,6 +159,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -175,18 +177,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/微前端/index" />
       <recent name="$PROJECT_DIR$/代理工具" />
       <recent name="$PROJECT_DIR$/资源图片/img" />
       <recent name="$PROJECT_DIR$/Git/img" />
       <recent name="$PROJECT_DIR$/JS-异步/promise/img" />
-      <recent name="$PROJECT_DIR$/算法/滑动窗口问题/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/微前端" />
       <recent name="$PROJECT_DIR$/计算机网络/HTTP和HTTPS" />
       <recent name="$PROJECT_DIR$/计算机网络/HTTP和HTTPS/img" />
       <recent name="$PROJECT_DIR$/CSS" />
       <recent name="$PROJECT_DIR$/面试" />
-      <recent name="$PROJECT_DIR$/JS-ES6+/类" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -260,6 +262,17 @@
       <workItem from="1622721069088" duration="25787000" />
       <workItem from="1623120870149" duration="5698000" />
       <workItem from="1623142642694" duration="18738000" />
+      <workItem from="1623323639337" duration="2167000" />
+      <workItem from="1623596286046" duration="1834000" />
+      <workItem from="1623823744081" duration="27000" />
+      <workItem from="1623823876612" duration="30000" />
+      <workItem from="1623824141608" duration="2043000" />
+      <workItem from="1630290786378" duration="1544000" />
+      <workItem from="1630294872064" duration="11441000" />
+      <workItem from="1630550842840" duration="180000" />
+      <workItem from="1630635546621" duration="741000" />
+      <workItem from="1630668255463" duration="8386000" />
+      <workItem from="1631097893310" duration="2436000" />
     </task>
     <servers />
   </component>
