@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写apply/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/深入理解call、apply、bind/手写apply/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nest/控制器.md" beforeDir="false" afterPath="$PROJECT_DIR$/Nest/控制器.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +270,8 @@
       <workItem from="1630550842840" duration="180000" />
       <workItem from="1630635546621" duration="741000" />
       <workItem from="1630668255463" duration="8386000" />
-      <workItem from="1631097893310" duration="2436000" />
+      <workItem from="1631097893310" duration="2501000" />
+      <workItem from="1631154898117" duration="15000" />
     </task>
     <servers />
   </component>
