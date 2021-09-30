@@ -134,3 +134,4 @@ last-Modified是该资源文件最后一次更改时间，服务器会在respons
 ## 参考文档
 * [彻底了解浏览器缓存机制](https://juejin.im/entry/5ad86c16f265da505a77dca4)
 * [浏览器的缓存机制](https://bbs.huaweicloud.com/blogs/163604)
+* [彻底弄懂强缓存与协商缓存](https://www.jianshu.com/p/9c95db596df5)
