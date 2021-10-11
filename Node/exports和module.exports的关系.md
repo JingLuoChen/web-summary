@@ -28,3 +28,11 @@ exports是个值得注意的地方，它的使用方法和module.exports是一�
 4、module.exports === xxx，表示当前模块导出一个单一成员，结果就是xxx
 
 5、如果需要导出多个成员时必须使用exports.add = XXX; exports.foo = XXX;或者使用module.exports.add = XXX; module.export.foo = XXX;
+
+## 总结
+
+在commonjs中，每个模块内部，module变量代表当前模块，这个变量是一个对象，对象中的exports属性是该模块外对的接口，加载一个模块其实就是加载该模块的module.exports属性
+
+为了方便，node为每个模块提供了exports变量，该变量指向module.exports，等同于在每个模块顶部上加入var exports = module.exports
+
+node模块是通过module.exports导出的，如果给exports变量指向另一个变量的话，该模块导出的就是空对象
