@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="329626ed-73bb-4b23-bfca-90550d009267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/伪类与伪元素/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/伪类与伪元素/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/巧用margin-padding的百分比值/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/巧用margin-padding的百分比值/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node/exports和module.exports的关系.md" beforeDir="false" afterPath="$PROJECT_DIR$/Node/exports和module.exports的关系.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-ES6+/promise/手写promise.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-ES6+/promise/手写promise.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-基础/this/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS-基础/this/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试/面试总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试/面试总结.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +199,17 @@
       <workItem from="1632277803230" duration="1190000" />
       <workItem from="1632539650513" duration="281000" />
       <workItem from="1632881534119" duration="16539000" />
-      <workItem from="1633742082340" duration="3548000" />
+      <workItem from="1633742082340" duration="5079000" />
+      <workItem from="1634007942919" duration="21935000" />
+      <workItem from="1634611137993" duration="1211000" />
+      <workItem from="1634626476343" duration="3732000" />
+      <workItem from="1634744423718" duration="705000" />
+      <workItem from="1634797103749" duration="2290000" />
+      <workItem from="1634890794828" duration="2885000" />
+      <workItem from="1635149602311" duration="592000" />
+      <workItem from="1635235141501" duration="594000" />
+      <workItem from="1635674459752" duration="1814000" />
+      <workItem from="1635908298097" duration="76000" />
     </task>
     <servers />
   </component>

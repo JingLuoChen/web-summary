@@ -3,7 +3,7 @@
 ```js
 function promise(constructor) {
     let self = this;
-    self.status = "pending" //定义状态改变前的初始状态
+    self.status = "pending"; //定义状态改变前的初始状态
     self.value = undefined;//定义状态为resolved的时候的状态
     self.reason = undefined;//定义状态为rejected的时候的状态
     resolve(value) {
@@ -106,6 +106,7 @@ class Promise {
     			}
     		}
     		if (this.status === 'pending') {
+    		    // 保存回调函数
     			this.onFullFiledCallback.push(() => {
     				try {
     					x = onFullFiled(this.value);
@@ -173,7 +174,7 @@ class Promise {
 						}
 					);
 				} else {
-					valueArr[index] = res;
+					valueArr[index] = promiseList[i];
 					index++;
 					if (index === promiseList.length) {
 						resolve(valueArr);
